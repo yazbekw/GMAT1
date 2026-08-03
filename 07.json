@@ -1,0 +1,594 @@
+[
+  {
+    "id": 601,
+    "type": "Critical Reasoning",
+    "original_id": 738,
+    "difficulty": "Hard",
+    "question": "Duckbill dinosaurs, like today's monitor lizards, had particularly long tails, which they could whip at considerable speed. Monitor lizards use their tails to strike predators. However, although duckbill tails were otherwise very similar to those of monitor lizards, the duckbill's tailbones were proportionately much thinner and thus more delicate. Moreover, to ward off their proportionately much larger predators, duckbills would have had to whip their tails considerably faster than monitor lizards do. The information given, if accurate, provides the strongest support for which of the following hypotheses?",
+    "options": {
+      "A": "If duckbills whipped their tails faster than monitor lizards do, the duckbill's tail would have been effective at warding off the duckbills' fiercest predators.",
+      "B": "Duckbills used their tails to strike predators, and their tailbones were frequently damaged from the impact.",
+      "C": "Using their tails was not the only means duckbills had for warding off predators.",
+      "D": "Duckbills were at much greater risk of being killed by a predator than monitor lizards are.",
+      "E": "The tails of duckbills, if used to ward off predators, would have been more likely than the tails of monitor lizards to sustain damage from the impact."
+    },
+    "correct_answer": "E",
+    "explanation": "تدعم المعلومات الفرضية E بقوة: عظام ذيل البط منقاري أرق وأكثر هشاشة، وكان عليهم ضرب ذيولهم بسرعة أكبر لدرء الحيوانات المفترسة الأكبر حجمًا. هذا يعني أن ذيولهم كانت أكثر عرضة للتلف من ذيول السحالي المراقبة إذا استُخدمت للضرب."
+  },
+  {
+    "id": 602,
+    "type": "Critical Reasoning",
+    "original_id": 739,
+    "difficulty": "Hard",
+    "question": "In an attempt to produce a coffee plant that would yield beans containing no caffeine, the synthesis of a substance known to be integral to the initial stages of caffeine production was blocked either in the beans, in the leaves, or both. For those plants in which synthesis of the substance was blocked only in the leaves, the resulting beans contained no caffeine. Any of the following, if true, would provide the basis for an explanation of the observed results EXCEPT:",
+    "options": {
+      "A": "In coffee plants, the substance is synthesized only in the leaves and then moves to the beans, where the initial stages of caffeine production take place.",
+      "B": "In coffee plants, the last stage of caffeine production takes place in the beans using a compound that is produced only in the leaves by the substance.",
+      "C": "In coffee plants, the initial stages of caffeine production take place only in the beans, but later stages depend on another substance that is synthesized only in the leaves and does not depend on the blocked substance.",
+      "D": "In coffee plants, caffeine production takes place only in the leaves, but the caffeine then moves to the beans.",
+      "E": "Caffeine was produced in the beans of the modified coffee plants, but all of it moved to the leaves, which normally produce their own caffeine."
+    },
+    "correct_answer": "C",
+    "explanation": "الخيار C هو الاستثناء الوحيد الذي لا يفسر النتائج: إذا كانت المراحل الأولى من إنتاج الكافيين تحدث فقط في الحبوب، فإن منع تخليق المادة في الأوراق فقط (كما في التجربة) كان يجب ألا يؤثر على إنتاج الكافيين في الحبوب، لكن النتائج أظهرت العكس (حبوب خالية من الكافيين). الخيارات الأخرى تقدم تفسيرات منطقية لكيفية تأثير منع التخليق في الأوراق على الحبوب."
+  },
+  {
+    "id": 603,
+    "type": "Critical Reasoning",
+    "original_id": 740,
+    "difficulty": "Hard",
+    "question": "Which of the following most logically completes the passage? Laminated glass is much harder to break than the glass typically used in the windows of cars driven in Relnia. It is more difficult for thieves to break into cars with laminated glass windows than into cars with ordinary glass windows, and laminated glass windows are less likely to break in a collision. Nevertheless, considerations of security and safety do not unambiguously support a proposal to require that in Relnia all glass installed in cars be laminated glass, since",
+    "options": {
+      "A": "most people cannot visually distinguish laminated glass from the glass typically used for car windows",
+      "B": "a significant proportion of cars driven in Relnia are manufactured elsewhere",
+      "C": "some cars in Relnia already have laminated glass in their windows",
+      "D": "the rates of car theft and of collisions have both fallen slightly in Relnia in recent years",
+      "E": "there are times when breaking a car's window is the best way to provide timely help for people trapped inside"
+    },
+    "correct_answer": "E",
+    "explanation": "يكمل الخيار E الجملة منطقيًا: على الرغم من مزايا الزجاج الرقائقي في الأمان ومنع السرقة، إلا أن هناك حالات يكون فيها كسر نافذة السيارة هو الطريقة الوحيدة لإنقاذ الأشخاص المحتجزين بداخلها (مثل بعد حادث). الزجاج الرقائقي يصعب كسره، مما قد يعيق عمليات الإنقاذ، وبالتالي فإن اعتبارات السلامة لا تدعم بشكل قاطع هذا المطلب."
+  },
+  {
+    "id": 604,
+    "type": "Critical Reasoning",
+    "original_id": 741,
+    "difficulty": "Hard",
+    "question": "Consultant: Ace Repairs ends up having to redo a significant number of the complex repair jobs it undertakes, but when those repairs are redone, they are invariably done right. Since we have established that there is no systematic difference between the mechanics who are assigned to do the initial repairs and those who are assigned to redo unsatisfactory jobs, we must reject the hypothesis that mistakes made in the initial repairs are due to the mechanics' lack of competence. Rather, it is likely that complex repairs require a level of focused attention that the company's mechanics apply consistently only to repair jobs that have not been done right on the first try. In the consultant's reasoning, the two portions in boldface play which of the following roles?",
+    "options": {
+      "A": "The first is the consultant's main conclusion; the second provides evidence in support of that main conclusion.",
+      "B": "The first is evidence that serves as the basis for rejecting one explanation of a certain finding; the second is the consultant's own explanation of that finding.",
+      "C": "The first is a claim whose truth is at issue in the reasoning; the second provides evidence to show that the claim is true.",
+      "D": "The first presents a contrast whose explanation is at issue in the reasoning; the second is the consultant's explanation of that contrast.",
+      "E": "The first presents a contrast whose explanation is at issue in the reasoning; the second is evidence that has been used to challenge the consultant's explanation of that contrast."
+    },
+    "correct_answer": "D",
+    "explanation": "الجزء الأول يقدم تباينًا (العديد من الإصلاحات تحتاج إلى إعادة، لكن عند إعادة الإصلاح تكون صحيحة دائمًا) وهذا التباين هو موضع التفسير. الجزء الثاني هو تفسير المستشار لهذا التباين (يتطلب التركيز الذي يطبقه الميكانيكيون فقط على الأعمال التي لم تنجح في المحاولة الأولى)."
+  },
+  {
+    "id": 605,
+    "type": "Critical Reasoning",
+    "original_id": 742,
+    "difficulty": "Hard",
+    "question": "To reduce waste of raw materials, the government of Sperland is considering requiring household appliances to be broken down for salvage when discarded. To cover the cost of salvage, the government is planning to charge a fee, which would be imposed when the appliance is first sold. Imposing the fee at the time of salvage would reduce waste more effectively, however, because consumers tend to keep old appliances longer if they are faced with a fee for discarding them. Which of the following, if true, most seriously weakens the argument?",
+    "options": {
+      "A": "Increasing the cost of disposing of an appliance properly increases the incentive to dispose of it improperly.",
+      "B": "The fee provides manufacturers with no incentive to produce appliances that are more durable.",
+      "C": "For people who have bought new appliances recently, the salvage fee would not need to be paid for a number of years.",
+      "D": "People who sell their used, working appliances to others would not need to pay the salvage fee.",
+      "E": "Many nonfunctioning appliances that are currently discarded could be repaired at relatively little expense."
+    },
+    "correct_answer": "A",
+    "explanation": "الخيار A يضعف الحجة بشكل خطير: زيادة تكلفة التخلص من الأجهزة بشكل صحيح تزيد من الحافز للتخلص منها بشكل غير قانوني (مثل إلقائها في الطبيعة)، مما قد يؤدي إلى ضرر بيئي أكبر بدلاً من تقليل النفايات."
+  },
+  {
+    "id": 606,
+    "type": "Critical Reasoning",
+    "original_id": 743,
+    "difficulty": "Hard",
+    "question": "When there is less rainfall than normal, the water level of Australian rivers falls and the rivers flow more slowly. Because algae whose habitat is river water grow best in slow-moving water, the amount of algae per unit of water generally increases when there has been little rain. By contrast, however, following a period of extreme drought, algae levels are low even in very slow-moving river water. Which of the following, if true, does most to explain the contrast described above?",
+    "options": {
+      "A": "During periods of extreme drought, the populations of some of the species that feed on algae tend to fall.",
+      "B": "The more slowly water moves, the more conducive its temperature is to the growth of algae.",
+      "C": "When algae populations reach very high levels, conditions within the river can become toxic for some of the other species that normally live there.",
+      "D": "Australian rivers dry up completely for short intervals in periods of extreme drought.",
+      "E": "Except during periods of extreme drought, algae levels tend to be higher in rivers in which the flow has been controlled by damming than in rivers that flow freely."
+    },
+    "correct_answer": "D",
+    "explanation": "يفسر الخيار D التباين: في فترات الجفاف الشديد، تجف الأنهار الأسترالية تمامًا لفترات قصيرة، مما يقتل الطحالب تمامًا أو يقلل من أعدادها بشكل كبير، حتى بعد عودة تدفق الماء البطيء، لأن الطحالب تحتاج إلى وقت للنمو مجددًا."
+  },
+  {
+    "id": 607,
+    "type": "Critical Reasoning",
+    "original_id": 744,
+    "difficulty": "Hard",
+    "question": "Increased use of incineration is sometimes advocated as a safe way to dispose of chemical waste. But opponents of incineration point to the 40 incidents involving unexpected releases of dangerous chemical agents that were reported just last year at two existing incinerators commissioned to destroy a quantity of chemical waste material. Since designs for proposed new incinerators include no additional means of preventing such releases, leaks will only become more prevalent if use of incineration increases. Which of the following, if true, most seriously weakens the argument?",
+    "options": {
+      "A": "At the two incinerators at which leaks were reported, staff had had only cursory training on the proper procedures for incinerating chemical waste.",
+      "B": "Other means of disposing of chemical waste, such as chemical neutralization processes, have not been proven safer than incineration.",
+      "C": "The capacity of existing incinerators is sufficient to allow for increased incineration of chemical waste without any need for new incinerators.",
+      "D": "The frequency of reports of unexpected releases of chemical agents at newly built incinerators is about the same as the frequency at older incinerators.",
+      "E": "In only three of the reported incidents of unexpected chemical leaks did the releases extend outside the property on which the incinerators were located."
+    },
+    "correct_answer": "A",
+    "explanation": "الخيار A يضعف الحجة: إذا كان التسرب ناتجًا عن تدريب غير كافٍ للموظفين وليس عن عيوب في التصميم، فإن تحسين التدريب يمكن أن يمنع التسربات، وبالتالي فإن زيادة استخدام الحرق لا تعني بالضرورة زيادة التسربات إذا تم تحسين التدريب."
+  },
+  {
+    "id": 608,
+    "type": "Critical Reasoning",
+    "original_id": 745,
+    "difficulty": "Hard",
+    "question": "Public health expert: Increasing the urgency of a public health message may be counterproductive. In addition to irritating the majority who already behave responsibly, it may undermine all government pronouncements on health by convincing people that such messages are overly cautious. And there is no reason to believe that those who ignore measured voices will listen to shouting. The two sections in boldface play which of the following roles in the public health expert's argument?",
+    "options": {
+      "A": "The first is a conclusion for which support is provided, but it is not the argument's main conclusion; the second is an unsupported premise supporting the argument's main conclusion.",
+      "B": "The first is a premise supporting the only explicit conclusion; so is the second.",
+      "C": "The first is the argument's main conclusion; the second supports that conclusion and is itself a conclusion for which support is provided.",
+      "D": "The first is a premise supporting the argument's only conclusion; the second is that conclusion.",
+      "E": "The first is the argument's only explicit conclusion; the second is a premise supporting that conclusion."
+    },
+    "correct_answer": "E",
+    "explanation": "الجزء الأول ('زيادة الإلحاح في رسالة الصحة العامة قد يكون غير منتج') هو الاستنتاج الوحيد الصريح للخبير. الجزء الثاني ('لا يوجد سبب للاعتقاد بأن من يتجاهلون الأصوات المتزنة سيستمعون إلى الصراخ') هو مقدمة تدعم هذا الاستنتاج."
+  },
+  {
+    "id": 609,
+    "type": "Critical Reasoning",
+    "original_id": 746,
+    "difficulty": "Hard",
+    "question": "Several industries have recently switched at least partly from older technologies powered by fossil fuels to new technologies powered by electricity. It is thus evident that less fossil fuel is being used as a result of the operations of these industries than would have been used if these industries had retained their older technologies. Which of the following, if true, most strengthens the argument above?",
+    "options": {
+      "A": "Many of the industries that have switched at least partly to the new technologies have increased their output.",
+      "B": "Less fossil fuel was used to manufacture the machinery employed in the new technologies than was originally used to manufacture the machinery employed in the older technologies.",
+      "C": "More electricity is used by those industries that have switched at least partly to the new technologies than by those industries that have not switched.",
+      "D": "Some of the industries that have switched at least partly to the new technologies still use primarily technologies that are powered by fossil fuels.",
+      "E": "The amount of fossil fuel used to generate the electricity needed to power the new technologies is less than the amount that would have been used to power the older technologies."
+    },
+    "correct_answer": "E",
+    "explanation": "يقوي الخيار E الحجة: إذا كانت كمية الوقود الأحفوري المستخدمة لتوليد الكهرباء اللازمة لتشغيل التقنيات الجديدة أقل من الكمية التي كانت ستُستخدم لتشغيل التقنيات القديمة، فهذا يعني أن التحول قد أدى بالفعل إلى تقليل إجمالي استخدام الوقود الأحفوري."
+  },
+  {
+    "id": 610,
+    "type": "Critical Reasoning",
+    "original_id": 747,
+    "difficulty": "Hard",
+    "question": "The difference in average annual income in favor of employees who have college degrees, compared with those who do not have such degrees, doubled between 1980 and 1990. Some analysts have hypothesized that increased competition between employers for employees with college degrees drove up income for such employees. Which of the following, if true, most seriously undermines the explanation described above?",
+    "options": {
+      "A": "During the 1980s a growing percentage of college graduates, unable to find jobs requiring a college degree, took unskilled jobs.",
+      "B": "The average age of all employees increased slightly during the 1980s.",
+      "C": "The unemployment rate changed very little throughout most of the 1980s.",
+      "D": "From 1980 to 1990, the difference in average income between employees with advanced degrees and those with bachelor's degrees also increased.",
+      "E": "During the 1980s there were some employees with no college degree who earned incomes comparable to the top incomes earned by employees with a college degree."
+    },
+    "correct_answer": "A",
+    "explanation": "الخيار A يقوض التفسير: إذا كانت نسبة متزايدة من خريجي الجامعات تعمل في وظائف غير ماهرة (لا تتطلب شهادة جامعية)، فهذا يشير إلى أن الطلب على العمالة الجامعية لم يزد بشكل كبير، بل قد يكون سبب زيادة الفجوة هو انخفاض دخل غير الحاصلين على شهادات جامعية (بسبب زيادة العرض عليهم)."
+  },
+  {
+    "id": 611,
+    "type": "Critical Reasoning",
+    "original_id": 748,
+    "difficulty": "Hard",
+    "question": "Which of the following most logically completes the passage? According to the last pre-election poll in Whippleton, most voters believe that the three problems government needs to address, in order of importance, are pollution, crime, and unemployment. Yet in the election, candidates from parties perceived as strongly against pollution were defeated, while those elected were all from parties with a history of opposing legislation designed to reduce pollution. These results should not be taken to indicate that the poll was inaccurate, however, since",
+    "options": {
+      "A": "some voters in Whippleton do not believe that pollution needs to be reduced",
+      "B": "every candidate who was defeated had a strong antipollution record",
+      "C": "voters may have been influenced by a candidate's position on pollution, but they may not have voted on that issue exclusively",
+      "D": "in elections, it is not unusual for the candidates who win to be those who have the most extreme positions on the most important issues",
+      "E": "many voters in Whippleton were not sure which candidates were strongly against pollution"
+    },
+    "correct_answer": "D",
+    "explanation": "يكمل الخيار D الجملة: النتائج لا تشير إلى عدم دقة الاستطلاع، لأنه في الانتخابات، ليس من غير المألوف أن يفوز المرشحون ذوو المواقف الأكثر تطرفًا في القضايا الأكثر أهمية. قد يكون التلوث أهم قضية، لكن المرشحين المناهضين للتلوث قد خسروا لأنهم لم يتطرفوا في قضايا أخرى مهمة للناخبين."
+  },
+  {
+    "id": 612,
+    "type": "Critical Reasoning",
+    "original_id": 749,
+    "difficulty": "Hard",
+    "question": "Manufacturing plants in Arundia have recently been acquired in substantial numbers by investors from abroad. Arundian politicians are proposing legislative action to stop such investment, justifying the proposal by arguing that foreign investors, opportunistically exploiting a recent fall in the value of the Arundian currency, were able to buy Arundian assets at less than their true value. Which of the following, if true, casts the most serious doubt on the adequacy of the Arundian politicians' justification for the proposed legislation?",
+    "options": {
+      "A": "The Arundian government originally welcomed the fall in the value of the Arundian currency because the fall made Arundian exports more competitive on international markets.",
+      "B": "Foreign investors who acquired Arundian manufacturing plants generally did so with no intention of keeping and running those plants over the long term.",
+      "C": "Without the recent fall in the value of the Arundian currency, many of the Arundian assets bought by foreign investors would have been beyond the financial reach of those investors.",
+      "D": "In Concordia, a country broadly similar to Arundia, the share of manufacturing assets that is foreign-controlled is 60 percent higher than it is in Arundia.",
+      "E": "The true value of an investment is determined by the value of the profits from it, and the low value of the Arundian currency has depressed the value of any profits earned by foreign investors from Arundian assets."
+    },
+    "correct_answer": "E",
+    "explanation": "الخيار E يشكك بشدة في تبرير السياسيين: إذا كانت القيمة الحقيقية للاستثمار تحددها قيمة الأرباح الناتجة عنه، فإن انخفاض قيمة العملة يقلل من قيمة أي أرباح يكسبها المستثمرون الأجانب من الأصول الأرندية، مما يعني أنهم لم يشتروها بأقل من قيمتها الحقيقية، بل اشتروها بسعر يعكس انخفاض العائدات المستقبلية."
+  },
+  {
+    "id": 613,
+    "type": "Critical Reasoning",
+    "original_id": 750,
+    "difficulty": "Hard",
+    "question": "Proposal: Carbon dioxide and methane in the atmosphere block the escape of heat into space. So emission of these 'greenhouse' gases contributes to global warming. In order to reduce global warming, emission of greenhouse gases needs to be reduced. Therefore, the methane now emitted from open landfills should instead be burned to produce electricity. Objection: The burning of methane generates carbon dioxide that is released into the atmosphere. Which of the following, if true, most adequately counters the objection made to the proposal?",
+    "options": {
+      "A": "Every time a human being or other mammal exhales, there is some carbon dioxide released into the air.",
+      "B": "The conversion of methane to electricity would occur at a considerable distance from the landfills.",
+      "C": "The methane that is used to generate electricity would generally be used as a substitute for a fuel that does not produce any greenhouse gases when burned.",
+      "D": "Methane in the atmosphere is more effective in blocking the escape of heat from the Earth than is carbon dioxide.",
+      "E": "The amount of methane emitted from the landfills could be reduced if the materials whose decomposition produces methane were not discarded but recycled."
+    },
+    "correct_answer": "D",
+    "explanation": "الخيار D يرد على الاعتراض بشكل أقوى: الميثان أكثر فعالية من ثاني أكسيد الكربون في حبس الحرارة، لذا حتى لو أدى حرقه إلى إنتاج ثاني أكسيد الكربون، فإن التأثير الصافي على الاحتباس الحراري سيكون أقل ضررًا لأن الميثان المحترق كان سيساهم في الاحتباس الحراري بشكل أكبر لو بقي في الغلاف الجوي."
+  },
+  {
+    "id": 614,
+    "type": "Critical Reasoning",
+    "original_id": 751,
+    "difficulty": "Hard",
+    "question": "Proposed new safety rules for Beach City airport would lengthen considerably the minimum time between takeoffs from the airport. In consequence, the airport would be able to handle 10 percent fewer flights than currently use the airport daily. The city's operating budget depends heavily on taxes generated by tourist spending, and most of the tourists come by plane. Therefore, the proposed new safety rules, if adopted, will reduce the revenue available for the operating budget. The argument depends on assuming which of the following?",
+    "options": {
+      "A": "There are no periods of the day during which the interval between flights taking off from the airport is significantly greater than the currently allowed minimum.",
+      "B": "Few, if any, of the tourists who use Beach City airport do so when their main destination is a neighboring community and not Beach City itself.",
+      "C": "If the proposed safety rules are adopted, the reduction in tourist numbers will not result mainly from a reduction in the number of tourists who spend relatively little in Beach City.",
+      "D": "Increasing the minimum time between takeoffs is the only way to achieve necessary safety improvements without a large expenditure by the city government on airport enhancements.",
+      "E": "The response to the adoption of the new safety rules would not include a large increase in the number of passengers per flight."
+    },
+    "correct_answer": "E",
+    "explanation": "تفترض الحجة أن انخفاض عدد الرحلات سيؤدي إلى انخفاض عدد السياح، وبالتالي انخفاض الإيرادات الضريبية. إذا كانت شركات الطيران تزيد عدد الركاب لكل رحلة لتعويض انخفاض عدد الرحلات، فقد لا ينخفض عدد السياح، وبالتالي لن تنخفض الإيرادات. الخيار E هو الافتراض الضروري."
+  },
+  {
+    "id": 615,
+    "type": "Critical Reasoning",
+    "original_id": 752,
+    "difficulty": "Hard",
+    "question": "The introduction of new drugs into the market is frequently prevented by a shortage of human subjects for the clinical trials needed to show that the drugs are safe and effective. Since the lives and health of people in future generations may depend on treatments that are currently experimental, practicing physicians are morally in the wrong when, in the absence of any treatment proven to be effective, they fail to encourage suitable patients to volunteer for clinical trials. Which of the following, if true, casts most doubt on the conclusion of the argument?",
+    "options": {
+      "A": "Many drugs undergoing clinical trials are intended for the treatment of conditions for which there is currently no effective treatment.",
+      "B": "Patients do not share the physician's professional concern for public health, but everyone has a moral obligation to alleviate suffering when able to do so.",
+      "C": "Usually, half the patients in a clinical trial serve as a control group and receive a nonactive drug in place of the drug being tested.",
+      "D": "An experimental drug cannot legally be made available to patients unless those patients are subjects in clinical trials of the drug.",
+      "E": "Physicians have an overriding moral and legal duty to care for the health and safety of their current patients."
+    },
+    "correct_answer": "E",
+    "explanation": "الخيار E يثير شكوكًا قوية حول الاستنتاج: للأطباء واجب أخلاقي وقانوني سامي لرعاية صحة وسلامة مرضاهم الحاليين. قد يكون تشجيع المرضى على المشاركة في التجارب السريرية (التي قد تنطوي على مخاطر) متعارضًا مع هذا الواجب، خاصة إذا كان هناك علاج مثبت الفعالية غير متاح، مما يجعل إخفاقهم في التشجيع ليس خطأ أخلاقيًا."
+  },
+  {
+    "id": 616,
+    "type": "Critical Reasoning",
+    "original_id": 753,
+    "difficulty": "Hard",
+    "question": "As a construction material, bamboo is as strong as steel and strudier than concrete. Moreover, in tropical areas, bamboo is a much less expensive construction material than either steel or concrete and is always readily available. In tropical areas, therefore, building with bamboo makes better economic sense than building with steel or concrete, except where land values are high. Which of the following, if true, most helps to explain the exception noted above?",
+    "options": {
+      "A": "Buildings constructed of bamboo are less likely to suffer earthquake damage than are steel and concrete buildings.",
+      "B": "Bamboo is unsuitable as a building material for multistory buildings.",
+      "C": "In order to protect it from being damaged by termites and beetles, bamboo must be soaked, at some expense, in a preservative.",
+      "D": "In some tropical areas, bamboo is used to make the scaffolding that is used during large construction projects.",
+      "E": "Bamboo growing in an area where land values are increasing is often cleared to make way for construction."
+    },
+    "correct_answer": "B",
+    "explanation": "يفسر الخيار B الاستثناء: الخيزران غير مناسب للمباني متعددة الطوابق. في المناطق ذات قيمة الأراضي المرتفعة، يكون من المجدي اقتصاديًا بناء مبانٍ شاهقة (متعددة الطوابق) لتعظيم استخدام المساحة، وهنا يصبح الخيزران غير عملي، لذا يُفضل استخدام الفولاذ أو الخرسانة رغم تكلفتهما الأعلى."
+  },
+  {
+    "id": 617,
+    "type": "Critical Reasoning",
+    "original_id": 754,
+    "difficulty": "Hard",
+    "question": "The country of Virodia has, until now, been barely self-sufficient in both meat and grain. Greater prosperity there has gone hand in hand with steadily increasing per capita consumption of meat, and it takes several pounds of grain used as feed to produce one pound of meat. Per capita income is almost certain to rise further, yet increases in domestic grain production are unlikely. Which of the following is most strongly supported by the information given?",
+    "options": {
+      "A": "Some land in Virodia that is currently used for grain production will soon be turned into pastureland for grazing cattle for meat.",
+      "B": "In the future, per capita income in Virodia is unlikely to increase as rapidly as it has in the past.",
+      "C": "In Virodia, the amount of grain it takes to produce one pound of meat is likely to increase in coming years.",
+      "D": "Grain is soon likely to make up a larger proportion of the average Virodian's diet than ever before.",
+      "E": "Virodia is likely to become an importer of grain or meat or both."
+    },
+    "correct_answer": "E",
+    "explanation": "تدعم المعلومات الاستنتاج E بقوة: مع زيادة الدخل، يزداد استهلاك اللحوم، وإنتاج اللحوم يتطلب حبوبًا كعلف، وإنتاج الحبوب المحلي غير مرجح أن يزداد، بينما كانت الدولة مكتفية ذاتيًا بالكاد. لذلك، ستحتاج إلى استيراد الحبوب (للتغذية) أو اللحوم (لتلبية الطلب) أو كليهما."
+  },
+  {
+    "id": 618,
+    "type": "Critical Reasoning",
+    "original_id": 755,
+    "difficulty": "Hard",
+    "question": "Newspaper editors should not allow reporters to write the headlines for their own stories. The reason for this is that, while the headlines that reporters themselves write are often clever, what typically makes them clever is that they allude to little-known information that is familiar to the reporter but that never appears explicitly in the story itself. Which of the following, if true, most strengthens the argument?",
+    "options": {
+      "A": "The reporter who writes a story is usually better placed than the reporter's editor is to judge what the story's most newsworthy features are.",
+      "B": "To write a headline that is clever, a person must have sufficient understanding of the story that the headline accompanies.",
+      "C": "Most reporters rarely bother to find out how other reporters have written stories and headlines about the same events that they themselves have covered.",
+      "D": "For virtually any story that a reporter writes, there are at least a few people who know more about the story's subject matter than does the reporter.",
+      "E": "The kind of headlines that newspaper editors want are those that anyone who has read a reporter's story in its entirety will recognize as clever."
+    },
+    "correct_answer": "E",
+    "explanation": "يقوي الخيار E الحجة: إذا كان المحررون يريدون عناوين يمكن لأي شخص قرأ القصة كاملة أن يعترف بذكائها، فهذا يعني أن العنوان يجب أن يكون مفهوماً للقارئ العادي. عناوين المراسلين تعتمد على معلومات غير موجودة في القصة، مما يجعلها غير مناسبة لهذا المعيار، وبالتالي لا يجب السماح للمراسلين بكتابة العناوين."
+  },
+  {
+    "id": 619,
+    "type": "Critical Reasoning",
+    "original_id": 756,
+    "difficulty": "Hard",
+    "question": "Scientists have modified feed corn genetically, increasing its resistance to insect pests. Farmers who tried out the genetically modified corn last season applied less insecticide to their corn fields and still got yields comparable to those they would have gotten with ordinary corn. Ordinary corn seed, however, costs less, and what these farmers saved on insecticide rarely exceeded their extra costs for seed. Therefore, for most feed-corn farmers, switching to genetically modified seed would be unlikely to increase profits. Which of the following would it be most useful to know in order to evaluate the argument?",
+    "options": {
+      "A": "Whether there are insect pests that sometimes reduce feed-corn yields, but against which commonly used insecticides and the genetic modification are equally ineffective",
+      "B": "Whether the price that farmers receive for feed corn has remained steady over the past few years",
+      "C": "Whether the insecticides typically used on feed corn tend to be more expensive than insecticides typically used on other crops",
+      "D": "Whether most of the farmers who tried the genetically modified corn last season applied more insecticide than was actually necessary",
+      "E": "Whether, for most farmers who plant feed corn, it is their most profitable crop"
+    },
+    "correct_answer": "D",
+    "explanation": "من المفيد معرفة ما إذا كان المزارعون الذين جربوا الذرة المعدلة وراثيًا قد استخدموا مبيدات حشرية أكثر من اللازم. إذا كان الأمر كذلك، فإن التوفير الفعلي في المبيدات قد يكون أقل مما أظهروه، مما يقوي الحجة. أما إذا كانوا قد استخدموا الكمية المثلى، فقد تكون التوفيرات أكبر مما يبدو، مما يضعف الحجة."
+  },
+  {
+    "id": 620,
+    "type": "Critical Reasoning",
+    "original_id": 757,
+    "difficulty": "Hard",
+    "question": "Debater: The average amount of overtime per month worked by an employee in the manufacturing division of the Haglut Corporation is 14 hours. Most employees of the Haglut Corporation work in the manufacturing division. Furthermore, the average amount of overtime per month worked by any employee in the company generally does not fluctuate much from month to month. Therefore, each month, most employees of the Haglut Corporation almost certainly work at least some overtime. The debater's argument is most vulnerable to criticism on which of these grounds?",
+    "options": {
+      "A": "It takes for granted that the manufacturing division is a typical division of the corporation with regard to the average amount of overtime its employees work each month.",
+      "B": "It takes for granted that if a certain average amount of overtime is worked each month by each employee of the Haglut Corporation, then approximately the same amount of overtime must be worked each month by each employee of the manufacturing division.",
+      "C": "It confuses a claim from which the argument's conclusion about the Haglut Corporation would necessarily follow with a claim that would follow from the argument's conclusion only with a high degree of probability.",
+      "D": "It overlooks the possibility that even if, on average, a certain amount of overtime is worked by the members of some group, many members of that group may work no overtime at all.",
+      "E": "It overlooks the possibility that even if most employees of the corporation work some overtime each month, any one corporate employee may, in some months, work no overtime."
+    },
+    "correct_answer": "D",
+    "explanation": "النقد الأكثر دقة هو أن المتحدث يتجاهل احتمال أنه حتى لو كان متوسط ساعات العمل الإضافي في مجموعة معينة هو 14 ساعة، فقد لا يعمل العديد من أعضاء المجموعة أي ساعات عمل إضافية على الإطلاق. المتوسط لا يعني أن جميع الأعضاء يعملون ساعات إضافية، فقد يكون بعضهم يعمل 30 ساعة والبعض الآخر 0 ساعة."
+  },
+  {
+    "id": 621,
+    "type": "Critical Reasoning",
+    "original_id": 758,
+    "difficulty": "Hard",
+    "question": "Proponents of the recently introduced tax on sales of new luxury boats had argued that a tax of this sort would be an equitable way to increase government revenue because the admittedly heavy tax burden would fall only on wealthy people, and neither they nor anyone else would suffer any economic hardship. In fact, however, 20 percent of the workers employed by manufacturers of luxury boats have lost their jobs as a direct result of this tax. The information given, if true, most strongly supports which of the following?",
+    "options": {
+      "A": "The market for luxury boats would have collapsed even if the new tax on luxury boats had been lower.",
+      "B": "The new tax would produce a net gain in tax revenue for the government only if the yearly total revenue that it generates exceeds the total of any yearly tax-revenue decrease resulting from the workers' loss of jobs.",
+      "C": "Because many people never buy luxury items, imposing a sales tax on luxury items is the kind of legislative action that does not cost incumbent legislators much popular support.",
+      "D": "Before the tax was imposed, the workers employed by manufacturers of luxury boats were not wealthy.",
+      "E": "The tax on luxury boats, if it is to be equitable, should be replaced by a tax that is levied on a less narrowly defined category of luxuries."
+    },
+    "correct_answer": "D",
+    "explanation": "تدعم المعلومات بقوة أن عمال صناعة القوارب الفاخرة لم يكونوا أغنياء قبل فرض الضريبة. لأن الحجة الأصلية ادعت أن العبء الضريبي سيقع فقط على الأغنياء، لكن فقدان 20% من العمال وظائفهم (وهو ضرر اقتصادي) يثبت أن العبء وقع أيضًا على غير الأغنياء، مما يقوض ادعاء المناصرين بأن الضريبة عادلة."
+  },
+  {
+    "id": 622,
+    "type": "Critical Reasoning",
+    "original_id": 759,
+    "difficulty": "Hard",
+    "question": "In Warel and last year, 16 percent of licensed drivers under 21 and 11 percent of drivers ages 21-24 were in serious accidents. By contrast, only 3 percent of licensed drivers 65 and older were involved in serious accidents. These figures clearly show that the greater experience and developed habits of caution possessed by drivers in the 65-and-older group make them far safer behind the wheel than the younger drivers are. Which of the following is an assumption on which the argument depends?",
+    "options": {
+      "A": "Drivers 65 and older do not, on average, drive very many fewer miles per year than drivers 24 and younger.",
+      "B": "Drivers 65 and older do not constitute a significantly larger percentage of licensed drivers in Warel and than drivers ages 18-24 do.",
+      "C": "Drivers 65 and older are less likely than are drivers 24 and younger to drive during weather conditions that greatly increase the risk of accidents.",
+      "D": "The difference between the accident rate of drivers under 21 and of those ages 21-24 is attributable to the greater driving experience of those in the older group.",
+      "E": "There is no age bracket for which the accident rate is lower than it is for licensed drivers 65 and older."
+    },
+    "correct_answer": "A",
+    "explanation": "تفترض الحجة أن انخفاض معدل الحوادث لدى كبار السن يرجع إلى خبرتهم وحذرهم، وليس إلى قلة قيادتهم. إذا كان كبار السن يقودون عددًا أقل بكثير من الأميال سنويًا (أي أن تعرضهم للحوادث أقل بسبب قلة القيادة وليس بسبب المهارة)، فإن الاستنتاج يضعف. لذا، فإن افتراض أنهم لا يقودون عددًا أقل بكثير من الأميال هو شرط ضروري."
+  },
+  {
+    "id": 623,
+    "type": "Critical Reasoning",
+    "original_id": 760,
+    "difficulty": "Hard",
+    "question": "In the past, the country of Malvernia has relied heavily on imported oil. Malvernia recently implemented a program to convert heating systems from oil to natural gas. Malvernia currently produces more natural gas each year than it uses, and oil production in Malvernia oil fields is increasing at a steady pace. If these trends in fuel production and usage continue, therefore, Malvernia reliance on foreign sources for fuel is likely to decline soon. Which of the following would it be most useful to establish in evaluating the argument?",
+    "options": {
+      "A": "When, if ever, will production of oil in Malvernia outstrip production of natural gas?",
+      "B": "Is Malvernia among the countries that rely most on imported oil?",
+      "C": "What proportion of Malvernia's total energy needs is met by hydroelectric, solar, and nuclear power?",
+      "D": "Is the amount of oil used each year in Malvernia for generating electricity and fuel for transportation increasing?",
+      "E": "Have any existing oil-burning heating systems in Malvernia already been converted to natural-gas-burning heating systems?"
+    },
+    "correct_answer": "D",
+    "explanation": "من المفيد معرفة ما إذا كانت كمية النفط المستخدمة في توليد الكهرباء ووقود النقل تتزايد. إذا كانت تتزايد بسرعة أكبر من زيادة إنتاج النفط المحلي، فقد يظل الاعتماد على الواردات مرتفعًا رغم التحول في أنظمة التدفئة. هذا العامل قد يقوض أو يعزز الاستنتاج."
+  },
+  {
+    "id": 624,
+    "type": "Critical Reasoning",
+    "original_id": 761,
+    "difficulty": "Hard",
+    "question": "Exposure to certain chemicals commonly used in elementary schools as cleaners or pesticides causes allergic reactions in some children. Elementary school nurses in Renston report that the proportion of schoolchildren sent to them for treatment of allergic reactions to those chemicals has increased significantly over the past ten years. Therefore, either Renston's schoolchildren have been exposed to greater quantities of the chemicals or they are more sensitive to them than schoolchildren were ten years ago. Which of the following is an assumption on which the argument depends?",
+    "options": {
+      "A": "The number of school nurses employed by Renston's elementary schools has not decreased over the past ten years.",
+      "B": "Children who are allergic to the chemicals are now more likely than they were ten years ago to be sent to the school nurse.",
+      "C": "The proportion of schoolchildren in Renston who are allergic to the chemicals has not increased significantly over the past ten years.",
+      "D": "The chemicals used as cleaners and pesticides in Renston's elementary schools are not used in places other than schools.",
+      "E": "The symptoms of allergic reactions to the chemicals are now more readily recognized by teachers and parents than they were ten years ago."
+    },
+    "correct_answer": "C",
+    "explanation": "تفترض الحجة أن السبب في زيادة نسبة الأطفال المرسلين إلى الممرضة هو إما كمية أكبر من المواد الكيميائية أو حساسية أكبر. إذا كانت نسبة الأطفال الذين يعانون من الحساسية تجاه هذه المواد قد زادت بشكل كبير، فإن ذلك قد يفسر الزيادة في الحالات دون الحاجة إلى افتراض زيادة الكمية أو الحساسية. لذلك، يجب افتراض أن نسبة المصابين بالحساسية لم تزد بشكل كبير (أي أن الزيادة في الحالات ناتجة عن عوامل أخرى)."
+  },
+  {
+    "id": 625,
+    "type": "Critical Reasoning",
+    "original_id": 762,
+    "difficulty": "Hard",
+    "question": "Lockport's commercial fishing boats use gill nets, which kill many of the netted fish, including some fish of endangered species. The fishing commission has proposed requiring the use of tent nets, which do not kill fish; boat crews would then throw back fish of endangered species. Profitable commercial fishing boats in similar areas have already switched over to tent nets. The proposal can therefore be implemented without economic harm to Lockport's commercial fishing boat operators. Which of the following, if true, casts the most serious doubt on the argument made for the proposal?",
+    "options": {
+      "A": "In places where the use of tent nets has been mandated, there are typically fewer commercial fishing boats in operation than there were before tent nets came into use.",
+      "B": "Even when used properly, gill nets require many more repairs than do tent nets.",
+      "C": "Recreational anglers in Lockport catch more fish of endangered species than do commercial fishing boats.",
+      "D": "The endangered species of fish in Lockport's commercial fishing area did not become endangered as a result of the use of gill nets by fishing fleets.",
+      "E": "The endangered species of fish caught by Lockport's commercial fishing fleet are of no commercial value."
+    },
+    "correct_answer": "A",
+    "explanation": "الخيار A يثير شكوكًا خطيرة: في الأماكن التي فُرض فيها استخدام شباك الخيام، قل عدد قوارب الصيد التجارية العاملة. هذا يشير إلى أن التحول إلى شباك الخيام قد يؤدي إلى خسائر اقتصادية (ربما لأنها أقل كفاءة في الصيد)، مما يقوض الادعاء بأنه يمكن تنفيذ الاقتراح دون ضرر اقتصادي."
+  },
+  {
+    "id": 626,
+    "type": "Critical Reasoning",
+    "original_id": 763,
+    "difficulty": "Hard",
+    "question": "Normally, the pineal gland governs a person's sleep-wake cycle by secreting melatonin in response to the daily cycle of light and darkness as detected by the eye. Nonetheless, many people who are totally blind due to lesions in the visual cortex of the brain easily maintain a 24-hour sleep-wake cycle. So the neural pathway by which the pineal gland receives information from the eye probably does not pass through the visual cortex. For purposes of evaluating the argument, it would be most useful to establish which of the following?",
+    "options": {
+      "A": "Whether melatonin supplements help people who have difficulty maintaining a 24-hour sleep cycle to establish such a pattern.",
+      "B": "Whether the melatonin levels of most totally blind people who successfully maintain a 24-hour sleep-wake cycle change in response to changes in exposure to light and darkness",
+      "C": "Whether melatonin is the only substance secreted by the pineal gland",
+      "D": "Whether most people who do not have a 24-hour sleep-wake cycle nevertheless have a cycle of consistent duration",
+      "E": "Whether there are any people with normal vision whose melatonin levels respond abnormally to periods of light and darkness"
+    },
+    "correct_answer": "B",
+    "explanation": "لتقييم الحجة، من المفيد معرفة ما إذا كانت مستويات الميلاتونين لدى المكفوفين الذين يحافظون على دورة نوم-استيقاظ مدتها 24 ساعة تتغير استجابةً للتغيرات في التعرض للضوء والظلام. إذا كانت تتغير، فهذا يشير إلى أن مسار نقل المعلومات من العين إلى الغدة الصنوبرية لا يمر عبر القشرة البصرية (لأنهم لا يستطيعون الرؤية)، مما يدعم الاستنتاج. إذا لم تتغير، فقد يكون هناك تفسير آخر."
+  },
+  {
+    "id": 627,
+    "type": "Critical Reasoning",
+    "original_id": 764,
+    "difficulty": "Hard",
+    "question": "In countries where automobile insurance includes compensation for whiplash injuries sustained in automobile accidents, reports of having suffered such injuries are twice as frequent as they are in countries where whiplash is not covered. Presently, no objective test for whiplash exists, so it is true that spurious reports of whiplash injuries cannot be readily identified. Nevertheless, these facts do not warrant the conclusion drawn by some commentators that in the countries with the higher rates of reported whiplash injuries, half of the reported cases are spurious. Clearly, in countries where automobile insurance does not include compensation for whiplash, people often have little incentive to report whiplash injuries that they actually have suffered. In the argument given, the two boldfaced portions play which of the following roles?",
+    "options": {
+      "A": "The first is a claim that the argument disputes; the second is a conclusion that has been based on that claim.",
+      "B": "The first is a claim that has been used to support a conclusion that the argument accepts; the second is that conclusion.",
+      "C": "The first is evidence that has been used to support a conclusion for which the argument provides further evidence; the second is the main conclusion of the argument.",
+      "D": "The first is a finding whose implications are at issue in the argument; the second is a claim presented in order to argue against deriving certain implications from that finding.",
+      "E": "The first is a finding whose accuracy is evaluated in the argument; the second is evidence presented to establish that the finding is accurate."
+    },
+    "correct_answer": "D",
+    "explanation": "الجزء الأول هو نتيجة (مضاعفة التقارير في البلدان التي يغطي التأمين إصابات الرقبة) التي تدور حولها الآثار المترتبة في الحجة. الجزء الثاني هو ادعاء (في البلدان التي لا يغطي التأمين، لا يوجد حافز للإبلاغ عن الإصابات الحقيقية) يُقدم للرد على استنتاج المعلقين بأن نصف الحالات المبلغ عنها في البلدان ذات المعدلات الأعلى هي حالات وهمية."
+  },
+  {
+    "id": 628,
+    "type": "Critical Reasoning",
+    "original_id": 765,
+    "difficulty": "Hard",
+    "question": "Last year Comfort Airlines had twice as many delayed flights as the year before, but the number of complaints from passengers about delayed flights went up three times. It is unlikely that this disproportionate increase in complaints was rooted in an increase in overall dissatisfaction with the service Comfort Airlines provides, since the airline made a special effort to improve other aspects of its service last year. Which of the following, if true, most helps to explain the disproportionate increase in customer complaints?",
+    "options": {
+      "A": "Comfort Airlines had more flights last year than the year before.",
+      "B": "Last year a single period of unusually bad weather caused a large number of flights to be delayed.",
+      "C": "Some of the improvements that Comfort Airlines made in its service were required by new government regulations.",
+      "D": "The average length of a flight delay was greater last year than it was the year before.",
+      "E": "The average number of passengers per flight was no higher last year than the year before."
+    },
+    "correct_answer": "D",
+    "explanation": "يفسر الخيار D الزيادة غير المتناسبة في الشكاوى: إذا كان متوسط مدة التأخير أكبر في العام الماضي، فقد يشعر الركاب بالإحباط أكثر ويكونون أكثر ميلاً لتقديم شكوى، حتى لو تحسنت جوانب أخرى من الخدمة. هذا يفسر لماذا تضاعفت التأخيرات لكن الشكاوى تضاعفت ثلاث مرات."
+  },
+  {
+    "id": 629,
+    "type": "Critical Reasoning",
+    "original_id": 766,
+    "difficulty": "Hard",
+    "question": "Last year a global disturbance of weather patterns disrupted harvests in many of the world's important agricultural areas. Worldwide production of soybeans, an important source of protein for people and livestock alike, was not adversely affected, however. Indeed, last year's soybean crop was actually slightly larger than average. Nevertheless, the weather phenomenon is probably responsible for a recent increase in the world price of soybeans. Which of the following, if true, provides the strongest justification for the attribution of the increase in soybean prices to the weather phenomenon?",
+    "options": {
+      "A": "Last year's harvest of anchovies, which provide an important protein source for livestock, was disrupted by the effects of the weather phenomenon.",
+      "B": "Most countries that produce soybeans for export had above-average harvests of a number of food crops other than soybeans last year.",
+      "C": "The world price of soybeans also rose several years ago, immediately after an earlier occurrence of a similar global weather disturbance.",
+      "D": "Heavy rains attributable to the weather phenomenon improved grazing pastures last year, allowing farmers in many parts of the world to reduce their dependence on supplemental feed.",
+      "E": "Prior to last year, soybean prices had been falling for several years."
+    },
+    "correct_answer": "A",
+    "explanation": "يبرر الخيار A تسبب الظاهرة الجوية في ارتفاع سعر فول الصويا: إذا تعطل محصول الأنشوجة (مصدر بروتين مهم للماشية) بسبب الظاهرة، فإن الطلب على فول الصويا (كمصدر بديل للبروتين) سيزداد، مما يرفع سعره، حتى لو كان محصول فول الصويا نفسه جيدًا."
+  },
+  {
+    "id": 630,
+    "type": "Critical Reasoning",
+    "original_id": 767,
+    "difficulty": "Hard",
+    "question": "Most of the year, the hermit thrush, a North American songbird, eats a diet consisting mainly of insects, but in autumn, as the thrusts migrate to their Central and South American wintering grounds, they feed almost exclusively on wild berries. Wild berries, however, are not as rich in calories as insects, yet thrusts need to consume plenty of calories in order to complete their migration. One possible explanation is that berries contain other nutrients that thrusts need for migration and that insects lack. Which of the following, if true, most seriously calls into question the explanation given for the thrush's diet during migration?",
+    "options": {
+      "A": "Hermit thrushes, if undernourished, are unable to complete their autumn migration before the onset of winter.",
+      "B": "Insect species contain certain nutrients that are not found in wild berries.",
+      "C": "For songbirds, catching insects requires the expenditure of significantly more calories than eating wild berries does.",
+      "D": "Along the hermit thrusts' migration routes, insects are abundant throughout the migration season.",
+      "E": "There are some species of wild berries that hermit thrushes generally do not eat, even though these berry species are exceptionally rich in calories."
+    },
+    "correct_answer": "C",
+    "explanation": "الخيار C يشكك في التفسير: إذا كان اصطياد الحشرات يتطلب إنفاق سعرات حرارية أكثر بكثير من أكل التوت، فإن الطيور قد تختار التوت不是因为 التوت يحتوي على مغذيات إضافية، بل لأن صافي السعرات الحرارية المكتسبة من التوت (السعرات في التوت ناقص سعرات الجهد المبذول في جمعه) قد يكون أعلى، حتى لو كان التوت أقل غنى بالسعرات من الحشرات."
+  },
+  {
+    "id": 631,
+    "type": "Critical Reasoning",
+    "original_id": 768,
+    "difficulty": "Hard",
+    "question": "The kinds of hand and wrist injuries that result from extended use of a computer while maintaining an incorrect posture are common among schoolchildren in Harnville. Computers are important to the school curriculum there, so instead of reducing the amount their students use computers, teachers plan to bring about a sharp reduction in the number of these injuries by carefully monitoring their students' posture when using computers in the classroom. Which of the following would it be most useful to know in order to assess the likelihood that the teachers' plan will be successful?",
+    "options": {
+      "A": "Whether extended use of a computer while maintaining incorrect posture can cause injuries other than hand and wrist injuries",
+      "B": "Whether hand and wrist injuries not caused by computer use are common among schoolchildren in Harnville",
+      "C": "What proportion of schoolchildren in Harnville with hand and wrist injuries use computers extensively outside the classroom",
+      "D": "Whether changes in the curriculum could reduce the schools' dependence on computers",
+      "E": "What proportion of schoolchildren in Harnville already use correct posture while using a computer"
+    },
+    "correct_answer": "C",
+    "explanation": "لتقييم نجاح الخطة، من المهم معرفة نسبة الأطفال المصابين الذين يستخدمون الحواسيب بشكل مكثف خارج الفصل الدراسي. إذا كانت معظم الإصابات تحدث خارج المدرسة، فإن مراقبة الوضعية داخل الفصل لن تقلل الإصابات بشكل كبير."
+  },
+  {
+    "id": 632,
+    "type": "Critical Reasoning",
+    "original_id": 769,
+    "difficulty": "Hard",
+    "question": "A certain cultivated herb is one of a group of closely related plants that thrive in soil with high concentrations of metals that are toxic to most other plants. Agronomists studying the growth of this herb have discovered that it produces large amounts of histidine, an amino acid that, in test-tube solutions, renders these metals chemically inert. Hence, the herb's high histidine production must be the key feature that allows it to grow in metal-rich soils. In evaluating the argument, it would be most important to determine which of the following?",
+    "options": {
+      "A": "Whether the herb can thrive in soil that does not have high concentrations of the toxic metals",
+      "B": "Whether others of the closely related group of plants also produce histidine in large quantities",
+      "C": "Whether the herb's high level of histidine production is associated with an unusually low level of production of some other amino acid",
+      "D": "Whether growing the herb in soil with high concentrations of the metals will, over time, reduce their concentrations in the soil",
+      "E": "Whether the concentration of histidine in the growing herb declines as the plant approaches maturity"
+    },
+    "correct_answer": "B",
+    "explanation": "لتقييم الحجة، من المهم تحديد ما إذا كانت النباتات الأخرى في المجموعة ذات الصلة الوثيقة تنتج أيضًا كميات كبيرة من الهيستيدين. إذا كانت تنتجه أيضًا ولكنها لا تنمو في التربة الغنية بالمعادن، فهذا يشير إلى أن الهيستيدين ليس العامل الرئيسي الذي يسمح بنمو هذه العشبة، بل قد يكون هناك عامل آخر."
+  },
+  {
+    "id": 633,
+    "type": "Critical Reasoning",
+    "original_id": 770,
+    "difficulty": "Hard",
+    "question": "Many people suffer an allergic reaction to certain sulfites, including those that are commonly added to wine as preservatives. However, since there are several winemakers who add sulfites to none of the wines they produce, people who would like to drink wine but are allergic to sulfites can drink wines produced by these winemakers without risking an allergic reaction to sulfites. Which of the following is an assumption on which the argument depends?",
+    "options": {
+      "A": "These winemakers have been able to duplicate the preservative effect produced by adding sulfites by means that do not involve adding any potentially allergenic substances to their wine.",
+      "B": "Not all forms of sulfite are equally likely to produce the allergic reaction.",
+      "C": "Wine is the only beverage to which sulfites are commonly added.",
+      "D": "Apart from sulfites, there are no substances commonly present in wine that give rise to an allergic reaction.",
+      "E": "Sulfites are not naturally present in the wines produced by these winemakers in amounts large enough to produce an allergic reaction in someone who drinks these wines."
+    },
+    "correct_answer": "E",
+    "explanation": "تفترض الحجة أن عدم إضافة صانعي النبيذ للكبريتات يعني أن النبيذ خالٍ منها تمامًا. لكن الكبريتات قد توجد بشكل طبيعي في العنب أو أثناء التخمير. لذا، يجب افتراض أن الكبريتات غير موجودة بشكل طبيعي بكميات كافية لإحداث رد فعل تحسسي لدى من يشرب هذه الخمور."
+  },
+  {
+    "id": 634,
+    "type": "Critical Reasoning",
+    "original_id": 771,
+    "difficulty": "Hard",
+    "question": "A new law gives ownership of patents—documents providing exclusive right to make and sell an invention—to universities, not the government, when those patents result from government-sponsored university research. Administrators at Logos University plan to sell any patents they acquire to corporations in order to fund programs to improve undergraduate teaching. Which of the following, if true, would cast the most doubt on the viability of the college administrators' plan described above?",
+    "options": {
+      "A": "Profit-making corporations interested in developing products based on patents held by universities are likely to try to serve as exclusive sponsors of ongoing university research projects.",
+      "B": "Corporate sponsors of research in university facilities are entitled to tax credits under new federal tax-code guidelines.",
+      "C": "Research scientists at Logos University have few or no teaching responsibilities and participate little if at all in the undergraduate programs in their field.",
+      "D": "Government-sponsored research at Logos University is likely to produce few patents that would be of any commercial value to corporations.",
+      "E": "Government-sponsored research in universities often produces patents of great scientific value but of little commercial value."
+    },
+    "correct_answer": "D",
+    "explanation": "الخيار D يشكك في جدوى الخطة: إذا كانت الأبحاث الممولة من الحكومة في جامعة لوجوس من المرجح أن تنتج براءات اختراع ذات قيمة تجارية قليلة للشركات، فلن تكون قادرة على بيعها بأرباح كافية لتمويل برامج تحسين التعليم الجامعي."
+  },
+  {
+    "id": 635,
+    "type": "Critical Reasoning",
+    "original_id": 772,
+    "difficulty": "Hard",
+    "question": "Since it has become known that several of a bank's top executives have been buying shares in their own bank, the bank's depositors, who had been worried by rumors that the bank faced impending financial collapse, have been greatly relieved. They reason that, since top executives evidently have faith in the bank's financial soundness, those worrisome rumors must be false. Such reasoning might well be overoptimistic, however, since corporate executives have been known to buy shares in their own company in a calculated attempt to dispel negative rumors about the company's health. In the argument given, the two boldfaced portions play which of the following roles?",
+    "options": {
+      "A": "The first describes evidence that has been taken as supporting a conclusion; the second gives a reason for questioning that support.",
+      "B": "The first describes evidence that has been taken as supporting a conclusion; the second states a contrary conclusion that is the main conclusion of the argument.",
+      "C": "The first provides evidence in support of the main conclusion of the argument; the second states that conclusion.",
+      "D": "The first describes the circumstance that the argument as a whole seeks to explain; the second gives the explanation that the argument seeks to establish.",
+      "E": "The first describes the circumstance that the argument as a whole seeks to explain; the second provides evidence in support of the explanation that the argument seeks to establish."
+    },
+    "correct_answer": "A",
+    "explanation": "الجزء الأول يصف دليلاً (شراء المديرين التنفيذيين لأسهم البنك) تم استخدامه لدعم استنتاج (أن البنك سليم ماليًا). الجزء الثاني يعطي سببًا للتشكيك في هذا الدعم (قد يكون الشراء محاولة متعمدة لتبديد الشائعات السلبية)."
+  },
+  {
+    "id": 636,
+    "type": "Critical Reasoning",
+    "original_id": 773,
+    "difficulty": "Hard",
+    "question": "Between 1980 and 2000, the sea otter population of the Aleutian Islands declined precipitously. There were no signs of disease or malnutrition, so there was probably an increase in the number of otters being eaten by predators. Orcas will eat otters when seals, their normal prey, are unavailable, and the Aleutian Islands seal population declined dramatically in the 1980s. Therefore, orcas were most likely the immediate cause of the otter population decline. Which of the following, if true, most strengthens the argument?",
+    "options": {
+      "A": "The population of sea urchins, the main food of sea otters, has increased since the sea otter population declined.",
+      "B": "Seals do not eat sea otters, nor do they compete with sea otters for food.",
+      "C": "Most of the surviving sea otters live in a bay that is inaccessible to orcas.",
+      "D": "The population of orcas in the Aleutian Islands has declined since the 1980s.",
+      "E": "An increase in commercial fishing near the Aleutian Islands in the 1980s caused a slight decline in the population of the fish that seals use for food."
+    },
+    "correct_answer": "C",
+    "explanation": "يقوي الخيار C الحجة: إذا كانت معظم ثعالب البحر الباقية تعيش في خليج لا تستطيع الحيتان القاتلة الوصول إليه، فهذا يشير إلى أن الحيتان القاتلة هي السبب في انخفاض أعداد ثعالب البحر في المناطق الأخرى، لأن ثعالب البحر في الخليج (المحمي من الحيتان) نجت."
+  },
+  {
+    "id": 637,
+    "type": "Critical Reasoning",
+    "original_id": 774,
+    "difficulty": "Hard",
+    "question": "Political strategist: The domestic policies of our opponents in Party X are contrary to the priorities of many middle-class voters. Yet some of these same voters are supporters of Party X and its candidates due to the party's appeals about foreign policy. In order to win these voters back, we in Party Y must prove to middle-class voters that Party X does not represent their priorities with respect to domestic policy. Which of the following would, if true, most strongly suggest that the political strategist's plan is unlikely to succeed?",
+    "options": {
+      "A": "Many in the middle class who support Party X for its foreign policies also support its domestic policies and are fully aware of the implications of those policies.",
+      "B": "Most middle-class supporters of Party X care about foreign policy and know very little about its domestic policies.",
+      "C": "Long-term domestic policy sometimes conflicts with short-term domestic policy.",
+      "D": "There are topics on which Party X and Party Y have significant agreement.",
+      "E": "Some middle-class voters are concerned about both domestic and foreign policy."
+    },
+    "correct_answer": "A",
+    "explanation": "الخيار A يشير إلى أن الخطة غير مرجحة للنجاح: إذا كان العديد من أبناء الطبقة الوسطى الذين يدعمون الحزب X بسبب سياسته الخارجية يدعمون أيضًا سياساته الداخلية ويدركون آثارها تمامًا، فإن محاولة إثبات أن الحزب X لا يمثل أولوياتهم في السياسة الداخلية لن تنجح، لأنهم يعرفون ذلك بالفعل ويوافقون عليه."
+  }
+]
