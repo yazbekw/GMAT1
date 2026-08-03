@@ -62,7 +62,10 @@ def normalize_options(options):
     - وإلا ترجع قائمة فارغة.
     """
     if isinstance(options, dict):
-        keys = sorted(options.keys(), key=lambda x: int(x) if x.isdigit() else x)
+        keys = sorted(
+            options.keys(),
+            key=lambda x: (0, int(str(x))) if str(x).isdigit() else (1, str(x))
+        )
         return [options[k] for k in keys]
     elif isinstance(options, list):
         return options
@@ -74,7 +77,10 @@ def get_answer_index(options, correct_answer):
     تحويل الإجابة الصحيحة (التي قد تكون حرفاً أو رقماً) إلى مؤشر صحيح (0-index).
     """
     if isinstance(options, dict):
-        keys = sorted(options.keys(), key=lambda x: int(x) if x.isdigit() else x)
+        keys = sorted(
+            options.keys(),
+            key=lambda x: (0, int(str(x))) if str(x).isdigit() else (1, str(x))
+        )
         if correct_answer in keys:
             return keys.index(correct_answer)
         for idx, key in enumerate(keys):
