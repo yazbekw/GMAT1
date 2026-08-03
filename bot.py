@@ -8,6 +8,7 @@
 import os
 import json
 import sqlite3
+import re
 import random
 import logging
 import asyncio
@@ -128,6 +129,7 @@ def get_db_connection():
 # ============================================================
 # تحميل الأسئلة
 # ============================================================
+
 def load_questions_from_files():
     conn = get_db_connection()
     c = conn.cursor()
@@ -146,12 +148,26 @@ def load_questions_from_files():
     for file_path in main_files:
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
+                raw_content = f.read()
+            
+            # محاولة تنظيف المحتوى من الأخطاء الشائعة
+            # إزالة الفواصل الزائدة قبل الأقواس المغلقة
+            cleaned_content = re.sub(r',\s*([}\]])', r'\1', raw_content)
+            # إزالة الفواصل الزائدة بعد القيم (حالات نادرة)
+            cleaned_content = re.sub(r',\s*,', ',', cleaned_content)
+            
+            try:
+                data = json.loads(cleaned_content, strict=False)
+            except json.JSONDecodeError as e:
+                logger.error(f"خطأ في تحميل {file_path} بعد التنظيف: {e}")
+                # محاولة استخدام json.load مع strict=False
+                data = json.loads(raw_content, strict=False)
+                
         except Exception as e:
             logger.error(f"خطأ في قراءة {file_path}: {e}")
             continue
 
-        # استخراج قائمة الأسئلة من الملف
+        # استخراج قائمة الأسئلة
         questions_list = []
         if isinstance(data, list):
             questions_list = data
@@ -167,6 +183,7 @@ def load_questions_from_files():
                         break
 
         if not questions_list:
+            logger.warning(f"لا توجد أسئلة في {file_path}")
             continue
 
         source_name = file_path.stem
@@ -175,20 +192,16 @@ def load_questions_from_files():
             if not q.get('question') or not q.get('options'):
                 continue
 
-            # استخراج الخيارات
             options = parse_options(q['options'])
             if len(options) < 2:
                 continue
 
-            # استخراج الإجابة
             answer = parse_answer(q.get('answer'), len(options))
 
-            # ===== التعديل الجديد لمعالجة Data Sufficiency =====
-            # إذا كانت الخيارات تحتوي على مفتاحين "1" و "2" والإجابة رمز A-E
+            # معالجة Data Sufficiency
             if isinstance(q['options'], dict) and set(q['options'].keys()) == {"1", "2"}:
                 ans_str = q.get('answer')
                 if isinstance(ans_str, str) and ans_str.upper() in "ABCDE":
-                    # استبدال الخيارات بالنصوص القياسية لـ DS
                     ds_options = [
                         "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
                         "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
@@ -197,8 +210,7 @@ def load_questions_from_files():
                         "Statements (1) and (2) TOGETHER are NOT sufficient."
                     ]
                     options = ds_options
-                    answer = ord(ans_str.upper()) - ord('A')  # A=0, B=1, ...
-            # =================================================
+                    answer = ord(ans_str.upper()) - ord('A')
 
             if answer is None:
                 continue
@@ -219,7 +231,6 @@ def load_questions_from_files():
     conn.close()
     logger.info(f"إجمالي الأسئلة المحملة: {total_count}")
     return total_count
-
 # ============================================================
 # دوال استرجاع الأسئلة
 # ============================================================
