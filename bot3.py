@@ -142,15 +142,24 @@ def load_questions_from_json():
             with open(file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             raw = []
-            if 'exam' in data and 'questions' in data['exam']:
-                raw = data['exam']['questions']
-            elif 'questions' in data:
-                raw = data['questions']
+            # التعامل مع الحالة التي تكون فيها البيانات قائمة
+            if isinstance(data, list):
+                raw = data  # نفترض أن القائمة تحتوي على أسئلة
             else:
-                for val in data.values():
-                    if isinstance(val, list) and val and isinstance(val[0], dict) and 'question' in val[0]:
-                        raw.extend(val)
+                # بيانات قاموس
+                if 'exam' in data and 'questions' in data['exam']:
+                    raw = data['exam']['questions']
+                elif 'questions' in data:
+                    raw = data['questions']
+                else:
+                    # محاولة استخراج أي قائمة تحتوي على أسئلة
+                    for val in data.values():
+                        if isinstance(val, list) and val and isinstance(val[0], dict) and 'question' in val[0]:
+                            raw.extend(val)
+            # تصفية العناصر غير الصالحة
             for q in raw:
+                if not isinstance(q, dict):
+                    continue
                 if q.get('question') and q.get('options'):
                     options_raw = q['options']
                     options_list = normalize_options(options_raw)
