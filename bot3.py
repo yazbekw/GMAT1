@@ -55,37 +55,34 @@ def get_option_label(index: int) -> str:
 
 # ======================== دالة تطبيع الخيارات ========================
 def normalize_options(options):
-    """
-    تحويل الخيارات إلى قائمة من النصوص مع الحفاظ على الترتيب.
-    - إذا كانت الخيارات قاموساً (dict)، يتم ترتيب المفاتيح واستخراج القيم.
-    - إذا كانت الخيارات قائمة، تُرجع كما هي.
-    - وإلا ترجع قائمة فارغة.
-    """
     if isinstance(options, dict):
-        keys = sorted(options.keys(), key=lambda x: int(x) if x.isdigit() else x)
-        return [options[k] for k in keys]
+        numeric_keys = sorted(
+            [k for k in options.keys() if str(k).isdigit()],
+            key=int
+        )
+        return [options[k] for k in numeric_keys]
+
     elif isinstance(options, list):
         return options
-    else:
-        return []
+
+    return []
 
 def get_answer_index(options, correct_answer):
-    """
-    تحويل الإجابة الصحيحة (التي قد تكون حرفاً أو رقماً) إلى مؤشر صحيح (0-index).
-    """
     if isinstance(options, dict):
-        keys = sorted(options.keys(), key=lambda x: int(x) if x.isdigit() else x)
-        if correct_answer in keys:
-            return keys.index(correct_answer)
-        for idx, key in enumerate(keys):
-            if str(correct_answer) == key:
-                return idx
+        numeric_keys = sorted(
+            [k for k in options.keys() if str(k).isdigit()],
+            key=int
+        )
+
+        if str(correct_answer) in numeric_keys:
+            return numeric_keys.index(str(correct_answer))
+
         return 0
-    else:
-        try:
-            return int(correct_answer) - 1
-        except:
-            return 0
+
+    try:
+        return int(correct_answer) - 1
+    except:
+        return 0
 
 # ======================== قاعدة البيانات ========================
 def init_db():
