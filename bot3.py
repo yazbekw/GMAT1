@@ -167,6 +167,7 @@ def load_questions_from_json():
                     count += 1
         except Exception as e:
             logger.error(f"خطأ في تحميل {file}: {e}")
+            traceback.print_exc()
     conn.commit()
     conn.close()
     logger.info(f"تم تحميل {count} سؤال من JSON إلى قاعدة البيانات")
