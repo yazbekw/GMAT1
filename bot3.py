@@ -2,9 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-بوت أسئلة شامل - الحل النهائي المتكامل
-جميع الأزرار تعمل، والاختبار المخصص يظهر السؤال الأول فوراً
-مع عرض الخيارات كاملة كنص وأزرار اختيار رقمية صغيرة (1,2,3,4...)
+بوت أسئلة شامل - النسخة المحسّنة مع زر خلط عشوائي وتحسينات إضافية
 """
 
 import os
@@ -20,7 +18,7 @@ from typing import List, Dict, Any, Optional, Tuple
 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
-    ,
+    Application,
     CommandHandler,
     CallbackQueryHandler,
     ContextTypes,
@@ -51,53 +49,34 @@ def escape_html(text: str) -> str:
     return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 def get_option_label(index: int) -> str:
-    """إرجاع رقم الخيار (1,2,3,...) لاستخدامه في الأزرار وعرض الخيارات"""
     return str(index + 1)
 
-# ======================== دالة تطبيع الخيارات ========================
 def normalize_options(options):
-    """
-    تحويل الخيارات إلى قائمة من النصوص مع الحفاظ على الترتيب.
-    - إذا كانت الخيارات قاموساً (dict)، يتم ترتيب المفاتيح واستخراج القيم.
-    - إذا كانت الخيارات قائمة، تُرجع كما هي.
-    - وإلا ترجع قائمة فارغة.
-    """
     if isinstance(options, dict):
         keys = list(options.keys())
-        # تحويل جميع المفاتيح إلى سلاسل لتوحيد المعالجة
         str_keys = [str(k) for k in keys]
-        # التحقق مما إذا كانت جميع المفاتيح أرقاماً (بعد تحويلها إلى سلاسل)
         all_digits = all(k.isdigit() for k in str_keys)
         if all_digits:
-            # ترتيب عددي
             keys_sorted = sorted(keys, key=lambda x: int(str(x)))
         else:
-            # ترتيب أبجدي (كسلسلة)
             keys_sorted = sorted(keys, key=lambda x: str(x))
         return [options[k] for k in keys_sorted]
     elif isinstance(options, list):
         return options
     else:
         return []
-        
+
 def get_answer_index(options, correct_answer):
-    """
-    تحويل الإجابة الصحيحة (التي قد تكون حرفاً أو رقماً) إلى مؤشر صحيح (0-index).
-    """
     if isinstance(options, dict):
         keys = list(options.keys())
-        # البحث عن correct_answer في المفاتيح (ككائن)
         if correct_answer in keys:
             return keys.index(correct_answer)
-        # البحث بعد تحويل correct_answer إلى سلسلة ومقارنتها مع المفاتيح كسلاسل
         str_correct = str(correct_answer)
         for idx, key in enumerate(keys):
             if str_correct == str(key):
                 return idx
-        # إذا لم يتم العثور، نرجع 0
         return 0
     else:
-        # إذا كانت الخيارات قائمة، نحاول تحويل correct_answer إلى رقم
         try:
             return int(correct_answer) - 1
         except:
@@ -158,17 +137,14 @@ def load_questions_from_json():
             with open(file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             raw = []
-            # إذا كانت القائمة مباشرة
             if isinstance(data, list):
                 raw = data
-            # إذا كان قاموساً
             elif isinstance(data, dict):
                 if 'exam' in data and 'questions' in data['exam']:
                     raw = data['exam']['questions']
                 elif 'questions' in data:
                     raw = data['questions']
                 else:
-                    # قد تكون قيم القاموس هي قوائم الأسئلة (كما في الكود القديم)
                     for val in data.values():
                         if isinstance(val, list) and val and isinstance(val[0], dict) and 'question' in val[0]:
                             raw.extend(val)
@@ -359,7 +335,8 @@ def build_main_menu(user_id=None):
         [InlineKeyboardButton("📝 اختبار عادي", callback_data="start_quiz")],
         [InlineKeyboardButton("📝 اختبار مخصص", callback_data="custom_quiz")],
         [InlineKeyboardButton("📖 وضع التعلم", callback_data="study_mode")],
-        [InlineKeyboardButton("🔀 خلط عشوائي", callback_data="shuffle")],
+        [InlineKeyboardButton("🔀 خلط عشوائي", callback_data="shuffle")],   # الزر الجديد
+        [InlineKeyboardButton("📂 تصفية حسب الفئة", callback_data="categories")],
         [InlineKeyboardButton("⭐ إشاراتي", callback_data="bookmarks")],
         [InlineKeyboardButton("❌ الأخطاء فقط", callback_data="wrong_only")],
         [InlineKeyboardButton("💡 اقتراح أسئلة (نقاط ضعف)", callback_data="suggest")],
@@ -387,7 +364,6 @@ def build_question_keyboard(qid, idx, total, state, time_left=None):
     nav.append(InlineKeyboardButton(star, callback_data=f"bookmark_{qid}"))
     buttons.append(nav)
     
-    # زر لعرض الخيارات كاملة (اختياري، لكن الخيارات تظهر بالفعل كاملة في النص)
     buttons.append([InlineKeyboardButton("📄 عرض الخيارات كاملة", callback_data=f"show_full_opts_{qid}")])
     
     buttons.append([InlineKeyboardButton("🏠 القائمة", callback_data="menu")])
@@ -399,10 +375,6 @@ def build_question_keyboard(qid, idx, total, state, time_left=None):
     return InlineKeyboardMarkup(buttons)
 
 def build_option_buttons(q, state):
-    """
-    بناء أزرار اختيار صغيرة مرقمة (1,2,3,4,...) 
-    تعرض فقط الأرقام مع علامات الصح والخطأ عند الإجابة.
-    """
     qid, question, options, answer, explanation, category = q
     buttons = []
     ans = state.get('answers', {})
@@ -411,7 +383,7 @@ def build_option_buttons(q, state):
     
     row = []
     for i, _ in enumerate(options):
-        label = get_option_label(i)  # "1", "2", "3", ...
+        label = get_option_label(i)
         if answered:
             if i == answer:
                 label = "✅ " + label
@@ -419,7 +391,7 @@ def build_option_buttons(q, state):
                 label = "❌ " + label
         callback = f"answer_{qid}_{i}" if not answered else "noop"
         row.append(InlineKeyboardButton(label, callback_data=callback))
-        if len(row) == 5:  # 5 أزرار في كل صف
+        if len(row) == 5:
             buttons.append(row)
             row = []
     if row:
@@ -427,9 +399,6 @@ def build_option_buttons(q, state):
     return InlineKeyboardMarkup(buttons)
 
 def format_question_header(q, idx, total, time_left=None, show_options=True):
-    """
-    تنسيق رأس السؤال مع عرض الخيارات كاملة كنص مرقم (1. نص الخيار, 2. نص الخيار, ...)
-    """
     qid, question, options, answer, explanation, category = q
     cat = escape_html(category or "غير مصنف")
     q_text = escape_html(question)
@@ -508,10 +477,14 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode=ParseMode.HTML
     )
 
+# ======================== أمر الخلط (من الشات) ========================
 async def shuffle_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     state = get_user_state(user_id)
-    qids = state['current_ids']
+    qids = state.get('current_ids', [])
+    if not qids:
+        await update.message.reply_text("⚠️ لا توجد أسئلة لخلطها.")
+        return
     random.shuffle(qids)
     state['current_ids'] = qids
     state['current_index'] = 0
@@ -519,6 +492,23 @@ async def shuffle_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     save_user_state(user_id, state)
     await update.message.reply_text("🔀 <b>تم خلط الأسئلة.</b>", parse_mode=ParseMode.HTML)
     await show_current_question(update, context, user_id)
+
+# ======================== معالج زر الخلط ========================
+async def shuffle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    await query.answer()
+    user_id = query.from_user.id
+    state = get_user_state(user_id)
+    qids = state.get('current_ids', [])
+    if not qids:
+        await query.edit_message_text("⚠️ لا توجد أسئلة لخلطها.", reply_markup=build_main_menu(user_id))
+        return
+    random.shuffle(qids)
+    state['current_ids'] = qids
+    state['current_index'] = 0
+    state['answers'] = {}
+    save_user_state(user_id, state)
+    await query.edit_message_text("🔀 <b>تم خلط الأسئلة بنجاح!</b>", parse_mode=ParseMode.HTML, reply_markup=build_main_menu(user_id))
 
 # ======================== اختبار مخصص ========================
 async def custom_quiz_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -657,7 +647,6 @@ async def show_current_question(update: Update, context: ContextTypes.DEFAULT_TY
         save_user_state(user_id, state)
     
     total = len(qids)
-    # عرض الخيارات كاملة في النص
     header_text = format_question_header(q, idx, total, time_left, show_options=True)
     if show_explanation and q[4]:
         header_text += f"\n📖 <b>الشرح:</b>\n{escape_html(q[4])}"
@@ -830,7 +819,6 @@ async def bookmark_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         save_user_state(user_id, state)
         await show_current_question(update, context, user_id)
 
-# ======================== عرض الخيارات كاملة ========================
 async def show_full_options_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
@@ -1483,7 +1471,7 @@ async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 # ======================== دوال التشغيل ========================
-async def run_webhook_async():
+async def run_webhook_async(application):
     WEBHOOK_URL = os.getenv("WEBHOOK_URL")
     if not WEBHOOK_URL:
         logger.error("WEBHOOK_URL غير معرف")
@@ -1495,8 +1483,8 @@ async def run_webhook_async():
         logger.error("مكتبة aiohttp غير مثبتة")
         return
 
-    await .initialize()
-    await .start()
+    await application.initialize()
+    await application.start()
 
     async def webhook_handler(request):
         try:
@@ -1504,8 +1492,8 @@ async def run_webhook_async():
             if not data:
                 return web.Response(text="Empty", status=400)
             from telegram import Update
-            update = Update.de_json(data, .bot)
-            await .process_update(update)
+            update = Update.de_json(data, application.bot)
+            await application.process_update(update)
             return web.Response(text="OK", status=200)
         except Exception as e:
             logger.error(f"خطأ في webhook: {e}", exc_info=True)
@@ -1517,7 +1505,7 @@ async def run_webhook_async():
     async def root(request):
         return web.Response(text="Bot is running", status=200)
 
-    app = web.()
+    app = web.Application()
     app.router.add_get("/", root)
     app.router.add_get("/health", health_check)
     app.router.add_post(f"/{TOKEN}", webhook_handler)
@@ -1530,26 +1518,10 @@ async def run_webhook_async():
     logger.info(f"خادم webhook يعمل على المنفذ {port}")
 
     webhook_url = f"{WEBHOOK_URL}/{TOKEN}"
-    await .bot.set_webhook(webhook_url)
+    await application.bot.set_webhook(webhook_url)
     logger.info(f"تم تعيين webhook إلى {webhook_url}")
 
     await asyncio.Event().wait()
-
-async def shuffle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    query = update.callback_query
-    await query.answer()
-    user_id = query.from_user.id
-    state = get_user_state(user_id)
-    qids = state.get('current_ids', [])
-    if not qids:
-        await query.edit_message_text("⚠️ لا توجد أسئلة لخلطها.", reply_markup=build_main_menu(user_id))
-        return
-    random.shuffle(qids)
-    state['current_ids'] = qids
-    state['current_index'] = 0
-    state['answers'] = {}
-    save_user_state(user_id, state)
-    await query.edit_message_text("🔀 <b>تم خلط الأسئلة بنجاح!</b>", parse_mode=ParseMode.HTML, reply_markup=build_main_menu(user_id))
 
 def main():
     init_db()
@@ -1568,8 +1540,6 @@ def main():
     application.add_handler(CommandHandler("shuffle", shuffle_command))
     application.add_handler(CommandHandler("list_questions", list_questions_command))
     application.add_handler(CommandHandler("stats", lambda u, c: stats(u, c)))
-    application.add_handler(CallbackQueryHandler(shuffle_callback, pattern="^shuffle$"))
-
 
     # اختبار مخصص
     application.add_handler(CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$"))
@@ -1642,6 +1612,9 @@ def main():
     application.add_handler(CallbackQueryHandler(admin_import_json, pattern="^admin_import_json$"))
     application.add_handler(CallbackQueryHandler(admin_list, pattern="^admin_list$"))
     application.add_handler(CallbackQueryHandler(lambda u, c: u.callback_query.answer(), pattern="^noop$"))
+
+    # معالج زر الخلط
+    application.add_handler(CallbackQueryHandler(shuffle_callback, pattern="^shuffle$"))
 
     USE_WEBHOOK = os.getenv("USE_WEBHOOK", "false").lower() == "true"
 
