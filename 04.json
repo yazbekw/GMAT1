@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 301,
+    "type": "Data Sufficiency",
+    "original_id": 301,
+    "difficulty": "Easy",
+    "question": "In a real estate office that employs n salespeople, f of them are females and x of the females are new employees. What is the value of n?",
+    "options": {
+      "1": "If an employee were randomly selected from the n employees, the probability of selecting a female would be 2/3.",
+      "2": "If an employee were randomly selected from the f female employees, the probability of selecting a new employee would be 1/2."
+    },
+    "correct_answer": "E",
+    "explanation": "البيان الأول يعطي f/n = 2/3، والثاني يعطي x/f = 1/2. لا توجد معلومات عن عدد الذكور أو الجدد، لذا لا يمكن تحديد n."
+  },
+  {
+    "id": 302,
+    "type": "Data Sufficiency",
+    "original_id": 302,
+    "difficulty": "Easy",
+    "question": "Do at least 60 percent of the students in Pat's class walk to school?",
+    "options": {
+      "1": "At least 60 percent of the female students in Pat's class walk to school.",
+      "2": "The number of students in Pat's class who walk to school is twice the number of students who do not walk to school."
+    },
+    "correct_answer": "B",
+    "explanation": "البيان الثاني يقول أن عدد الماشين = 2 × عدد غير الماشين، أي أن الماشين يشكلون 2/3 ≈ 66.7% > 60%. البيان الأول لا يكفي لأنه يتحدث عن الإناث فقط."
+  },
+  {
+    "id": 303,
+    "type": "Data Sufficiency",
+    "original_id": 303,
+    "difficulty": "Easy",
+    "question": "A certain plumber charges $92 for each job completed in 4 hours or less and $23 per hour for each job completed in more than 4 hours. If it took the plumber a total of 7 hours to complete two separate jobs, what was the total amount charged by the plumber for the two jobs?",
+    "options": {
+      "1": "The plumber charged $92 for one of the two jobs.",
+      "2": "The plumber charged $138 for one of the two jobs."
+    },
+    "correct_answer": "B",
+    "explanation": "البيان الثاني يقول أن إحدى الوظائف كلفت 138$، وهذا يعني أنها استغرقت 6 ساعات (لأن 138/23=6). إذن الوظيفة الأخرى استغرقت ساعة واحدة وكلفت 92$، والمجموع 230$. البيان الأول غير كافٍ."
+  },
+  {
+    "id": 304,
+    "type": "Data Sufficiency",
+    "original_id": 304,
+    "difficulty": "Easy",
+    "question": "If x and y are positive numbers, is (x+1)/(y+1) > x/y ?",
+    "options": {
+      "1": "x > 1",
+      "2": "x < y"
+    },
+    "correct_answer": "B",
+    "explanation": "المتباينة تكافئ y > x (بضرب الطرفين في y(y+1) الموجب). البيان الثاني يقول x < y، أي محقق. الأول لا يكفي."
+  },
+  {
+    "id": 305,
+    "type": "Data Sufficiency",
+    "original_id": 305,
+    "difficulty": "Easy",
+    "question": "Every object in a box is either a sphere or a cube, and every object in the box is either red or green. How many objects are in the box?",
+    "options": {
+      "1": "There are six cubes and five green objects in the box.",
+      "2": "There are two red spheres in the box."
+    },
+    "correct_answer": "E",
+    "explanation": "باستخدام جدول 2×2، نجد أن هناك خلية واحدة مجهولة (مكعبات حمراء) ولا يمكن تحديد العدد الكلي."
+  },
+  {
+    "id": 306,
+    "type": "Data Sufficiency",
+    "original_id": 306,
+    "difficulty": "Easy",
+    "question": "A certain truck uses (1/12 + k v^2) gallons of fuel per mile when its speed is v miles per hour, where k is a constant. At what speed should the truck travel so that it uses 5/12 gallon of fuel per mile?",
+    "options": {
+      "1": "The value of k is 1/10,800.",
+      "2": "When the truck travels at 30 miles per hour, it uses 1/6 gallon of fuel per mile."
+    },
+    "correct_answer": "D",
+    "explanation": "كل من البيانين يمكن من خلاله إيجاد قيمة k، ثم حل المعادلة لإيجاد v."
+  },
+  {
+    "id": 307,
+    "type": "Data Sufficiency",
+    "original_id": 307,
+    "difficulty": "Easy",
+    "question": "If a school district paid a total of $35 per desk for x desks and a total of $30 per table for y tables, what was the total amount that the district paid for these desks and tables?",
+    "options": {
+      "1": "The total amount the district paid for the y tables was $900.",
+      "2": "x = 90, and the total amount the district paid for the x desks was 3.5 times the total amount the district paid for the y tables."
+    },
+    "correct_answer": "B",
+    "explanation": "البيان الثاني يعطي x=90 وتكلفة المكاتب = 3.5 × تكلفة الطاولات. يمكن إيجاد y ثم المجموع الكلي. الأول يعطي y=30 ولكن لا يعطي x."
+  },
+  {
+    "id": 308,
+    "type": "Data Sufficiency",
+    "original_id": 308,
+    "difficulty": "Easy",
+    "question": "Three children inherited a total of X dollars. If the oldest child inherited $7,000 more than the youngest child, and the youngest child inherited $9,000 less than the middle child, what is the value of X?",
+    "options": {
+      "1": "The middle child inherited $27,000.",
+      "2": "The youngest child and the middle child together inherited a total of $45,000."
+    },
+    "correct_answer": "D",
+    "explanation": "كل من البيانين يعطي قيمة كافية لحساب X. البيان الأول: الأوسط 27000، الأصغر 18000، الأكبر 25000، المجموع 70000. الثاني: الأصغر+الأوسط=45000، والأصغر=الأوسط-9000، بحل المعادلتين نجد الأوسط=27000، ثم X=70000."
+  },
+  {
+    "id": 309,
+    "type": "Data Sufficiency",
+    "original_id": 309,
+    "difficulty": "Easy",
+    "question": "If a building has 6,000 square meters of floor space, how many offices are in the building?",
+    "options": {
+      "1": "Exactly 1/4 of the floor space is not used for offices.",
+      "2": "There are exactly 20 executive offices, and each of these occupies 3 times as much floor space as the average for all of the remaining offices."
+    },
+    "correct_answer": "E",
+    "explanation": "البيان الأول يعطي المساحة المستخدمة للمكاتب (4500 م²) ولكن لا يعطي عدد المكاتب. الثاني يعطي عدد المكاتب التنفيذية وعلاقة حجمها بمتوسط باقي المكاتب، ولكن لا يعطي الحجم الفعلي لأي مكتب، فلا يمكن تحديد العدد الكلي."
+  },
+  {
+    "id": 310,
+    "type": "Data Sufficiency",
+    "original_id": 310,
+    "difficulty": "Easy",
+    "question": "For which type of investment, J or K, is the annual rate of return greater?",
+    "options": {
+      "1": "Type J returns $115 per $1,000 invested for any one-year period, and Type K returns $300 per $2,500 invested for any one-year period.",
+      "2": "The annual rate of return for an investment of Type K is 12%."
+    },
+    "correct_answer": "A",
+    "explanation": "البيان الأول يعطي معدل العائد لكل نوع: J = 11.5%، K = 12%، فيمكن المقارنة. الثاني يعطي فقط K ولا يعطي J."
+  },
+  {
+    "id": 311,
+    "type": "Data Sufficiency",
+    "original_id": 311,
+    "difficulty": "Easy",
+    "question": "If Car X followed Car Y across a certain bridge that is 1/2 mile long, how many seconds did it take Car X to travel across the bridge?",
+    "options": {
+      "1": "Car X drove onto the bridge exactly 3 seconds after Car Y drove onto the bridge and drove off the bridge exactly 2 seconds after Car Y drove off the bridge.",
+      "2": "Car Y traveled across the bridge at a constant speed of 30 miles per hour."
+    },
+    "correct_answer": "C",
+    "explanation": "البيان الأول يعطي أن X استغرق ثانية واحدة أقل من Y. الثاني يعطي سرعة Y، فيمكن حساب زمن Y = 60 ثانية، وبالتالي زمن X = 59 ثانية."
+  },
+  {
+    "id": 312,
+    "type": "Data Sufficiency",
+    "original_id": 312,
+    "difficulty": "Easy",
+    "question": "Will Candidate A win the most votes of any of the competing candidates in the upcoming election?",
+    "options": {
+      "1": "An opinion poll, Poll P, indicates that 60% of respondents prefer Candidate A over other candidates competing in the upcoming election.",
+      "2": "An election-forecasting opinion poll is a method to estimate election outcomes based on a sample that is representative of the population of all of those legally entitled to vote."
+    },
+    "correct_answer": "E",
+    "explanation": "البيان الأول يعطي نتيجة استطلاع غير مضمونة الدقة، والثاني يعرف الاستطلاع لكن لا يثبت أنه ممثل. معاً لا يضمنان فوز المرشح A."
+  },
+  {
+    "id": 313,
+    "type": "Data Sufficiency",
+    "original_id": 313,
+    "difficulty": "Easy",
+    "question": "The government of Nation X makes policy decisions intended to advance the public interest, such as policy decisions aiming to promote employment, economic flourishing, and environmental protection. A policy decision can involve a significant trade-off, i.e., it can entail foreseeably giving up part or all of one valued outcome in the pursuit of another valued outcome. Does a policy decision by Nation X to permit extensive clearcutting of forests provide a valued outcome at the expense of another valued outcome?",
+    "options": {
+      "1": "Extensive clearcutting of forests is permitted in Nation X because it provides immediate economic gains by enabling businesses such as farming and lumbering to flourish and provide employment.",
+      "2": "Extensive clearcutting of forests is permitted in Nation X even though it reduces forests' absorption of carbon dioxide, and this indirectly contributes to global warming, resulting in adverse climate changes that are certain to be very costly for Nation X to manage."
+    },
+    "correct_answer": "C",
+    "explanation": "البيان الأول يظهر فائدة اقتصادية، والثاني يظهر ضرراً بيئياً. معاً يثبتان وجود مقايضة."
+  },
+  {
+    "id": 314,
+    "type": "Data Sufficiency",
+    "original_id": 314,
+    "difficulty": "Easy",
+    "question": "Is Sarah's mathematics test score higher than the class average?",
+    "options": {
+      "1": "Sarah scored 90% on her mathematics test, answering 45 out of 50 questions correctly.",
+      "2": "Sarah's high percentage score indicates that she performed exceptionally well, with only a few questions answered incorrectly."
+    },
+    "correct_answer": "E",
+    "explanation": "كلا البيانين يعطيان معلومات عن سارة فقط، ولا يعطيان أي معلومات عن متوسط الفصل، فلا يمكن المقارنة."
+  },
+  {
+    "id": 315,
+    "type": "Data Sufficiency",
+    "original_id": 315,
+    "difficulty": "Easy",
+    "question": "On Day X, was the forecast temperature 36°C at noon?",
+    "options": {
+      "1": "On Day X, the forecast temperature was 30°C at 9:00 a.m. and 40°C at 2:00 p.m.",
+      "2": "On Day X, every half hour, the forecast temperature increased by 1°C."
+    },
+    "correct_answer": "C",
+    "explanation": "البيان الأول يعطي درجتين حرارة في وقتين، والثاني يقول أن الزيادة منتظمة بمقدار 1°C كل نصف ساعة. من الساعة 9 إلى 12 (3 ساعات = 6 فترات نصف ساعة) تزيد 6°C، فتصبح 36°C عند الظهر."
+  },
+  {
+    "id": 316,
+    "type": "Data Sufficiency",
+    "original_id": 316,
+    "difficulty": "Easy",
+    "question": "Benjamin is a salesman working for commission at a shoe store. For the first $1,000 worth of sales in a given month, he earns a commission of 2%. For any sales he makes after the first $1,000 in that month, he earns a commission of 4%. What is the total dollar value of sales made by Benjamin in the month of March?",
+    "options": {
+      "1": "Benjamin earned a commission of $120 in March.",
+      "2": "Benjamin doubled the dollar value of his sales in March compared to his sales in February."
+    },
+    "correct_answer": "A",
+    "explanation": "البيان الأول: عمولة أول 1000 = 20$، المتبقي 100$ يمثل 4% من المبيعات الإضافية، فالمبيعات الإضافية = 2500$، والإجمالي = 3500$. الثاني لا يعطي قيمة محددة."
+  },
+  {
+    "id": 317,
+    "type": "Data Sufficiency",
+    "original_id": 317,
+    "difficulty": "Easy",
+    "question": "What is the length of Train A if it crosses Bridge X in 30 seconds from the moment it enters the bridge to the moment its final carriage exits the bridge?",
+    "options": {
+      "1": "Train B, which is 200 meters long, traveling at a constant speed of 20 meters per second, crosses Bridge X in 40 seconds.",
+      "2": "The end of Train A, which is traveling at a constant speed, passes a pole in 10 seconds from the moment the train meets the pole."
+    },
+    "correct_answer": "E",
+    "explanation": "البيان الأول يعطي طول الجسر (من خلال Train B) ولكن لا يعطي سرعة Train A. الثاني يعطي زمن عبور Train A لعمود ولكن بدون سرعة. معاً لا يمكن حساب طول Train A لأننا لا نعرف سرعته."
+  },
+  {
+    "id": 318,
+    "type": "Data Sufficiency",
+    "original_id": 318,
+    "difficulty": "Easy",
+    "question": "Solomon leases space for his barber shop, and his landlord has recently increased the rent by 40%. Solomon wants to increase his monthly revenue to pay the increased rent without affecting his net income. By what percentage must he increase his revenue?",
+    "options": {
+      "1": "20% of his previous monthly revenue was used to pay the rent before the landlord increased it.",
+      "2": "The new rent is $50 more than the previous rent."
+    },
+    "correct_answer": "A",
+    "explanation": "البيان الأول: الإيجار القديم = 20% من الإيراد. الزيادة 40% من الإيجار = 40% × 20% = 8% من الإيراد. إذن يجب زيادة الإيراد بنسبة 8% لتعويض الزيادة. الثاني يعطي زيادة نقدية ولكن لا يعطي نسبة إلى الإيراد."
+  },
+  {
+    "id": 319,
+    "type": "Data Sufficiency",
+    "original_id": 319,
+    "difficulty": "Easy",
+    "question": "What is the ratio of the amount, by weight, of Metal A to Metal B in Alloy K?",
+    "options": {
+      "1": "The ratio of Metal A to Metal B in Alloy K becomes 5:6 when 40 pounds of Metal A is added to the alloy.",
+      "2": "The ratio of Metal A to Metal B in Alloy K becomes 7:6 when 60 pounds of Metal A is added to the alloy."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض أن الوزن الأصلي لـ A = a، B = b. البيان الأول: (a+40)/b = 5/6. البيان الثاني: (a+60)/b = 7/6. بحل المعادلتين نجد a و b والنسبة."
+  },
+  {
+    "id": 320,
+    "type": "Data Sufficiency",
+    "original_id": 320,
+    "difficulty": "Easy",
+    "question": "Train A started from Station X toward Station Y traveling at a constant speed, and on the same day, on a parallel track, Train B started from Station Y toward Station X at a constant speed. At what time did Train A reach Station Y?",
+    "options": {
+      "1": "The two trains met at 3:00 p.m. The distance traveled by Train A was twice the distance traveled by Train B by the time they met.",
+      "2": "The ratio between the speeds of Trains A and B is 3:5. Train B started from Station Y at 6:00 a.m."
+    },
+    "correct_answer": "C",
+    "explanation": "البيان الأول يعطي أن المسافة التي قطعها A حتى اللقاء = ضعف مسافة B، أي أن A قطع 2/3 المسافة الكلية، و B قطع 1/3. البيان الثاني يعطي نسبة السرعات ووقت انطلاق B. من وقت اللقاء 3:00، B قطع 1/3 المسافة في 9 ساعات (من 6 صباحاً إلى 3 مساءً)، إذن سرعة B = (1/3 المسافة)/9. ونسبة السرعات 3:5 تعطي سرعة A، ومنها يمكن حساب الوقت المتبقي لـ A بعد اللقاء. معاً كافيان."
+  },
+  {
+    "id": 321,
+    "type": "Data Sufficiency",
+    "original_id": 321,
+    "difficulty": "Easy",
+    "question": "Pipes A and B are the pipes that fill a tank. Pipes C and D are the pipes that empty the same tank. What is the capacity of the tank?",
+    "options": {
+      "1": "Pipe A is twice as efficient as Pipe C, that is, the volume of water per hour that Pipe A moves is twice the volume per hour that Pipe C moves. Pipe A and Pipe B are equally efficient. When Pipes C and D are closed, Pipes A and B together fill the empty tank in 5 hours. Pipe C empties 6,000 liters per hour.",
+      "2": "Pipe B is three times as efficient as Pipe D."
+    },
+    "correct_answer": "A",
+    "explanation": "البيان الأول: C تفرغ 6000 لتر/ساعة، و A تضاعفها أي 12000 لتر/ساعة، و A و B متساويان، إذن B أيضا 12000. معاً A+B = 24000 لتر/ساعة، ويملآن الخزان في 5 ساعات، فالسعة = 24000×5 = 120000 لتر. الثاني لا يكفي."
+  },
+  {
+    "id": 322,
+    "type": "Data Sufficiency",
+    "original_id": 322,
+    "difficulty": "Medium",
+    "question": "What is the total number of executives at Company P?",
+    "options": {
+      "1": "The number of male executives is 3/5 the number of female executives.",
+      "2": "There are 4 more female executives than male executives."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض عدد الذكور M والإناث F. البيان الأول: M = 3/5 F. البيان الثاني: F = M+4. بحل المعادلتين نجد F=10, M=6، المجموع 16."
+  },
+  {
+    "id": 323,
+    "type": "Data Sufficiency",
+    "original_id": 323,
+    "difficulty": "Medium",
+    "question": "Jack picked 76 apples. Of these, he sold 4y apples to Juanita and 3t apples to Sylvia. If he kept the remaining apples, how many apples did he keep? (t and y are positive integers.)",
+    "options": {
+      "1": "y ≥ 15 and t = 2",
+      "2": "y = 17"
+    },
+    "correct_answer": "C",
+    "explanation": "المتبقي = 76 - 4y - 3t. البيان الأول: t=2, y≥15، لكن y متغير فيعطي عدة قيم. الثاني: y=17، فيعطي 76-68-3t = 8-3t، وt متغير. معاً: y=17, t=2 => المتبقي = 76 - 68 - 6 = 2."
+  },
+  {
+    "id": 324,
+    "type": "Data Sufficiency",
+    "original_id": 324,
+    "difficulty": "Medium",
+    "question": "The total price of 5 pounds of regular coffee and 3 pounds of decaffeinated coffee was $21.50. What was the price of the 5 pounds of regular coffee?",
+    "options": {
+      "1": "If the price of the 5 pounds of regular coffee had been reduced 10 percent and the price of the 3 pounds of decaffeinated coffee had been reduced 20 percent, the total price would have been $18.45.",
+      "2": "The price of the 5 pounds of regular coffee was $3.50 more than the price of the 3 pounds of decaffeinated coffee."
+    },
+    "correct_answer": "D",
+    "explanation": "نفرض سعر القهوة العادية = x، والمنزوعة الكافيين = y. المعادلة: x+y=21.5. البيان الأول: 0.9x+0.8y=18.45، بحل المعادلتين نجد x. البيان الثاني: x = y+3.5، بحل مع x+y=21.5 نجد x. كل منهما كافٍ."
+  },
+  {
+    "id": 325,
+    "type": "Data Sufficiency",
+    "original_id": 325,
+    "difficulty": "Medium",
+    "question": "A certain painting job requires a mixture of yellow, green, and white paint. If 12 quarts of paint are needed for the job, how many quarts of green paint are needed?",
+    "options": {
+      "1": "The ratio of the amount of green paint to the amount of yellow and white paint combined needs to be 1 to 3.",
+      "2": "The ratio of the amount of yellow paint to the amount of green paint needs to be 3 to 2."
+    },
+    "correct_answer": "A",
+    "explanation": "البيان الأول: G/(Y+W) = 1/3 => Y+W = 3G، والكل 12 = G+3G = 4G => G=3. الثاني يعطي علاقة بين Y و G فقط ولا يعطي W، فلا يمكن تحديد G."
+  },
+  {
+    "id": 326,
+    "type": "Data Sufficiency",
+    "original_id": 326,
+    "difficulty": "Medium",
+    "question": "A company produces a certain toy in only 2 sizes, small or large, and in only 2 colors, red or green. If, for each size, there are equal numbers of red and green toys in a certain production lot, what fraction of the total number of green toys is large?",
+    "options": {
+      "1": "In the production lot, 400 of the small toys are green.",
+      "2": "In the production lot, 2/3 of the toys produced are small."
+    },
+    "correct_answer": "B",
+    "explanation": "نفرض أن عدد الصغير لكل لون = s، والكبير لكل لون = l. المطلوب: l/(s+l). البيان الثاني: 2s/(2s+2l) = 2/3 => 6s = 4s+4l => 2s=4l => s=2l، إذن النسبة = l/(3l) = 1/3. الأول لا يكفي."
+  },
+  {
+    "id": 327,
+    "type": "Data Sufficiency",
+    "original_id": 327,
+    "difficulty": "Medium",
+    "question": "Jones has worked at Firm X twice as many years as Green, and Green has worked at Firm X four years longer than Smith. How many years has Green worked at Firm X?",
+    "options": {
+      "1": "Jones has worked at Firm X 9 years longer than Smith.",
+      "2": "Green has worked at Firm X 5 years less than Jones."
+    },
+    "correct_answer": "D",
+    "explanation": "نفرض J, G, S. J=2G, G=S+4. البيان الأول: J=S+9 => 2G = (G-4)+9 => G=5. البيان الثاني: G=J-5 => G=2G-5 => G=5. كل منهما كافٍ."
+  },
+  {
+    "id": 328,
+    "type": "Data Sufficiency",
+    "original_id": 328,
+    "difficulty": "Medium",
+    "question": "On June 1, Mary paid Omar $360 for rent and utilities for the month of June. Mary moved out early, and Omar refunded the money she paid for utilities, but not for rent, for the days in June after she moved out. How many dollars did Omar refund to Mary?",
+    "options": {
+      "1": "Mary moved out on June 24.",
+      "2": "The amount Mary paid for utilities was less than 1/5 the amount Mary paid for rent."
+    },
+    "correct_answer": "E",
+    "explanation": "البيان الأول يعطي عدد الأيام، لكن لا يعرف قيمة المرافق. الثاني يعطي علاقة فقط. معاً، يمكن أن تكون قيم مختلفة للمرافق تحقق الشرط، وبالتالي مبالغ استرداد مختلفة."
+  },
+  {
+    "id": 329,
+    "type": "Data Sufficiency",
+    "original_id": 329,
+    "difficulty": "Medium",
+    "question": "The 10 students in a history class recently took an examination. What was the maximum score on the examination?",
+    "options": {
+      "1": "The mean of the scores was 75.",
+      "2": "The standard deviation of the scores was 5."
+    },
+    "correct_answer": "E",
+    "explanation": "معرفة المتوسط والانحراف المعياري لا تحدد القيمة العظمى، فهناك عدة توزيعات ممكنة بنفس المتوسط والانحراف المعياري تعطي قيمًا عظمى مختلفة."
+  },
+  {
+    "id": 330,
+    "type": "Data Sufficiency",
+    "original_id": 330,
+    "difficulty": "Medium",
+    "question": "Last school year, each of the 200 students at a certain high school attended the school for the entire year. If there were 8 cultural performances at the school during the last school year, what was the average (arithmetic mean) number of students attending each cultural performance?",
+    "options": {
+      "1": "Last school year, each student attended at least one cultural performance.",
+      "2": "Last school year, the average number of cultural performances attended per student was 4."
+    },
+    "correct_answer": "B",
+    "explanation": "البيان الثاني: متوسط عدد العروض لكل طالب = 4، إذن إجمالي الحضور = 4×200=800، وبما أن هناك 8 عروض، فالمتوسط لكل عرض = 800/8=100. الأول لا يكفي."
+  },
+  {
+    "id": 331,
+    "type": "Data Sufficiency",
+    "original_id": 331,
+    "difficulty": "Medium",
+    "question": "A clothing manufacturer makes jackets that are wool or cotton or a combination of wool and cotton. The manufacturer has 3,000 pounds of wool and 2,000 pounds of cotton on hand. Is this enough wool and cotton to make at least 1,000 jackets?",
+    "options": {
+      "1": "Each wool jacket requires 4 pounds of wool, and no cotton.",
+      "2": "Each cotton jacket requires 6 pounds of cotton, and no wool."
+    },
+    "correct_answer": "C",
+    "explanation": "البيان الأول: يمكن صنع 750 سترة صوف كحد أقصى (3000/4). الثاني: يمكن صنع 333 سترة قطن كحد أقصى (2000/6≈333). معاً يمكن صنع 750+333=1083 > 1000."
+  },
+  {
+    "id": 332,
+    "type": "Data Sufficiency",
+    "original_id": 332,
+    "difficulty": "Medium",
+    "question": "Each month, Jim receives a base salary plus a 10 percent commission on the price of each car he sells that month. If Jim sold 15 cars last month, what was the total amount of base salary and commissions that Jim received that month?",
+    "options": {
+      "1": "Last month, Jim's base salary was $3,000.",
+      "2": "Last month, Jim sold 3 cars whose prices totaled $60,000 and 5 cars whose prices totaled $120,000."
+    },
+    "correct_answer": "E",
+    "explanation": "البيان الأول يعطي الراتب الأساسي لكن لا يعطي أسعار السيارات. الثاني يعطي أسعار 8 سيارات فقط، ويغفل الـ 7 سيارات الأخرى. معاً لا نعرف أسعار السيارات السبع المتبقية."
+  },
+  {
+    "id": 333,
+    "type": "Data Sufficiency",
+    "original_id": 333,
+    "difficulty": "Medium",
+    "question": "By what percentage was the price of a certain television set discounted for a sale?",
+    "options": {
+      "1": "The price of the television set before it was discounted for the sale was 25 percent greater than the discounted price.",
+      "2": "The price of the television set was discounted by $60 for the sale."
+    },
+    "correct_answer": "A",
+    "explanation": "البيان الأول: السعر الأصلي = 1.25 × السعر المخفض، إذن نسبة الخصم = (1.25-1)/1.25 = 0.2 = 20%. الثاني يعطي قيمة الخصم فقط ولا يعطي السعر الأصلي."
+  },
+  {
+    "id": 334,
+    "type": "Data Sufficiency",
+    "original_id": 334,
+    "difficulty": "Medium",
+    "question": "A paint mixture was formed by mixing exactly 3 colors of paint. By volume, the mixture was x% blue paint, y% green paint, and z% red paint. If exactly 1 gallon of blue paint and 3 gallons of red paint were used, how many gallons of green paint were used?",
+    "options": {
+      "1": "x = y",
+      "2": "z = 60"
+    },
+    "correct_answer": "D",
+    "explanation": "نعلم أن النسب المئوية: x+y+z=100، وكميات: (x/100)T=1، (z/100)T=3، إذن z=3x. البيان الأول: x=y، فيكون y/100 T = 1، أي كمية الأخضر = 1 جالون. الثاني: z=60، فيكون T=5 جالون، والأخضر = 5-1-3=1 جالون. كل منهما كافٍ."
+  },
+  {
+    "id": 335,
+    "type": "Data Sufficiency",
+    "original_id": 335,
+    "difficulty": "Medium",
+    "question": "For a basic monthly fee of F yen (¥F), Naoko's first cell phone plan allowed him to use a maximum of 420 minutes on calls during the month. Then, for each of x additional minutes he used on calls, he was charged ¥M, making his total charge for the month ¥T, where T = F + xM. What is the value of F?",
+    "options": {
+      "1": "Naoko used 450 minutes on calls the first month, and the total charge for the month was ¥13,755.",
+      "2": "Naoko used 400 minutes on calls the second month, and the total charge for the month was ¥13,125."
+    },
+    "correct_answer": "B",
+    "explanation": "البيان الأول: 450 دقيقة تعني 30 دقيقة إضافية، فالمعادلة: F + 30M = 13755، معادلة بمجهولين. الثاني: 400 دقيقة أقل من 420، فلا توجد رسوم إضافية، إذن F = 13125."
+  },
+  {
+    "id": 336,
+    "type": "Data Sufficiency",
+    "original_id": 336,
+    "difficulty": "Medium",
+    "question": "Is the sum of the prices of the 3 books that Shana bought less than $48?",
+    "options": {
+      "1": "The price of the most expensive of the 3 books that Shana bought is less than $17.",
+      "2": "The price of the least expensive of the 3 books that Shana bought is exactly $3 less than the price of the second most expensive book."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض الأسعار مرتبة: a ≤ b ≤ c. البيان الأول: c < 17. الثاني: a = b-3. معاً: a < 14، b < 17، c < 17، فالمجموع < 14+17+17 = 48."
+  },
+  {
+    "id": 337,
+    "type": "Data Sufficiency",
+    "original_id": 337,
+    "difficulty": "Medium",
+    "question": "A company makes and sells two products, P and Q. The costs per unit of making and selling Products P and Q are $8.00 and $9.50, respectively, and the selling prices per unit of Products P and Q are $10.00 and $13.00, respectively. In one month, the company sold a total of 834 units of these products. Was the total profit on these items more than $2,000.00?",
+    "options": {
+      "1": "During the month, more units of Product P than units of Product Q were sold.",
+      "2": "During the month, at least 100 units of Product Q were sold."
+    },
+    "correct_answer": "E",
+    "explanation": "ربح P = 2$ لكل وحدة، ربح Q = 3.5$ لكل وحدة. عدد الوحدات الكلي 834. البيان الأول: P > Q، ولكن لا يعطي القيم الدقيقة. الثاني: Q ≥ 100. معاً لا نعرف القيم الدقيقة، فالربح قد يكون أكثر أو أقل من 2000 حسب التوزيع."
+  },
+  {
+    "id": 338,
+    "type": "Data Sufficiency",
+    "original_id": 338,
+    "difficulty": "Medium",
+    "question": "Jill has applied for a job with each of two different companies. What is the probability that she will get job offers from both companies?",
+    "options": {
+      "1": "The probability that she will get a job offer from neither company is 0.3.",
+      "2": "The probability that she will get a job offer from exactly one of the two companies is 0.5."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض P(كلاهما) = x، P(واحد) = y، P(لا شيء) = z. لدينا x+y+z=1. البيان الأول: z=0.3، الثاني: y=0.5، إذن x=1-0.5-0.3=0.2."
+  },
+  {
+    "id": 339,
+    "type": "Data Sufficiency",
+    "original_id": 339,
+    "difficulty": "Medium",
+    "question": "A certain computer company produces two different monitors, P and Q. In 2010, what was the net profit from the sale of the two monitors?",
+    "options": {
+      "1": "Of the company's expenses in 2010, rent and utilities totaled $500,000.",
+      "2": "In 2010, the company sold 50,000 units of Monitor P at $300 per unit and 30,000 units of Monitor Q at $650 per unit."
+    },
+    "correct_answer": "E",
+    "explanation": "الربح = الإيرادات - المصروفات. البيان الثاني يعطي الإيرادات، والبيان الأول يعطي جزءاً من المصروفات فقط (الإيجار والمرافق) وليس كل المصروفات. معاً لا يمكن تحديد الربح الصافي."
+  },
+  {
+    "id": 340,
+    "type": "Data Sufficiency",
+    "original_id": 340,
+    "difficulty": "Medium",
+    "question": "A conveyor belt moves bottles at a constant speed of 120 centimeters per second. If the conveyor belt moves a bottle from a loading dock to an unloading dock, is the distance that the conveyor belt moves the bottle less than 90 meters? (1 meter = 100 centimeters)",
+    "options": {
+      "1": "It takes the conveyor belt less than 1.2 minutes to move the bottle from the loading dock to the unloading dock.",
+      "2": "It takes the conveyor belt more than 1.1 minutes to move the bottle from the loading dock to the unloading dock."
+    },
+    "correct_answer": "A",
+    "explanation": "السرعة = 120 سم/ث = 1.2 م/ث. المسافة 90 م تحتاج زمن 90/1.2 = 75 ثانية = 1.25 دقيقة. البيان الأول: الزمن < 1.2 دقيقة = 72 ثانية < 75، إذن المسافة < 90 م. الثاني: الزمن > 1.1 دقيقة = 66 ثانية، قد يكون أقل أو أكثر من 75."
+  },
+  {
+    "id": 341,
+    "type": "Data Sufficiency",
+    "original_id": 341,
+    "difficulty": "Medium",
+    "question": "In a product test of a common cold remedy, x percent of the patients tested experienced side effects from the use of the drug and y percent experienced relief of cold symptoms. What percent of the patients tested experienced both side effects and relief of cold symptoms?",
+    "options": {
+      "1": "Of the 1,000 patients tested, 15 percent experienced neither side effects nor relief of cold symptoms.",
+      "2": "Of the patients tested, 30 percent experienced relief of cold symptoms without side effects."
+    },
+    "correct_answer": "E",
+    "explanation": "نفرض أن a = آثار جانبية فقط، b = كلاهما، c = تخفيف فقط، d = لا شيء. المعطيات: a+b = x% من T، b+c = y% من T، و T=1000. البيان الأول: d=150 (15%). البيان الثاني: c=300 (30%). لكن لا نعرف a أو b تحديداً، فهناك عدة قيم ممكنة لـ b."
+  },
+  {
+    "id": 342,
+    "type": "Data Sufficiency",
+    "original_id": 342,
+    "difficulty": "Medium",
+    "question": "Three roommates—Bela, Gyorgy, and Janos—together saved money for a trip. The amount that Bela saved was equal to 8% of his monthly income. The amount that Gyorgy saved was exactly 1/3 of the total amount saved by all 3 roommates. What was the total amount saved for the trip by all 3 roommates?",
+    "options": {
+      "1": "Bela had a monthly income of $2,000.",
+      "2": "Janos saved 1.5 times as much for the trip as Bela."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض B, G, J. G = 1/3 (B+G+J) => 2G = B+J => G = (B+J)/2. البيان الأول: B = 0.08×2000 = 160$. الثاني: J = 1.5B = 240$. إذن G = (160+240)/2 = 200$. المجموع = 160+200+240 = 600$."
+  },
+  {
+    "id": 343,
+    "type": "Data Sufficiency",
+    "original_id": 343,
+    "difficulty": "Medium",
+    "question": "In each game of a certain tournament, a contestant either loses 3 points or gains 2 points. If Pat had 100 points at the beginning of the tournament, how many games did Pat play in the tournament?",
+    "options": {
+      "1": "At the end of the tournament, Pat had 104 points.",
+      "2": "Pat played fewer than 10 games."
+    },
+    "correct_answer": "E",
+    "explanation": "نفرض عدد الخسائر = x، وعدد المكاسب = y. النتيجة: 100 - 3x + 2y = 104 => -3x+2y=4. يمكن حل المعادلة بعدة قيم صحيحة (x=0,y=2) يعطي مجموع 2، و (x=2,y=5) يعطي مجموع 7، وكلاهما أقل من 10. معاً لا نحدد قيمة فريدة."
+  },
+  {
+    "id": 344,
+    "type": "Data Sufficiency",
+    "original_id": 344,
+    "difficulty": "Medium",
+    "question": "At the beginning of the year, the Finance Committee and the Planning Committee of a certain company each had n members, and no one was a member of both committees. At the end of the year, 5 members left the Finance Committee and 3 members left the Planning Committee. How many members did the Finance Committee have at the beginning of the year?",
+    "options": {
+      "1": "The ratio of the total number of members who left at the end of the year to the total number of members at the beginning of the year was 1:6.",
+      "2": "At the end of the year, 21 members remained on the Planning Committee."
+    },
+    "correct_answer": "D",
+    "explanation": "البيان الأول: إجمالي المغادرين = 5+3=8، وإجمالي البداية = 2n، والنسبة 8/2n = 1/6 => n=24. الثاني: في نهاية السنة، بقي في لجنة التخطيط n-3 = 21 => n=24. كل منهما كافٍ."
+  },
+  {
+    "id": 345,
+    "type": "Data Sufficiency",
+    "original_id": 345,
+    "difficulty": "Medium",
+    "question": "Max purchased a guitar for a total of $624, which consisted of the price of the guitar and the sales tax. Was the sales tax rate greater than 3 percent?",
+    "options": {
+      "1": "The price of the guitar that Max purchased was less than $602.",
+      "2": "The sales tax for the guitar that Max purchased was less than $30."
+    },
+    "correct_answer": "A",
+    "explanation": "نفرض السعر P، والضريبة r%. المعادلة: P(1+r/100)=624. البيان الأول: P<602 => 624/P > 624/602 ≈ 1.0365، أي r% > 3.65% > 3%. الثاني: الضريبة <30، أي r% من P <30. قد تكون النسبة أقل من 3% إذا كان P كبيراً (مثلاً P=600, r=4% يعطي ضريبة 24<30 ولكن r>3%)، وقد تكون أقل من 3% إذا كان P=610, r=2% يعطي ضريبة 12.2<30. الثاني غير كافٍ."
+  },
+  {
+    "id": 346,
+    "type": "Data Sufficiency",
+    "original_id": 346,
+    "difficulty": "Medium",
+    "question": "Was the number of books sold at Bookstore X last week greater than the number of books sold at Bookstore Y last week?",
+    "options": {
+      "1": "Last week, more than 1,000 books were sold at Bookstore X on Saturday and fewer than 1,000 books were sold at Bookstore Y on Saturday.",
+      "2": "Last week, less than 20 percent of the books sold at Bookstore X were sold on Saturday and more than 20 percent of the books sold at Bookstore Y were sold on Saturday."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض X_s = مبيعات X يوم السبت، X_total = إجمالي X، وكذلك Y. البيان الأول: X_s > 1000، Y_s < 1000. الثاني: X_s < 0.2 X_total => X_total > 5X_s > 5000. و Y_s > 0.2 Y_total => Y_total < 5Y_s < 5000. إذن X_total > 5000 > Y_total."
+  },
+  {
+    "id": 347,
+    "type": "Data Sufficiency",
+    "original_id": 347,
+    "difficulty": "Medium",
+    "question": "From May 1 to May 30 in the same year, the balance in a checking account increased. What was the balance in the checking account on May 30?",
+    "options": {
+      "1": "If, during this period of time, the increase in the balance in the checking account had been 12 percent, then the balance in the account on May 30 would have been $504.",
+      "2": "During this period of time, the increase in the balance in the checking account was 8 percent."
+    },
+    "correct_answer": "C",
+    "explanation": "البيان الأول: لو كانت الزيادة 12%، كان الرصيد 504، أي الرصيد في 1 مايو = 504/1.12 = 450. الثاني: الزيادة الفعلية 8%، فالرصيد في 30 مايو = 450×1.08 = 486."
+  },
+  {
+    "id": 348,
+    "type": "Data Sufficiency",
+    "original_id": 348,
+    "difficulty": "Medium",
+    "question": "A merchant discounted the sale price of a coat and the sale price of a sweater. Which of the two articles of clothing was discounted by the greater dollar amount?",
+    "options": {
+      "1": "The percent discount on the coat was 2 percentage points greater than the percent discount on the sweater.",
+      "2": "Before the discounts, the sale price of the coat was $10 less than the sale price of the sweater."
+    },
+    "correct_answer": "E",
+    "explanation": "المبلغ المخفض = النسبة × السعر الأصلي. البيان الأول يعطي فرق النسب، والثاني يعطي فرق الأسعار. لا توجد معلومات كافية لتحديد أي خصم أكبر، لأن النتيجة تعتمد على الأسعار الفعلية."
+  },
+  {
+    "id": 349,
+    "type": "Data Sufficiency",
+    "original_id": 349,
+    "difficulty": "Medium",
+    "question": "If the positive integer n is added to each of the integers 69, 94, and 121, what is the value of n?",
+    "options": {
+      "1": "69+n and 94+n are the squares of two consecutive integers.",
+      "2": "94+n and 121+n are the squares of two consecutive integers."
+    },
+    "correct_answer": "D",
+    "explanation": "البيان الأول: الفرق بين المربعين = (94+n)-(69+n) = 25. أي (k+1)^2 - k^2 = 25 => 2k+1=25 => k=12. إذن 69+n = 144 => n=75. الثاني: الفرق = 27 => 2k+1=27 => k=13، إذن 94+n=169 => n=75. كل منهما كافٍ."
+  },
+  {
+    "id": 350,
+    "type": "Data Sufficiency",
+    "original_id": 350,
+    "difficulty": "Medium",
+    "question": "If a merchant purchased a sofa from a manufacturer for $400 and then sold it, what was the selling price of the sofa?",
+    "options": {
+      "1": "The selling price of the sofa was greater than 140 percent of the purchase price.",
+      "2": "The merchant's gross profit from the purchase and sale of the sofa was 1/3 of the selling price."
+    },
+    "correct_answer": "B",
+    "explanation": "البيان الأول: سعر البيع > 1.4×400 = 560، ولكن لا يعطي قيمة محددة. الثاني: الربح = سعر البيع - 400 = (1/3) سعر البيع => (2/3) سعر البيع = 400 => سعر البيع = 600."
+  },
+  {
+    "id": 351,
+    "type": "Data Sufficiency",
+    "original_id": 351,
+    "difficulty": "Medium",
+    "question": "Last year, in a certain housing development, the average (arithmetic mean) price of 20 new houses was $160,000. Did more than 9 of the 20 houses have prices that were less than the average price last year?",
+    "options": {
+      "1": "Last year, the greatest price of one of the 20 houses was $219,000.",
+      "2": "Last year, the median of the prices of the 20 houses was $150,000."
+    },
+    "correct_answer": "B",
+    "explanation": "البيان الثاني: الوسيط = 150,000 يعني أن متوسط العاشر والحادي عشر = 150,000، وبالتالي العاشر ≤ 150,000، والتسعة قبله أيضاً ≤ 150,000. إذن هناك 10 منازل على الأقل أقل من المتوسط 160,000. الإجابة هي نعم. الأول لا يكفي."
+  },
+  {
+    "id": 352,
+    "type": "Data Sufficiency",
+    "original_id": 352,
+    "difficulty": "Medium",
+    "question": "For a certain city's library, the average cost of purchasing each new book is $28. The library receives $15,000 from the city each year; the library also receives a bonus of $2,000 if the total number of items checked out over the course of the year exceeds 5,000. Did the library receive the bonus last year?",
+    "options": {
+      "1": "The library purchased an average of 50 new books each month last year and received enough money from the city to cover this cost.",
+      "2": "The lowest number of items checked out in one month was 459."
+    },
+    "correct_answer": "D",
+    "explanation": "البيان الأول: اشترى 50 كتاباً شهرياً = 600 كتاب، التكلفة = 600×28 = 16800$. استلم 15000$ من المدينة، ولكنه استلم مبلغاً كافياً لتغطية التكلفة، أي أنه حصل على المكافأة 2000$. الثاني: أقل شهر كان 459، إذن إجمالي السنة ≥ 12×459 = 5508 > 5000، فحصل على المكافأة. كل منهما كافٍ."
+  },
+  {
+    "id": 353,
+    "type": "Data Sufficiency",
+    "original_id": 353,
+    "difficulty": "Medium",
+    "question": "[7,9,6,4,5,x] If x is a number in the list above, what is the median of the list?",
+    "options": {
+      "1": "x > 7",
+      "2": "The median of the list equals the arithmetic mean of the list."
+    },
+    "correct_answer": "A",
+    "explanation": "البيان الأول: x>7، فالترتيب سيكون 4,5,6,7,x,9 (أو 4,5,6,7,9,x) والوسيط = (6+7)/2 = 6.5. الثاني: قد يكون x=2 فيكون الوسيط 5.5 والمتوسط 5.5، أو x=8 فيكون الوسيط 6.5 والمتوسط 6.5، فلا يتحدد."
+  },
+  {
+    "id": 354,
+    "type": "Data Sufficiency",
+    "original_id": 354,
+    "difficulty": "Medium",
+    "question": "Three dice, each of which has its 6 sides numbered 1 through 6, are tossed. The sum of the 3 numbers that are facing up is 12. Is at least 1 of these numbers 5?",
+    "options": {
+      "1": "None of the 3 numbers that are facing up is divisible by 3.",
+      "2": "Of the numbers that are facing up, 2, but not all 3, are equal."
+    },
+    "correct_answer": "C",
+    "explanation": "المجموعات الممكنة لمجموع 12: (1,5,6), (2,4,6), (2,5,5), (3,3,6), (3,4,5), (4,4,4). البيان الأول: لا يوجد عدد يقبل القسمة على 3، فيستبعد (1,5,6) لأن 6، و (2,4,6) لأن 6، و (3,3,6)، (3,4,5) لأن 3، ويبقى (2,5,5) و (4,4,4) – الأول يحتوي على 5، والثاني لا. غير كافٍ. الثاني: يوجد عددان متساويان وليس الثلاثة، فيستبعد (4,4,4)، ويبقى (1,5,6) به 5، و (2,4,6) لا، و (2,5,5) به 5، و (3,4,5) به 5، و (3,3,6) لا. غير كافٍ. معاً: من الأول يبقى (2,5,5) و (4,4,4)، ومن الثاني يستبعد (4,4,4)، فيبقى (2,5,5) الذي يحتوي على 5."
+  },
+  {
+    "id": 355,
+    "type": "Data Sufficiency",
+    "original_id": 355,
+    "difficulty": "Medium",
+    "question": "Mohit went cycling on 10 consecutive days. Every day he started from Point X, cycled a certain distance in an easterly direction, and then returned to Point X. What is the total distance he covered in those 10 days?",
+    "options": {
+      "1": "From the second day onward, Mohit covered twice the distance he covered the previous day. On the fifth day, he covered 3.2 km from Point X east, and then back to Point X.",
+      "2": "On the first day, Mohit cycled less than 0.3 km."
+    },
+    "correct_answer": "A",
+    "explanation": "البيان الأول: اليوم الخامس = 3.2 كم ذهاباً وإياباً، أي المسافة الكلية لليوم الخامس = 6.4 كم. والمسافات تتضاعف يومياً، فيمكن حساب كل الأيام وإيجاد المجموع. الثاني لا يكفي."
+  },
+  {
+    "id": 356,
+    "type": "Data Sufficiency",
+    "original_id": 356,
+    "difficulty": "Medium",
+    "question": "Candidates A, B, and C competed in an election. This election usually comprises two rounds. In the first round, all three candidates compete. A candidate qualifies for the second round only if he/she receives at least 20% of the votes cast in the first round. If two candidates receive less than 20% of the votes cast, the other candidate wins the election by default. If a candidate receives more than 60% of the votes in the first round, he/she wins the election without the second round. Was there a second round of election?",
+    "options": {
+      "1": "The votes received by Candidates A and B together is 82% of the total votes cast.",
+      "2": "The votes received by Candidates C and B together is 42% of the total votes cast."
+    },
+    "correct_answer": "B",
+    "explanation": "البيان الثاني: C+B = 42%، إذن A = 58%. هذا يعني أن A لم يتجاوز 60%، و B أو C قد يكون أقل من 20%، لكن على الأقل واحد منهم حصل على 20% أو أكثر (لأن مجموعهم 42%، لو كان كلاهما أقل من 20% لكان المجموع <40%، لكنه 42%، إذن أحدهما على الأقل ≥20%)، وبالتالي ستكون هناك جولة ثانية. الأول لا يكفي."
+  },
+  {
+    "id": 357,
+    "type": "Data Sufficiency",
+    "original_id": 357,
+    "difficulty": "Medium",
+    "question": "There are a certain number of male and female students in a classroom. The weights of the male students range from 80 kg to 85 kg. The weights of the female students range from 70 kg to 75 kg. What is the average (arithmetic mean) weight of all the students in the classroom? All weights are rounded to the nearest 1 kg.",
+    "options": {
+      "1": "No two students weigh the same.",
+      "2": "The number of male students is equal to the number of female students."
+    },
+    "correct_answer": "E",
+    "explanation": "لا توجد معلومات عن عدد الطلاب أو توزيع الأوزان، حتى مع الشرطين لا يمكن حساب المتوسط."
+  },
+  {
+    "id": 358,
+    "type": "Data Sufficiency",
+    "original_id": 358,
+    "difficulty": "Medium",
+    "question": "An alloy, Alloy K, is made by mixing certain quantities of iron and lead. The total weight of the alloy is 50 kg. What is the ratio of the weight of iron to the weight of lead in Alloy K?",
+    "options": {
+      "1": "If 4 kg of iron were to be replaced with 4 kg of lead, the percentage of lead, by weight, in Alloy K would become 40%.",
+      "2": "The weight of iron per 100 cc is 0.7 times the weight of lead per 100 cc."
+    },
+    "correct_answer": "A",
+    "explanation": "البيان الأول: بعد الاستبدال، نسبة الرصاص = 40%، أي كمية الرصاص = 0.4×50 = 20 كجم. قبل الاستبدال، كان الرصاص = 20-4 = 16 كجم، والحديد = 50-16 = 34 كجم، والنسبة = 34:16. الثاني يعطي كثافة نسبية فقط ولا علاقة له بكميات السبيكة."
+  },
+  {
+    "id": 359,
+    "type": "Data Sufficiency",
+    "original_id": 359,
+    "difficulty": "Medium",
+    "question": "A box contains exactly 40 bottles, each of which contains only one of three types of soda—orange, lemon, and ginger. What is the probability of randomly selecting a ginger soda, without any replacement in the box, on each of 3 consecutive attempts?",
+    "options": {
+      "1": "The number of orange sodas is 5 more than the number of ginger sodas.",
+      "2": "The number of ginger sodas is 10 more than the number of lemon sodas."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض O, L, G. O+L+G=40. البيان الأول: O = G+5. الثاني: G = L+10 => L = G-10. بالتعويض: (G+5)+(G-10)+G = 40 => 3G -5 = 40 => G=15. إذن عدد الزنجبيل = 15، والاحتمال المطلوب = (15/40)×(14/39)×(13/38)."
+  },
+  {
+    "id": 360,
+    "type": "Data Sufficiency",
+    "original_id": 360,
+    "difficulty": "Medium",
+    "question": "Workers A, B, and C, working at their individual constant rates, can work together and complete a piece of work in 6 days. How long will it take for B and C alone to complete the work?",
+    "options": {
+      "1": "A is twice as efficient as B. B is three times as efficient as C.",
+      "2": "The time taken by A to do 9 units of work is the same as the time taken by B and C together to do 6 units of work."
+    },
+    "correct_answer": "D",
+    "explanation": "البيان الأول: معدلات A:B:C = 6:3:1 (لأن A=2B, B=3C => A=6C). العمل الكامل في 6 أيام، فيمكن حساب جزء العمل الذي ينجزه B و C معاً في 6 أيام، ومنه معرفة الزمن اللازم لهما وحدهما. الثاني: يعطي أن معدل A = (9/6) معدل (B+C) = 1.5 (B+C). وبما أن A+B+C يكملون العمل في 6 أيام، يمكن حساب زمن B+C. كل منهما كافٍ."
+  },
+  {
+    "id": 361,
+    "type": "Data Sufficiency",
+    "original_id": 361,
+    "difficulty": "Medium",
+    "question": "The students in College X must take two, and no more, of these five subjects: computing, electronics, mechanics, architecture, and psychology. Students who take computing cannot take psychology. Students who take electronics cannot take architecture. Students who take mechanics cannot take electronics. Is Student G, a student at College X, taking psychology?",
+    "options": {
+      "1": "Student G is taking architecture as one of her two subjects.",
+      "2": "Student G is taking neither electronics nor computing."
+    },
+    "correct_answer": "E",
+    "explanation": "البيان الأول: إذا كانت تأخذ العمارة، فلا يمكن أن تأخذ الإلكترونيات. لكن قد تأخذ الحوسبة أو الميكانيكا أو علم النفس. لا نعرف. الثاني: لا تأخذ إلكترونيات ولا حوسبة، لذا يمكن أن تأخذ الميكانيكا والعمارة، أو الميكانيكا وعلم النفس، أو العمارة وعلم النفس. لا نحدد. معاً: تأخذ العمارة، ولا تأخذ إلكترونيات ولا حوسبة، فيتبقى الميكانيكا وعلم النفس، وعليها اختيار اثنين: إما العمارة والميكانيكا، أو العمارة وعلم النفس. لا نعرف."
+  },
+  {
+    "id": 362,
+    "type": "Data Sufficiency",
+    "original_id": 362,
+    "difficulty": "Medium",
+    "question": "A candy shop owner must mix three types of sweeteners—A, B, and C—in a certain ratio to get the desired mixture in his candies. What is the ratio of the weights of Sweetener A to Sweetener B to Sweetener C in the final mixture?",
+    "options": {
+      "1": "Sweeteners A, B, and C cost $40, $50, and $60 per pound. The average (arithmetic mean) cost of the final mixture is $50 per pound.",
+      "2": "In the final mixture, the average (arithmetic mean) price of Sweeteners A and B together is $45, and the average (arithmetic mean) price of Sweeteners B and C together is $55."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض أوزان A,B,C هي a,b,c. البيان الأول: (40a+50b+60c)/(a+b+c) = 50 => 40a+50b+60c = 50a+50b+50c => 10c = 10a => a=c. لا يعطي النسبة كاملة. الثاني: (40a+50b)/(a+b)=45 => 40a+50b=45a+45b => 5b=5a => a=b. و (50b+60c)/(b+c)=55 => 50b+60c=55b+55c => 5c=5b => b=c. إذن a=b=c، النسبة 1:1:1. معاً كافيان."
+  },
+  {
+    "id": 363,
+    "type": "Data Sufficiency",
+    "original_id": 363,
+    "difficulty": "Medium",
+    "question": "A movie theater increased the ticket price for evening shows by 10% and decreased the ticket price for morning shows by 40%. The average number of tickets sold for the morning shows increased by 30%, and the average number of tickets sold for the evening shows decreased by 5%. What was the percentage change in total revenue?",
+    "options": {
+      "1": "Prior to the changes in ticket prices, the ticket prices for the morning shows and the evening shows were the same.",
+      "2": "Prior to the changes in ticket prices, the ratio between the number of tickets sold for the morning shows and the evening shows was 5:8."
+    },
+    "correct_answer": "C",
+    "explanation": "نحتاج لمعرفة الإيراد قبل وبعد. التغير في الإيراد = (السعر الجديد × العدد الجديد) - (السعر القديم × العدد القديم) لكل من الفترتين. البيان الأول يعطي أن الأسعار القديمة متساوية، والبيان الثاني يعطي نسبة الأعداد القديمة. معاً يمكن حساب النسبة المئوية للتغير."
+  },
+  {
+    "id": 364,
+    "type": "Data Sufficiency",
+    "original_id": 364,
+    "difficulty": "Medium",
+    "question": "George is an employee at a firm. For each day that he is absent, he forfeits 4% of his monthly salary. For every hour of overtime he does, he receives 1% added to his monthly salary. His salary reduced for the month of June by 5%. How many hours of overtime did George do in that month?",
+    "options": {
+      "1": "George was absent for 3 days in the month of June.",
+      "2": "George received 7% of his monthly salary for doing overtime in the month of June."
+    },
+    "correct_answer": "D",
+    "explanation": "البيان الأول: الغياب 3 أيام يخصم 12%، والصافي خصم 5%، إذن الأوفرتايم أضاف 7%، وكل ساعة تعطي 1%، أي 7 ساعات. الثاني: حصل على 7% من الراتب كأوفرتايم، أي 7 ساعات. كل منهما كافٍ."
+  },
+  {
+    "id": 365,
+    "type": "Data Sufficiency",
+    "original_id": 365,
+    "difficulty": "Hard",
+    "question": "Did the population of Town C increase by at least 100 percent from the year 2000 to the year 2010?",
+    "options": {
+      "1": "The population of Town C in 2000 was 2/3 of the population in 2005.",
+      "2": "The population of Town C increased by a greater number of people from 2005 to 2010 than it did from 2000 to 2005."
+    },
+    "correct_answer": "C",
+    "explanation": "البيان الأول: عدد السكان في 2000 = 2/3 عدد 2005، أي الزيادة من 2000 إلى 2005 = 1/3 من عدد 2005. الثاني: الزيادة من 2005 إلى 2010 أكبر من الزيادة من 2000 إلى 2005، أي أكبر من 1/3. معاً، إجمالي الزيادة من 2000 إلى 2010 > 1/3 + 1/3 = 2/3 من عدد 2005. النسبة المئوية للزيادة = (الزيادة)/(عدد 2000) = (أكبر من 2/3)/(2/3) > 1 = 100%."
+  },
+  {
+    "id": 366,
+    "type": "Data Sufficiency",
+    "original_id": 366,
+    "difficulty": "Hard",
+    "question": "In a survey of 200 college graduates, 30% said they had received student loans during their college careers, and 40% said they had received scholarships. What percent of those surveyed said that they had received neither student loans nor scholarships during their college careers?",
+    "options": {
+      "1": "25% of those surveyed said that they had received scholarships but no loans.",
+      "2": "50% of those surveyed who said that they had received loans also said that they had received scholarships."
+    },
+    "correct_answer": "D",
+    "explanation": "نفرض أن x = عدد من حصل على القروض والمنح معاً. البيان الأول: من حصل على منح فقط = 25% من 200 = 50، والمنح الكلي 40% أي 80، إذن x = 80-50=30. البيان الثاني: 50% من حاملي القروض (30% من 200 = 60) حصلوا على منح أيضاً، أي x = 0.5×60=30. في كلتا الحالتين، عدد من لم يحصل على شيء = 200 - (60+80-30) = 90، أي 45%."
+  },
+  {
+    "id": 367,
+    "type": "Data Sufficiency",
+    "original_id": 367,
+    "difficulty": "Hard",
+    "question": "Stores L and M each sell a certain product at a different regular price. If both stores discount their regular price of the product, is the discount price at Store M less than the discount price at Store L?",
+    "options": {
+      "1": "At Store L, the discount price is 10 percent less than the regular price; at Store M, the discount price is 15 percent less than the regular price.",
+      "2": "At Store L, the discount price is $5 less than the regular store price; at Store M, the discount price is $6 less than the regular price."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض الأسعار الأصلية L و M. البيان الأول: سعر الخصم L = 0.9L، M = 0.85M. الثاني: الخصم L = L-5، M = M-6. بالجمع: 0.9L = L-5 => 0.1L=5 => L=50. و 0.85M = M-6 => 0.15M=6 => M=40. إذن سعر الخصم L = 45، M = 34، أي M أقل."
+  },
+  {
+    "id": 368,
+    "type": "Data Sufficiency",
+    "original_id": 368,
+    "difficulty": "Hard",
+    "question": "A box contains only red chips, white chips, and blue chips. If a chip is randomly selected from the box, what is the probability that the chip will be either white or blue?",
+    "options": {
+      "1": "The probability that the chip will be blue is 1/5.",
+      "2": "The probability that the chip will be red is 1/3."
+    },
+    "correct_answer": "B",
+    "explanation": "المطلوب: P(أبيض أو أزرق) = 1 - P(أحمر). البيان الثاني يعطي P(أحمر) = 1/3، وبالتالي الاحتمال المطلوب = 2/3. الأول يعطي الأزرق فقط ولا يعرف الأبيض."
+  },
+  {
+    "id": 369,
+    "type": "Data Sufficiency",
+    "original_id": 369,
+    "difficulty": "Hard",
+    "question": "Did the sum of the prices of three shirts exceed $60?",
+    "options": {
+      "1": "The price of the most expensive of the shirts exceeded $30.",
+      "2": "The price of the least expensive of the shirts exceeded $20."
+    },
+    "correct_answer": "B",
+    "explanation": "البيان الثاني: سعر الأرخص > 20، وبما أن الثلاثة أسعار ≥ سعر الأرخص، فالمجموع > 3×20 = 60. الأول لا يكفي (مثلاً 10، 10، 35 = 55 < 60)."
+  },
+  {
+    "id": 370,
+    "type": "Data Sufficiency",
+    "original_id": 370,
+    "difficulty": "Hard",
+    "question": "What is the total number of coins that Bert and Claire have?",
+    "options": {
+      "1": "Bert has 50 percent more coins than Claire.",
+      "2": "The total number of coins that Bert and Claire have is between 21 and 28."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض B = 1.5C، والمجموع = 2.5C. البيان الثاني: 21 < 2.5C < 28 => 8.4 < C < 11.2. وبما أن C عدد صحيح، C=9,10,11. نختبر: C=9 => B=13.5 (غير صحيح)، C=10 => B=15 (صحيح)، C=11 => B=16.5 (غير صحيح). إذن C=10, B=15 والمجموع 25."
+  },
+  {
+    "id": 371,
+    "type": "Data Sufficiency",
+    "original_id": 371,
+    "difficulty": "Hard",
+    "question": "A telephone station has x processors, each of which can process a maximum of y calls at any particular time, where x and y are positive integers. If 500 calls are sent to the station at a particular time, can the station process all of the calls?",
+    "options": {
+      "1": "x = 600",
+      "2": "100 < y < 200"
+    },
+    "correct_answer": "A",
+    "explanation": "السعة الكلية = x×y. البيان الأول: x=600، وبما أن y عدد صحيح موجب (≥1)، فالسعة ≥600 > 500، أي تستطيع المعالجة. الثاني: يعطي y فقط، وقد يكون x صغيراً جداً (مثل x=1) فتكون السعة <500، أو كبيراً فتكون ≥500."
+  },
+  {
+    "id": 372,
+    "type": "Data Sufficiency",
+    "original_id": 372,
+    "difficulty": "Hard",
+    "question": "Kim and Sue each bought some roses and some daisies at the prices shown above. If Kim bought the same total number of roses and daisies as Sue, was the price of Kim's purchase of roses and daisies higher than the price of Sue's purchase of roses and daisies?",
+    "options": {
+      "1": "Kim bought twice as many daisies as roses.",
+      "2": "Kim bought 4 more roses than Sue bought."
+    },
+    "correct_answer": "B",
+    "explanation": "نفرض العدد الإجمالي لكل منهما = T، وعدد الورود لـ Kim = Rk، لـ Sue = Rs. سعر Kim = Rk×1 + (T-Rk)×0.5 = 0.5T + 0.5Rk. سعر Sue = 0.5T + 0.5Rs. المطلوب مقارنة Rk و Rs. البيان الثاني: Rk = Rs + 4، أي Rk > Rs، فيكون سعر Kim أعلى. الأول لا يعطي Rs."
+  },
+  {
+    "id": 373,
+    "type": "Data Sufficiency",
+    "original_id": 373,
+    "difficulty": "Hard",
+    "question": "Jazz and blues recordings accounted for 6 percent of the $840 million revenue from the sales of recordings in Country Y in 2000. What was the revenue from the sales of jazz and blues recordings in Country Y in 1998?",
+    "options": {
+      "1": "Jazz and blues recordings accounted for 5 percent of the revenue from the sales of recordings in Country Y in 1998.",
+      "2": "The revenue from the sales of jazz and blues recordings in Country Y increased by 40 percent from 1998 to 2000."
+    },
+    "correct_answer": "B",
+    "explanation": "إيرادات 2000 = 0.06×840 = 50.4 مليون. البيان الثاني: 50.4 = 1.4 × إيرادات 1998 => إيرادات 1998 = 36 مليون. الأول يعطي نسبة فقط دون إجمالي الإيرادات في 1998."
+  },
+  {
+    "id": 374,
+    "type": "Data Sufficiency",
+    "original_id": 374,
+    "difficulty": "Hard",
+    "question": "On a certain nonstop trip, Marta averaged x miles per hour for 2 hours and y miles per hour for the remaining 3 hours. What was her average speed, in miles per hour, for the entire trip?",
+    "options": {
+      "1": "2x + 3y = 280",
+      "2": "y = x + 10"
+    },
+    "correct_answer": "A",
+    "explanation": "المتوسط الكلي = (2x+3y)/5. البيان الأول يعطي البسط = 280، فيكون المتوسط = 56 ميل/ساعة. الثاني لا يعطي قيمة عددية."
+  },
+  {
+    "id": 375,
+    "type": "Data Sufficiency",
+    "original_id": 375,
+    "difficulty": "Hard",
+    "question": "A group consisting of several families visited an amusement park where the regular admission fees were $5,500 for each adult and $4,800 for each child. Because there were at least 10 people in the group, each paid an admission fee that was 10% less than the regular admission fee. How many children were in the group?",
+    "options": {
+      "1": "The total of the admission fees paid for the adults in the group was $29,700.",
+      "2": "The total of the admission fees paid for the children in the group was $4,860 more than the total of the admission fees paid for the adults in the group."
+    },
+    "correct_answer": "C",
+    "explanation": "بعد الخصم 10%: سعر الكبار = 4950، سعر الأطفال = 4320. البيان الأول: 4950×A = 29700 => A=6. الثاني: 4320×C = 4950×A + 4860. بالتعويض A=6: 4320C = 29700+4860=34560 => C=8."
+  },
+  {
+    "id": 376,
+    "type": "Data Sufficiency",
+    "original_id": 376,
+    "difficulty": "Hard",
+    "question": "What is the ratio of the average (arithmetic mean) height of students in Class X to the average height of students in Class Y?",
+    "options": {
+      "1": "The average height of the students in Class X is 120 centimeters.",
+      "2": "The average height of the students in Class X and Class Y combined is 126 centimeters."
+    },
+    "correct_answer": "E",
+    "explanation": "نحتاج لمتوسط Y. البيان الأول يعطي X=120، الثاني يعطي المتوسط الكلي=126، لكن لا يعرف عدد الطلاب في كل فصل، فيمكن أن يكون متوسط Y مختلفاً حسب الأعداد."
+  },
+  {
+    "id": 377,
+    "type": "Data Sufficiency",
+    "original_id": 377,
+    "difficulty": "Hard",
+    "question": "Each week a certain salesman is paid a fixed amount equal to $300, plus a commission equal to 5 percent of the amount of his sales that week over $1,000. What is the total amount the salesman was paid last week?",
+    "options": {
+      "1": "The total amount the salesman was paid last week is equal to 10 percent of the amount of his sales last week.",
+      "2": "The salesman's sales last week totaled $5,000."
+    },
+    "correct_answer": "D",
+    "explanation": "نفرض الراتب P والمبيعات S. P = 300 + 0.05(S-1000). البيان الأول: P=0.1S، بالتعويض: 0.1S = 300+0.05S-50 => 0.05S=250 => S=5000، P=500. الثاني: S=5000 => P=300+0.05(4000)=500. كل منهما كافٍ."
+  },
+  {
+    "id": 378,
+    "type": "Data Sufficiency",
+    "original_id": 378,
+    "difficulty": "Hard",
+    "question": "At a bakery, all donuts are priced equally and all bagels are priced equally. What is the total price of 5 donuts and 3 bagels at the bakery?",
+    "options": {
+      "1": "At the bakery, the total price of 10 donuts and 6 bagels is $12.90.",
+      "2": "At the bakery, the price of a donut is $0.15 less than the price of a bagel."
+    },
+    "correct_answer": "A",
+    "explanation": "المطلوب 5D+3B. البيان الأول: 10D+6B=12.90 => 5D+3B=6.45. الثاني لا يكفي وحده."
+  },
+  {
+    "id": 379,
+    "type": "Data Sufficiency",
+    "original_id": 379,
+    "difficulty": "Hard",
+    "question": "Last year, if Arturo spent a total of $12,000 on his mortgage payments, real estate taxes, and home insurance, how much did he spend on his real estate taxes?",
+    "options": {
+      "1": "Last year, the total amount that Arturo spent on his real estate taxes and home insurance was 33 1/3 percent of the amount that he spent on his mortgage payments.",
+      "2": "Last year, the amount that Arturo spent on his real estate taxes was 20 percent of the total amount he spent on his mortgage payments and home insurance."
+    },
+    "correct_answer": "B",
+    "explanation": "نفرض M, R, H. M+R+H=12000. البيان الأول: R+H = (1/3)M => M + 1/3M = 12000 => M=9000، لكن R غير معروف (قد يكون 2000 أو 1000). الثاني: R=0.2(M+H) => 5R = M+H. بالتعويض في M+R+H=12000 => 5R+R=12000 => R=2000."
+  },
+  {
+    "id": 380,
+    "type": "Data Sufficiency",
+    "original_id": 380,
+    "difficulty": "Hard",
+    "question": "Is the number of members of Club X greater than the number of members of Club Y?",
+    "options": {
+      "1": "Of the members of Club X, 20 percent are also members of Club Y.",
+      "2": "Of the members of Club Y, 30 percent are also members of Club X."
+    },
+    "correct_answer": "C",
+    "explanation": "نفرض أن عدد الأعضاء المشتركين = b. البيان الأول: b = 0.2X. البيان الثاني: b = 0.3Y. إذن 0.2X = 0.3Y => X/Y = 0.3/0.2 = 1.5 > 1، أي X > Y."
+  },
+  {
+    "id": 381,
+    "type": "Data Sufficiency",
+    "original_id": 381,
+    "difficulty": "Hard",
+    "question": "The only articles of clothing in a certain closet are shirts, dresses, and jackets. The ratio of the number of shirts to the number of dresses to the number of jackets in the closet is 9:4:5, respectively. If there are more than 7 dresses in the closet, what is the total number of articles of clothing in the closet?",
+    "options": {
+      "1": "The total number of shirts and jackets in the closet is less than 30.",
+      "2": "The total number of shirts and dresses in the closet is 26."
+    },
+    "correct_answer": "D",
+    "explanation": "نفرض الأعداد: 9k, 4k, 5k. الشرط: 4k > 7 => k ≥ 2. البيان الأول: 9k+5k < 30 => 14k < 30 => k ≤ 2 (لأن k صحيح)، إذن k=2، والمجموع=18k=36. الثاني: 9k+4k=26 => 13k=26 => k=2، والمجموع=36. كل منهما كافٍ."
+  },
+  {
+    "id": 382,
+    "type": "Data Sufficiency",
+    "original_id": 382,
+    "difficulty": "Hard",
+    "question": "Material A costs $3 per kilogram, and Material B costs $5 per kilogram. If 10 kilograms of Material K consists of x kilograms of Material A and y kilograms of Material B, is x > y?",
+    "options": {
+      "1": "y > 4",
+      "2": "The cost of the 10 kilograms of Material K is less than $40."
+    },
+    "correct_answer": "B",
+    "explanation": "x+y=10، السؤال x>y أي x>5. البيان الثاني: 3x+5y < 40 => 3x+5(10-x) < 40 => 3x+50-5x < 40 => -2x < -10 => x > 5. كافٍ. الأول: y>4 يعني x<6، وقد يكون x=5.5 (نعم) أو x=5 (لا). غير كافٍ."
+  },
+  {
+    "id": 383,
+    "type": "Data Sufficiency",
+    "original_id": 383,
+    "difficulty": "Hard",
+    "question": "At what speed was a train traveling on a trip when it had completed half of the total distance of the trip?",
+    "options": {
+      "1": "The trip was 460 miles long and took 4 hours to complete.",
+      "2": "The train traveled at an average rate of 115 miles per hour on the trip."
+    },
+    "correct_answer": "E",
+    "explanation": "متوسط السرعة = 460/4=115 ميل/ساعة، لكن السرعة في منتصف المسافة قد تكون مختلفة إذا لم تكن ثابتة. قد تكون سرعته 150 في النصف الأول و80 في النصف الثاني، أو غير ذلك. لا يمكن تحديد السرعة اللحظية."
+  },
+  {
+    "id": 384,
+    "type": "Data Sufficiency",
+    "original_id": 384,
+    "difficulty": "Hard",
+    "question": "Tom, Jane, and Sue each purchased a new house. The average (arithmetic mean) price of the three houses was $120,000. What was the median price of the three houses?",
+    "options": {
+      "1": "The price of Tom's house was $110,000.",
+      "2": "The price of Jane's house was $120,000."
+    },
+    "correct_answer": "B",
+    "explanation": "المجموع الكلي = 360,000. البيان الثاني: J=120,000، فإما أن T=S=120,000 (الوسيط 120,000) أو أحدهما أقل من 120 والآخر أكبر (الوسيط أيضاً 120,000 لأن J في المنتصف). الأول: T=110,000، قد يكون الوسيط 120,000 (إذا J=120 و S=130) أو 125,000 (إذا J=S=125)."
+  },
+  {
+    "id": 385,
+    "type": "Data Sufficiency",
+    "original_id": 385,
+    "difficulty": "Hard",
+    "question": "A certain bookcase has 2 shelves of books. On the upper shelf, the book with the greatest number of pages has 400 pages. On the lower shelf, the book with the least number of pages has 475 pages. What is the median number of pages for all of the books on the 2 shelves?",
+    "options": {
+      "1": "There are 25 books on the upper shelf.",
+      "2": "There are 24 books on the lower shelf."
+    },
+    "correct_answer": "C",
+    "explanation": "الرف العلوي: أكبر كتاب 400 صفحة. الرف السفلي: أقل كتاب 475 صفحة. البيان الأول: 25 كتاب في الأعلى. الثاني: 24 كتاب في الأسفل. المجموع = 49 كتاباً. الوسيط هو الترتيب 25. بما أن الـ 24 كتاباً في الأسفل كلها ≥475، والـ 25 كتاباً في الأعلى كلها ≤400، فالكتاب الـ25 هو أكبر كتاب في الأعلى = 400 صفحة."
+  },
+  {
+    "id": 386,
+    "type": "Data Sufficiency",
+    "original_id": 386,
+    "difficulty": "Hard",
+    "question": "In planning for a car trip, Joan estimated both the distance of the trip, in miles, and her average speed, in miles per hour. She accurately divided her estimated distance by her estimated average speed to obtain an estimate for the time, in hours, that the trip would take. Was her estimate within 0.5 hours of the actual time that the trip took?",
+    "options": {
+      "1": "Joan's estimate for the distance was within 5 miles of the actual distance.",
+      "2": "Joan's estimate for her average speed was within 10 miles per hour of her actual average speed."
+    },
+    "correct_answer": "E",
+    "explanation": "قد يكون التقدير قريباً جداً من الواقع أو بعيداً. مثال: المسافة الفعلية 20 ميل، السرعة 20 ميل/ساعة (الزمن 1 ساعة). التقدير: مسافة 20، سرعة 20 (الزمن 1 ساعة، الفرق 0). أو التقدير: مسافة 20، سرعة 10 (الزمن 2 ساعة، الفرق 1 > 0.5). كلاهما يحقق الشرطين لكن النتيجة مختلفة."
+  },
+  {
+    "id": 387,
+    "type": "Data Sufficiency",
+    "original_id": 387,
+    "difficulty": "Hard",
+    "question": "Six shipments of machine parts were shipped from a factory on two trucks, with each shipment entirely on one of the trucks. Each shipment was labeled either S1, S2, S3, S4, S5, or S6. The table shows the value of each shipment as a fraction of the total value of the six shipments. If the shipments on the first truck had a value greater than 1/2 of the total value of the six shipments, was S3 shipped on the first truck?",
+    "options": {
+      "1": "S2 and S4 were shipped on the first truck.",
+      "2": "S1 and S6 were shipped on the second truck."
+    },
+    "correct_answer": "B",
+    "explanation": "نضرب الكسور في 60 لتجنب الكسور: S1=15, S2=12, S3=10, S4=9, S5=8, S6=6. الشرط: مجموع الشاحنة الأولى > 30. البيان الثاني: الثانية فيها 15+6=21، فإذا كانت S3 (وزنها 10) في الثانية، فمجموع الثانية = 31، فيكون مجموع الأولى = 60-31=29 < 30، وهذا ينافي الشرط. إذن S3 ليست في الثانية، بل في الأولى. كافٍ. الأول: الأولى فيها 12+9=21، قد تضم S3 (10) فيكون المجموع 31 >30، وقد لا تضمها وتضم 15+8=15 ليكون المجموع 36>30، فلا نحدد."
+  },
+  {
+    "id": 388,
+    "type": "Data Sufficiency",
+    "original_id": 388,
+    "difficulty": "Hard",
+    "question": "The table above shows the results of a survey of 100 voters who each responded 'Favorable' or 'Unfavorable' or 'Not Sure' when asked about their impressions of Candidate M and of Candidate N. What was the number of voters who responded 'Favorable' for both candidates?",
+    "options": {
+      "1": "The number of voters who did not respond 'Favorable' for either candidate was 40.",
+      "2": "The number of voters who responded 'Unfavorable' for both candidates was 10."
+    },
+    "correct_answer": "A",
+    "explanation": "نفرض x = عدد الذين صوتوا 'مؤيد' لكلاهما. عدد المؤيدين لـ M = 40، لـ N = 30. عدد المؤيدين لواحد على الأقل = 40+30-x = 70-x. البيان الأول: عدد الذين لم يؤيدوا أياً منهما = 40. إذن (70-x)+40=100 => x=10. الثاني يعطي غير موافق لكليهما، لكن لا يعطي معلومات عن المؤيدين."
+  },
+  {
+    "id": 389,
+    "type": "Data Sufficiency",
+    "original_id": 389,
+    "difficulty": "Hard",
+    "question": "A school administrator will assign each student in a group of n students to one of m classrooms. If 3 < m < 13 < n, is it possible to assign each of the n students to one of the m classrooms so that each classroom has the same number of students assigned to it?",
+    "options": {
+      "1": "It is possible to assign each of 3n students to one of m classrooms so that each classroom has the same number of students assigned to it.",
+      "2": "It is possible to assign each of 13n students to one of m classrooms so that each classroom has the same number of students assigned to it."
+    },
+    "correct_answer": "B",
+    "explanation": "السؤال: هل m يقسم n؟ البيان الثاني: m يقسم 13n. وبما أن m < 13 و m عدد صحيح، و 13 عدد أولي، فإن m لا يقسم 13، إذن m يجب أن يقسم n. كافٍ. البيان الأول: m يقسم 3n، وقد لا يقسم n إذا كان m يحتوي على عامل 3 (مثال m=9, n=6: 9 يقسم 18 لكن لا يقسم 6)."
+  },
+  {
+    "id": 390,
+    "type": "Data Sufficiency",
+    "original_id": 390,
+    "difficulty": "Hard",
+    "question": "At a certain clothing store, customers who buy 2 shirts pay the regular price for the first shirt and a discounted price for the second shirt. The store makes the same profit from the sale of 2 shirts that it makes from the sale of 1 shirt at the regular price. For a customer who buys 2 shirts, what is the discounted price of the second shirt?",
+    "options": {
+      "1": "The regular price of each of the 2 shirts the customer buys at the clothing store is $16.",
+      "2": "The cost to the clothing store of each of the 2 shirts the customer buys is $12."
+    },
+    "correct_answer": "B",
+    "explanation": "ربح بيع قميصين = (سعر عادي + سعر مخفض) - 2×تكلفة. ربح بيع قميص واحد بسعر عادي = سعر عادي - تكلفة. بالتساوي: سعر عادي + سعر مخفض - 2تكلفة = سعر عادي - تكلفة => سعر مخفض = تكلفة. البيان الثاني يعطي التكلفة = 12، إذن السعر المخفض = 12. الأول لا يكفي."
+  },
+  {
+    "id": 391,
+    "type": "Data Sufficiency",
+    "original_id": 391,
+    "difficulty": "Hard",
+    "question": "What is the median number of employees assigned per project for the projects at Company Z?",
+    "options": {
+      "1": "25 percent of the projects at Company Z have 4 or more employees assigned to each project.",
+      "2": "35 percent of the projects at Company Z have 2 or fewer employees assigned to each project."
+    },
+    "correct_answer": "C",
+    "explanation": "البيان الأول: 25% المشاريع لديها ≥4 موظفين. الثاني: 35% المشاريع لديها ≤2 موظفين. إذن النسبة المتبقية = 100-25-35 = 40% من المشاريع لديها بالضبط 3 موظفين. عند ترتيب الأعداد، 35% الأولى ≤2، والـ 40% التالية =3، والـ 25% الأخيرة ≥4. الوسيط هو الحد الذي يقع في منتصف الترتيب (50%)، أي ضمن الـ 40% التي قيمتها 3."
+  },
+  {
+    "id": 392,
+    "type": "Data Sufficiency",
+    "original_id": 392,
+    "difficulty": "Hard",
+    "question": "Last year, a certain company began manufacturing Product X and sold every unit of Product X that it produced. Last year, the company's total expenses for manufacturing Product X were equal to $100,000 plus 5 percent of the company's total revenue from all units of Product X sold. If the company made a profit on Product X last year, did the company sell more than 21,000 units of Product X last year?",
+    "options": {
+      "1": "The company's total revenue from the sale of Product X last year was greater than $110,000.",
+      "2": "For each unit of Product X sold last year, the company's revenue was $5."
+    },
+    "correct_answer": "B",
+    "explanation": "الربح = R - (100000+0.05R) = 0.95R - 100000 > 0 => R > 105263. البيان الثاني: سعر الوحدة = 5، وعدد الوحدات = n، R=5n. إذن 0.95(5n) > 100000 => 4.75n > 100000 => n > 21052.6، أي أكثر من 21000. الأول: R>110000 لا يعطي عدد الوحدات (قد يكون السعر مرتفعاً والعدد قليلاً)."
+  },
+  {
+    "id": 393,
+    "type": "Data Sufficiency",
+    "original_id": 393,
+    "difficulty": "Hard",
+    "question": "Beginning in January of last year, Carl made deposits of $120 into his account on the 15th of each month for several consecutive months and then made withdrawals of $50 from the account on the 15th of each of the remaining months of last year. There were no other transactions in the account last year. If the closing balance of Carl's account for May of last year was $2,600, what was the range of the monthly closing balances of Carl's account last year?",
+    "options": {
+      "1": "Last year, the closing balance of Carl's account for April was less than $2,625.",
+      "2": "Last year, the closing balance of Carl's account for June was less than $2,675."
+    },
+    "correct_answer": "C",
+    "explanation": "من مايو، الرصيد 2600. إما أن يكون أبريل 2600-120=2480 (إذا بدأ السحب في مايو أو قبلها) أو 2600+50=2650 (إذا بدأ السحب في يونيو أو بعدها). البيان الأول: أبريل < 2625 يعني أبريل = 2480، أي بدأ السحب في مايو أو قبل. البيان الثاني: يونيو < 2675 يعني يونيو = 2550 (إذا بدأ السحب في مايو أو يونيو) أو 2720 (إذا بدأ السحب بعد يونيو). بالجمع: أبريل 2480 ويونيو 2550، أي أن السحب بدأ في مايو (من مايو إلى ديسمبر 8 أشهر سحب). يمكن حساب كل الشهور وبالتالي المدى."
+  },
+  {
+    "id": 394,
+    "type": "Data Sufficiency",
+    "original_id": 394,
+    "difficulty": "Hard",
+    "question": "What amount did Jean earn from the commission on her sales in the first half of 1988?",
+    "options": {
+      "1": "In 1988, Jean's commission was 5 percent of the total amount of her sales.",
+      "2": "The amount of Jean's sales in the second half of 1988 averaged $10,000 per month more than in the first half."
+    },
+    "correct_answer": "E",
+    "explanation": "نحتاج لمبيعات النصف الأول. الأول يعطي النسبة فقط، الثاني يعطي الفرق بين النصفين. لا توجد قيمة مطلقة للمبيعات."
+  },
+  {
+    "id": 395,
+    "type": "Data Sufficiency",
+    "original_id": 395,
+    "difficulty": "Hard",
+    "question": "In a certain business, production index p is directly proportional to efficiency index e, which is in turn directly proportional to investment index i. What is p if i = 70?",
+    "options": {
+      "1": "e = 0.5 whenever i = 60",
+      "2": "p = 2.0 whenever i = 50"
+    },
+    "correct_answer": "B",
+    "explanation": "p متناسب طردياً مع e، و e متناسب طردياً مع i، إذن p متناسب طردياً مع i، أي p = k i. البيان الثاني: 2.0 = k×50 => k=0.04، فعند i=70، p=2.8. الأول يعطي e لكن لا يعطي العلاقة بين p و e."
+  },
+  {
+    "id": 396,
+    "type": "Data Sufficiency",
+    "original_id": 396,
+    "difficulty": "Hard",
+    "question": "The annual rainfall in a city over the past 50 years is its historical average rainfall (HAR). The graph above shows the annual rainfall in City X over a seven-year period. All figures are rounded to the nearest integer. Is it true that the rounded HAR for City X is 47 mm or greater?",
+    "options": {
+      "1": "In the seven-year period in City X, the annual rainfall was greater than the HAR in exactly two of the consecutive years.",
+      "2": "In the seven-year period in City X, the annual rainfall was less than the HAR in exactly four of the years."
+    },
+    "correct_answer": "A",
+    "explanation": "الرسم البياني يظهر الأمطار: السنتين 3 و4 هما الأعلى (حوالي 50 و 48). البيان الأول: فقط سنتان متتاليتان كانت الأمطار فيهما أعلى من HAR، وهما السنة 3 و4 (لأنهما الأعلى). هذا يعني أن HAR على الأقل يساوي قيمة السنة الثانية (47) أو أكبر. كافٍ. الثاني: 4 سنوات أقل من HAR، وهي السنوات 1,5,6,7، فهذا يعني أن HAR بين 36 و 47، قد يكون 47 أو أقل، لا نحدد."
+  },
+  {
+    "id": 397,
+    "type": "Data Sufficiency",
+    "original_id": 397,
+    "difficulty": "Hard",
+    "question": "Five coffee-chicory blends- J, K, L, M, and N- are all priced differently. The blends are such that the greater the proportion of coffee, the more expensive the blend, and the greater the proportion of chicory, the stronger the flavor of the blend. If the five blends were ranked in order of cost per kilogram, which would fall in the middle?",
+    "options": {
+      "1": "Blend L has a higher proportion of coffee than the other blends except for Blend M.",
+      "2": "Blend K and Blend N both have a stronger flavor than Blend J."
+    },
+    "correct_answer": "C",
+    "explanation": "البيان الأول: M أغلى، L ثاني أغلى، إذن J,K,N هم الثلاث الأقل سعراً (أقوى نكهة). الثاني: K و N أقوى نكهة من J، أي أن J أغلى من K و N. من الأول، M>L> (J,K,N). من الثاني، J>K و J>N. إذن الترتيب: M > L > J > (K,N). إذن J هو الثالث (الأوسط)."
+  },
+  {
+    "id": 398,
+    "type": "Data Sufficiency",
+    "original_id": 398,
+    "difficulty": "Hard",
+    "question": "Last summer, as with every summer, Oshin and Reena made exactly one long trip together to a town neither of them had visited before. For their long summer trips, Oshin and Reena have always chosen to visit a town that Reena would have liked to visit—unless Oshin had been to that town before. Reena had visited Town F and Town G before, and Oshin had never visited Town J or Town K. Did Oshin and Reena visit one of these four towns last summer?",
+    "options": {
+      "1": "Reena had never visited Town J, and Oshin had never visited Town F.",
+      "2": "Oshin would have liked to visit either Town G or Town K."
+    },
+    "correct_answer": "E",
+    "explanation": "هم يزورون بلدة لم يزرها أي منهما. رينا زارت F و G، إذن يستبعدان. أوشين لم يزر J و K، لكن لا نعرف إذا كانت رينا زارتهما أو ترغب في زيارتهما. البيان الأول: رينا لم تزر J، وأوشين لم يزر F (لكن F مستبعدة لأن رينا زارتها سابقاً). الثاني: أوشين يرغب في G أو K (G مستبعدة لأن رينا زارتها، وK قد تكون). لا نعرف إذا كانت رينا ترغب في J أو K. لا توجد معلومات كافية."
+  },
+  {
+    "id": 399,
+    "type": "Data Sufficiency",
+    "original_id": 399,
+    "difficulty": "Hard",
+    "question": "For a new project, an organization is creating a three-member team from among its employees. Selection of members for the team conforms to exactly two rules: no selected member can be working on more than one other project at the time of selection, and at least one of the selected members must have an MBA degree. The organization has selected Paula and Quincy for the team. Neither of these will be replaced before the third member is selected. The organization is about to make the third selection. If the organization adheres to the selection rules for committee membership, is it possible that Rubin will be selected for the team?",
+    "options": {
+      "1": "Quincy has an MBA degree, and Rubin is currently working on only one other project.",
+      "2": "Rubin is one of only two employees in the organization who have an MBA degree."
+    },
+    "correct_answer": "A",
+    "explanation": "لكي يتم اختيار روبن، يجب: 1) ألا يعمل في أكثر من مشروع آخر (الشرط الأول)، و 2) أن يكون هو أو أحد الأعضاء الحاليين (باولا أو كوينسي) حاصلاً على ماجستير إدارة الأعمال (الشرط الثاني). البيان الأول: كوينسي لديه ماجستير (يحقق الشرط الثاني)، وروبن يعمل في مشروع واحد فقط (يحقق الشرط الأول). إذن من الممكن اختياره. الثاني: روبن لديه ماجستير، لكن لا نعرف عدد مشاريعه الأخرى."
+  },
+  {
+    "id": 400,
+    "type": "Data Sufficiency",
+    "original_id": 400,
+    "difficulty": "Hard",
+    "question": "All the T-shirts a clothing store stocks are plain, and they are all in one of exactly four colors: blue, green, red, and yellow. On any given day, the store sells about twice as many blue T-shirts as it does green T-shirts. Last week, did the store sell more blue T-shirts than red T-shirts?",
+    "options": {
+      "1": "Last week, the store sold fewer blue T-shirts than red T-shirts and green T-shirts combined.",
+      "2": "Last week, the store sold more blue T-shirts than half the total number of red T-shirts and yellow T-shirts combined."
+    },
+    "correct_answer": "E",
+    "explanation": "المعطى: B ≈ 2G. البيان الأول: B < R+G. البيان الثاني: B > (R+Y)/2. لا توجد معلومات كافية لتحديد B > R. أمثلة: لو B=10, G=5. الأول: 10 < R+5 => R>5. الثاني: 10 > (R+Y)/2 => R+Y < 20. يمكن أن يكون R=6 (B>R صحيح) أو R=12 (B>R خطأ)."
+  }
+]
