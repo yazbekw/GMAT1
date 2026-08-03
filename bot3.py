@@ -20,7 +20,7 @@ from typing import List, Dict, Any, Optional, Tuple
 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
-    Application,
+    ,
     CommandHandler,
     CallbackQueryHandler,
     ContextTypes,
@@ -359,7 +359,7 @@ def build_main_menu(user_id=None):
         [InlineKeyboardButton("📝 اختبار عادي", callback_data="start_quiz")],
         [InlineKeyboardButton("📝 اختبار مخصص", callback_data="custom_quiz")],
         [InlineKeyboardButton("📖 وضع التعلم", callback_data="study_mode")],
-        [InlineKeyboardButton("📂 تصفية حسب الفئة", callback_data="categories")],
+        [InlineKeyboardButton("🔀 خلط عشوائي", callback_data="shuffle")],
         [InlineKeyboardButton("⭐ إشاراتي", callback_data="bookmarks")],
         [InlineKeyboardButton("❌ الأخطاء فقط", callback_data="wrong_only")],
         [InlineKeyboardButton("💡 اقتراح أسئلة (نقاط ضعف)", callback_data="suggest")],
@@ -1483,7 +1483,7 @@ async def admin_import_json(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 # ======================== دوال التشغيل ========================
-async def run_webhook_async(application):
+async def run_webhook_async():
     WEBHOOK_URL = os.getenv("WEBHOOK_URL")
     if not WEBHOOK_URL:
         logger.error("WEBHOOK_URL غير معرف")
@@ -1495,8 +1495,8 @@ async def run_webhook_async(application):
         logger.error("مكتبة aiohttp غير مثبتة")
         return
 
-    await application.initialize()
-    await application.start()
+    await .initialize()
+    await .start()
 
     async def webhook_handler(request):
         try:
@@ -1504,8 +1504,8 @@ async def run_webhook_async(application):
             if not data:
                 return web.Response(text="Empty", status=400)
             from telegram import Update
-            update = Update.de_json(data, application.bot)
-            await application.process_update(update)
+            update = Update.de_json(data, .bot)
+            await .process_update(update)
             return web.Response(text="OK", status=200)
         except Exception as e:
             logger.error(f"خطأ في webhook: {e}", exc_info=True)
@@ -1517,7 +1517,7 @@ async def run_webhook_async(application):
     async def root(request):
         return web.Response(text="Bot is running", status=200)
 
-    app = web.Application()
+    app = web.()
     app.router.add_get("/", root)
     app.router.add_get("/health", health_check)
     app.router.add_post(f"/{TOKEN}", webhook_handler)
@@ -1530,10 +1530,26 @@ async def run_webhook_async(application):
     logger.info(f"خادم webhook يعمل على المنفذ {port}")
 
     webhook_url = f"{WEBHOOK_URL}/{TOKEN}"
-    await application.bot.set_webhook(webhook_url)
+    await .bot.set_webhook(webhook_url)
     logger.info(f"تم تعيين webhook إلى {webhook_url}")
 
     await asyncio.Event().wait()
+
+async def shuffle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    await query.answer()
+    user_id = query.from_user.id
+    state = get_user_state(user_id)
+    qids = state.get('current_ids', [])
+    if not qids:
+        await query.edit_message_text("⚠️ لا توجد أسئلة لخلطها.", reply_markup=build_main_menu(user_id))
+        return
+    random.shuffle(qids)
+    state['current_ids'] = qids
+    state['current_index'] = 0
+    state['answers'] = {}
+    save_user_state(user_id, state)
+    await query.edit_message_text("🔀 <b>تم خلط الأسئلة بنجاح!</b>", parse_mode=ParseMode.HTML, reply_markup=build_main_menu(user_id))
 
 def main():
     init_db()
@@ -1552,6 +1568,8 @@ def main():
     application.add_handler(CommandHandler("shuffle", shuffle_command))
     application.add_handler(CommandHandler("list_questions", list_questions_command))
     application.add_handler(CommandHandler("stats", lambda u, c: stats(u, c)))
+    application.add_handler(CallbackQueryHandler(shuffle_callback, pattern="^shuffle$"))
+
 
     # اختبار مخصص
     application.add_handler(CallbackQueryHandler(custom_quiz_start, pattern="^custom_quiz$"))
