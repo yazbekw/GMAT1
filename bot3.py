@@ -171,8 +171,10 @@ def load_questions_from_json():
                         (q['question'], options_json, answer_idx, q.get('explanation', ''), q.get('category', 'غير مصنف'))
                     )
                     count += 1
-        except Exception as e:
-            logger.error(f"خطأ في تحميل {file}: {e}")
+        import traceback
+
+        except Exception:
+            logger.exception(f"خطأ في تحميل {file}")
     conn.commit()
     conn.close()
     logger.info(f"تم تحميل {count} سؤال من JSON إلى قاعدة البيانات")
