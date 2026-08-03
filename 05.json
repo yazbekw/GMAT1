@@ -1,0 +1,1656 @@
+[
+  {
+    "id": 401,
+    "type": "Data Sufficiency",
+    "original_id": 401,
+    "difficulty": "Hard",
+    "question": "The table above shows the sales forecast from January to June of last year, by the sales team of Company X, for the number of units of Product Z each month. Was the actual number of units of Product Z sold in March less than the number sold in April?",
+    "options": {
+      "1": "Twelve units of Product Z were sold in March.",
+      "2": "From January through June of last year, there was a constant, linear relationship between the forecast and actual number of units of Product Z sold."
+    },
+    "correct_answer": "B",
+    "explanation": "التوقعات: مارس 16، أبريل 20. البيان الثاني: علاقة خطية ثابتة بين التوقعات والواقع، أي إذا كان التوقع لشهر أقل من توقع شهر آخر، فالواقع أيضاً أقل. بما أن 16 < 20، فالواقع في مارس < الواقع في أبريل. الأول يعطي مارس=12 فقط دون أبريل."
+  },
+  {
+    "id": 402,
+    "type": "Data Sufficiency",
+    "original_id": 402,
+    "difficulty": "Hard",
+    "question": "Chris was in an electronic appliances store to buy an LED computer monitor. Chris's purchase criteria included screen size, which must be at least 32 inches, and price, which must not exceed $400. A friend made two recommendations: Monitor A and Monitor B. Chris liked both monitors. Did Chris more likely buy Monitor A, Monitor B, or neither?",
+    "options": {
+      "1": "Monitor A's screen size was more than 32 inches and it cost less than Monitor B.",
+      "2": "Monitor B cost $390 and its screen size was less than that of Monitor A."
+    },
+    "correct_answer": "E",
+    "explanation": "البيان الأول: A حجمه >32 وسعره أقل من B. لكن لا نعرف سعر A (قد يكون >400) ولا حجم B. الثاني: B سعره 390 (يحقق السعر) وحجمه أقل من A، لكن لا نعرف حجم A (قد يكون <32) ولا سعر A. معاً: A حجمه >32 وسعره أقل من B (أقل من 390)، إذن A يحقق كلا الشرطين بالتأكيد. لكن هناك معايير أخرى لم تذكر، وقد يكون هناك شاشة أخرى. السؤال عن 'most likely' لا يمكن الجزم به."
+  },
+  {
+    "id": 403,
+    "type": "Data Sufficiency",
+    "original_id": 403,
+    "difficulty": "Hard",
+    "question": "A certain pizzeria has more than fifty types of pizza on its menu. The chart above shows the revenue share, in the pizzeria's total revenue in the last month, of its four most popular pizza types. Each pizza type has only a single size and a single price. Which was their best-selling pizza last month in terms of number of pizzas sold?",
+    "options": {
+      "1": "The number of customers who ordered at least one Pep-Peroni pizza last month was greater than the number of customers who ordered at least one of any other pizza type last month.",
+      "2": "The lowest-priced pizza type on the pizzeria's menu is Tomato Blast, followed by VegCheese."
+    },
+    "correct_answer": "B",
+    "explanation": "المخطط يظهر حصة الإيرادات. البيان الثاني: Tomato Blast هو الأقل سعراً، ومع ذلك فإن إيراداته الأعلى، فهذا يعني أنه بيعت منه كميات أكبر من أي نوع آخر. الأول يتحدث عن عدد العملاء وليس عدد البيتزا (قد يشتري العميل عدة بيتزا)."
+  },
+  {
+    "id": 404,
+    "type": "Data Sufficiency",
+    "original_id": 404,
+    "difficulty": "Hard",
+    "question": "In any twenty-four-hour period, a certain faulty clock gains anywhere from one second to a maximum of three minutes. The clock did not stop or lose time since noon the day before yesterday. At exactly noon today, did the clock show the correct time to an accuracy of five minutes?",
+    "options": {
+      "1": "The clock was set to the correct time the day before yesterday at exactly noon.",
+      "2": "At exactly noon yesterday, the clock was set back by one minute."
+    },
+    "correct_answer": "C",
+    "explanation": "البيان الأول: قبل 48 ساعة كانت صحيحة. قد تكسب الساعة بين 2 ثانية و 6 دقائق في 48 ساعة، لذا قد تكون دقيقة أو لا. الثاني: أمس تم إرجاعها دقيقة. معاً: من ظهر أول أمس إلى ظهر أمس (24 ساعة) كسبت بين 1 ث و3 دق، ثم أرجعت دقيقة، فأصبحت بين -59 ث و +2 دق. من ظهر أمس إلى ظهر اليوم (24 ساعة) كسبت بين 1 ث و3 دق، فتصبح بين -58 ث و +5 دق. دائماً ضمن ±5 دق."
+  },
+  {
+    "id": 405,
+    "type": "Data Sufficiency",
+    "original_id": 405,
+    "difficulty": "Hard",
+    "question": "The couple decide one day that they will definitely go to the beach the next evening if it is sunny without rain at the time they plan to go, and that they will definitely not go if such is not the case. The next morning, the hour-by-hour weather forecast says that in the evening, it will be sunny without rain. Will the couple go to the beach that evening?",
+    "options": {
+      "1": "It is raining on the morning and in the afternoon of the day of their planned beach outing.",
+      "2": "The couple always believe that the weather forecast is likely to be accurate."
+    },
+    "correct_answer": "E",
+    "explanation": "القرار يعتمد على الحالة الفعلية في المساء، وليس على التوقعات أو الطقس في الصباح. لا يوجد بيان يثبت أن التوقعات صحيحة فعلاً."
+  },
+  {
+    "id": 406,
+    "type": "Data Sufficiency",
+    "original_id": 406,
+    "difficulty": "Hard",
+    "question": "A small library has books on twenty different subjects including, most prominently, history. One afternoon, a librarian arbitrarily picks up 100 books for reshelving from among the books returned that day. All the books returned that day were borrowed during the past three weeks. Are fewer than 20 percent of the books the librarian picks up on history?",
+    "options": {
+      "1": "Fewer than 20 percent of the books in the library are on history.",
+      "2": "During the past three weeks, exactly 15 books on history were borrowed from the library."
+    },
+    "correct_answer": "B",
+    "explanation": "جميع الكتب التي تم إرجاعها استعرت خلال الأسابيع الثلاثة الماضية. البيان الثاني: تم استعارة 15 كتاباً في التاريخ فقط خلال تلك الفترة. وبما أن الكتب التي التقطها أمينة المكتبة هي من بين الكتب المعادة، فلا يمكن أن يكون بينها أكثر من 15 كتاباً في التاريخ، أي أقل من 20% من 100. الأول لا يكفي لأن توزيع الكتب المعادة قد لا يمثل توزيع المكتبة."
+  },
+  {
+    "id": 407,
+    "type": "Data Sufficiency",
+    "original_id": 407,
+    "difficulty": "Hard",
+    "question": "Four book lovers have recently met and are not sure of the topics that interest the others. The table above indicates the topics that interest each of them with check marks and those that do not with cross marks (Xs). One of these persons will give another of these persons two books, each on a different one of the listed topics. Will at least one of the two books fall under the recipient's broad topic of interest?",
+    "options": {
+      "1": "One topic is science fiction and the other is humor.",
+      "2": "The intended recipient is Carlos."
+    },
+    "correct_answer": "D",
+    "explanation": "البيان الأول: الموضوعان هما الخيال العلمي والفكاهة. جميع المستلمين المحتملين مهتمون بواحد على الأقل من هذين الموضوعين (كارلوس مهتم بالخيال العلمي، ديبا مهتمة بكليهما، أليكس مهتم بالفكاهة، بيكا مهتمة بالفكاهة). إذن الإجابة نعم. الثاني: المستلم هو كارلوس، وكارلوس مهتم بكل المواضيع ما عدا الفكاهة. وبما أن الكتابين مختلفان، فلا يمكن أن يكون كلاهما فكاهة، إذن أحدهما على الأقل ضمن اهتمامات كارلوس. كل منهما كافٍ."
+  },
+  {
+    "id": 408,
+    "type": "Two-Part Analysis",
+    "original_id": 408,
+    "difficulty": "Easy",
+    "question": "Trains M and N are traveling west on parallel tracks. At exactly noon, the front of Train M, which is traveling at a constant speed of 80 kilometers per hour (km/h), is at the rail crossing at Location X, and the front of Train N, which is traveling at a constant speed of 65 km/h, is 30 km west of the rail crossing at Location X. The trains continue traveling at their respective speeds until the front of Train M and the front of Train N are simultaneously at the rail crossing at Location Y. In the table, identify the number of kilometers that the front of Train M has traveled between noon and 12:45 p.m. and the number of kilometers that the front of Train N has traveled between noon and 1:00 p.m.",
+    "options": {
+      "1": "Front of Train M",
+      "2": "Front of Train N",
+      "choices": ["55", "60", "65", "70", "75"]
+    },
+    "correct_answer": ["60", "65"],
+    "explanation": "قطار M: من الظهر إلى 12:45 = 45 دقيقة = 0.75 ساعة، المسافة = 80×0.75 = 60 كم. قطار N: من الظهر إلى 1:00 = ساعة واحدة، المسافة = 65×1 = 65 كم."
+  },
+  {
+    "id": 409,
+    "type": "Two-Part Analysis",
+    "original_id": 409,
+    "difficulty": "Easy",
+    "question": "An international basketball tournament will be held in either Nation QN or Nation RN. Exactly six nations, including the host, plan to participate, depending on the following conditions: SN will participate only if TN does. UN will not participate if either VN or WN does. WN will not participate unless the tournament is held in RN. Based on the information provided, and assuming WN participates, in the first column select the nation that must also participate, and in the second column select the nation that will not participate.",
+    "options": {
+      "1": "Must participate",
+      "2": "Will not participate",
+      "choices": ["QN", "RN", "SN", "TN", "UN", "VN", "WN"]
+    },
+    "correct_answer": ["RN", "UN"],
+    "explanation": "بافتراض مشاركة WN، فإن البطولة ستقام في RN (لأن WN لا يشارك إلا إذا أقيمت في RN)، والمضيف RN يشارك حتماً. وبما أن WN يشارك، فإن UN لن يشارك (لأن UN لا يشارك إذا شارك VN أو WN)."
+  },
+  {
+    "id": 410,
+    "type": "Two-Part Analysis",
+    "original_id": 410,
+    "difficulty": "Easy",
+    "question": "A portion of an automobile test track is divided into Segment A, Segment B, and Segment C, in that order. In a performance test on a car, the car traveled Segment A at a constant speed of 140 kilometers per hour (km/h). Immediately after this, the car rapidly slowed on Segment B and then traveled on Segment C at a constant speed of 70 km/h. The length of Segment C is 3 times the length of Segment A, and it took a total of 42 minutes for the car to travel both Segments A and C. In the table, select the length of Segment A, in kilometers, and select the length of Segment C, in kilometers.",
+    "options": {
+      "1": "Length of Segment A",
+      "2": "Length of Segment C",
+      "choices": ["8", "14", "24", "42", "72", "126"]
+    },
+    "correct_answer": ["14", "42"],
+    "explanation": "نفرض طول A = L، طول C = 3L. الزمن على A = L/140، الزمن على C = 3L/70. المجموع = 42 دقيقة = 0.7 ساعة. L/140 + 3L/70 = 0.7 => L/140 + 6L/140 = 0.7 => 7L/140 = 0.7 => L/20 = 0.7 => L=14 كم. C = 3×14 = 42 كم."
+  },
+  {
+    "id": 411,
+    "type": "Two-Part Analysis",
+    "original_id": 411,
+    "difficulty": "Easy",
+    "question": "Let X, Y, and Z denote the number of international students, in thousands, that Company U predicted would be studying in the United States (US) during the school years 2014-2015, 2019-2020, and 2024-2025, respectively. The average (arithmetic mean) of X, Y, and Z is 1,128, and Y = 1,124. Company U predicted that there would be more international students studying in the US during the 2024-2025 school year than during the 2014-2015 school year. In the table, identify a value of X and a value of Z that are jointly consistent with the information provided.",
+    "options": {
+      "1": "X",
+      "2": "Z",
+      "choices": ["910", "995", "1,175", "1,350", "1,435"]
+    },
+    "correct_answer": ["910", "1350"],
+    "explanation": "المتوسط = 1128، إذن X+Y+Z = 3384. Y=1124، إذن X+Z = 2260. بشرط X < Z. الخيارات: 910+1350 = 2260، و 910<1350."
+  },
+  {
+    "id": 412,
+    "type": "Two-Part Analysis",
+    "original_id": 412,
+    "difficulty": "Easy",
+    "question": "Advice from a computer security expert on passwords used for accessing online accounts follows: Computer users should use a different password for each online account. They should also use strong passwords, which are hard for hackers to decipher. However, strong passwords are difficult to remember, and this is especially the case for users who have multiple online accounts. Fortunately, software is available at no cost that can store and encrypt a user's passwords: the user need only remember one password to access the rest. For users willing to take the time to install the software on a computer and enter all the required data, such software provides one way to comply with my advice. Some versions of the software can even be copied to a portable device, such as a USB drive, whereby a user can access passwords from any compatible computer. For computer users with multiple accounts who would not otherwise use a different strong password on every account, the expert's advice amounts to suggesting that such users make certain sacrifices in order to make certain gains. Indicate by appropriate selections in the first and second column which of the items in the third column such users would sacrifice and which they would gain.",
+    "options": {
+      "1": "Sacrifice",
+      "2": "Gain",
+      "choices": ["Money", "Computing speed", "Security", "Number of online accounts", "Time"]
+    },
+    "correct_answer": ["Time", "Security"],
+    "explanation": "الخبير يقول إن المستخدمين سيضطرون لقضاء وقت لتثبيت البرنامج وإدخال البيانات (تضحية بالوقت) مقابل زيادة الأمان (كسب الأمان)."
+  },
+  {
+    "id": 413,
+    "type": "Two-Part Analysis",
+    "original_id": 413,
+    "difficulty": "Easy",
+    "question": "Some studies of how it was that Prussia resisted the wave of European democratization in the nineteenth century point to Prussia's unequal distribution of land ownership as the principal explanation. And political figures from areas in Prussia with high inequality in land ownership tended to be the staunchest opponents of democratic reforms. However, arguments that focus only on those figures' conflicts with landless people ignore the fact that political figures are not only representatives of socioeconomic interests but also political actors embedded in particular contexts that shape whether they support democratic reforms. Historians must take such contexts into account if they hope to explain what transpired in Prussia during this period. Select Passage for the statement that best describes the purpose of the passage as a whole, and select Portion in Boldface for the statement that best describes the purpose of the portion in boldface.",
+    "options": {
+      "1": "Passage",
+      "2": "Portion in Boldface",
+      "choices": [
+        "To offer an alternative to the standard explanation of a particular historical event",
+        "To provide evidence that economic issues were at the root of a particular historical event",
+        "To criticize a certain type of argument about a particular historical event",
+        "To criticize the motives of political figures involved in a particular historical event",
+        "To encourage historians not to approach a particular historical event from too narrow a perspective"
+      ]
+    },
+    "correct_answer": [
+      "To encourage historians not to approach a particular historical event from too narrow a perspective",
+      "To criticize a certain type of argument about a particular historical event"
+    ],
+    "explanation": "الفقرة بأكملها تشجع المؤرخين على عدم تضييق نظرتهم (الأخير). الجزء المظلل ينتقد الحجج التي تركز فقط على الصراعات مع الفلاحين (الثالث)."
+  },
+  {
+    "id": 414,
+    "type": "Two-Part Analysis",
+    "original_id": 414,
+    "difficulty": "Easy",
+    "question": "In September 2010, Armando purchased 5 identically priced shirts and 3 identically priced pairs of trousers from a certain department store. Armando paid a total of €28.85 for the shirts and €38.97 for the trousers. In October 2010, the department store held a sale, taking 25% off the September price of everything in the store. Armando returned to the store during the October 2010 sale and bought 11 of the shirts and 7 pairs of the trousers for some friends. In the table, select how much Armando paid in October for the 11 shirts and 7 pairs of trousers, rounding for each item to the nearest cent.",
+    "options": {
+      "1": "Shirts",
+      "2": "Trousers",
+      "choices": ["€47.60", "€63.51", "€68.20", "€79.39", "€90.91", "€204.54"]
+    },
+    "correct_answer": ["€47.60", "€68.20"],
+    "explanation": "سعر القميص الواحد = 28.85/5 = 5.77 يورو. بعد الخصم 25%: 5.77×0.75 = 4.3275. 11 قميص = 4.3275×11 = 47.6025 ≈ 47.60. سعر البنطلون = 38.97/3 = 12.99. بعد الخصم: 12.99×0.75 = 9.7425. 7 بنطلونات = 9.7425×7 = 68.1975 ≈ 68.20."
+  },
+  {
+    "id": 415,
+    "type": "Two-Part Analysis",
+    "original_id": 415,
+    "difficulty": "Easy",
+    "question": "A city is hosting a table tennis tournament for its residents. Each team has exactly two players, and each player is on exactly one team. In each round, each team plays exactly one other team and either wins or loses. The winning team advances to the next round and the losing team is eliminated. No team or player drops out except by losing a game. The tournament is in progress, and exactly 512 players participated in the first round. From the available options, select a number of tournament rounds and a number of teams such that after the specified number of rounds there will be the specified number of teams remaining in the tournament.",
+    "options": {
+      "1": "Rounds Completed",
+      "2": "Teams Remaining",
+      "choices": ["2", "4", "8", "16", "32"]
+    },
+    "correct_answer": ["4", "16"],
+    "explanation": "512 لاعباً = 256 فريقاً. بعد كل جولة، يتنصف عدد الفرق. الجولة 1: 128، 2: 64، 3: 32، 4: 16، 5: 8، 6: 4، 7: 2، 8: 1. الخيار الوحيد المتاح هو 4 جولات و 16 فريقاً."
+  },
+  {
+    "id": 416,
+    "type": "Two-Part Analysis",
+    "original_id": 416,
+    "difficulty": "Easy",
+    "question": "Adiliah, Bao, Davi, Laszlo, Saleema, and Yarah work in a firm's legal department. Adiliah supervises Bao and Davi, Davi supervises Laszlo, and Laszlo supervises Saleema and Yarah. These are the only supervisory relationships involving these six employees. Each document that the department processes must be initially reviewed by exactly one department member. Each document reviewed by a department member must then be reviewed by that person's supervisor. No other rules require anyone else to review any document. Anyone not required to review a given document will not review it. Select Laszlo among reviewers for the maximum number of department members who could have reviewed a single document if Laszlo was among the reviewers. Select Adiliah among reviewers for the maximum number of department members who could have reviewed a single document if Adiliah was among the reviewers.",
+    "options": {
+      "1": "Laszlo among reviewers",
+      "2": "Adiliah among reviewers",
+      "choices": ["1", "2", "3", "4", "5", "6"]
+    },
+    "correct_answer": ["4", "4"],
+    "explanation": "إذا كان Laszlo من المراجعين، فيمكن أن يكون المراجع الأول هو Saleema أو Yarah (الذين يشرف عليهم Laszlo)، ثم Laszlo، ثم Davi، ثم Adiliah = 4 مراجعين. إذا كان Adiliah من المراجعين، فيمكن أن يكون المراجع الأول Saleema أو Yarah، ثم Laszlo، ثم Davi، ثم Adiliah = 4 مراجعين (لأن Adiliah هو الأخير)."
+  },
+  {
+    "id": 417,
+    "type": "Two-Part Analysis",
+    "original_id": 417,
+    "difficulty": "Easy",
+    "question": "Naturalist: The decline of coral reefs has various causes. One contributing factor is predation on coral by organisms such as the crown-of-thorns sea star, whose preferred food source is coral polyps. Human fishing practices have decreased the sea star's predators, such as the harlequin shrimp. It is also possible that runoff containing nutrients for phytoplankton has resulted in larger phytoplankton blooms: the crown-of-thorns sea star gladly eats phytoplankton. Indicate which cause-and-effect sequence would most likely, according to the naturalist, result in coral reef decline.",
+    "options": {
+      "1": "Cause",
+      "2": "Effect",
+      "choices": [
+        "An increase in phytoplankton",
+        "A decrease in phytoplankton",
+        "An increase in crown-of-thorns sea stars",
+        "A decrease in crown-of-thorns sea stars",
+        "An increase in harlequin shrimp"
+      ]
+    },
+    "correct_answer": ["An increase in phytoplankton", "An increase in crown-of-thorns sea stars"],
+    "explanation": "الجريان السطحي يزيد العوالق النباتية، والعوالق النباتية غذاء لنجم البحر، ونجم البحر يفترس المرجان، فيؤدي إلى انخفاض الشعاب."
+  },
+  {
+    "id": 418,
+    "type": "Two-Part Analysis",
+    "original_id": 418,
+    "difficulty": "Easy",
+    "question": "Archaeologist: There were several porcelain-production centers in eighteenth-century Britain, among them Bristol, Plymouth, and New Hall. Each center developed a unique recipe for its porcelain that might include flint glass, soapstone, bone ash, clay, quartz, and so on. We will therefore be able to determine, on the basis of compositional analysis, where the next cup we recover from this archaeological site was made. Indicate two different statements as follows: one statement identifies an assumption required by the archaeologist's argument, and the other identifies a possible fact that would, if true, provide significant logical support for the required assumption.",
+    "options": {
+      "1": "Assumption Required",
+      "2": "Possible Fact",
+      "choices": [
+        "Other cups have been recovered from the archeological site, all of which were made of porcelain.",
+        "Some of the cups recovered from the archeological site were not made of porcelain.",
+        "The next cup to be recovered from the site will likely be made of porcelain.",
+        "Porcelain makers often traveled between centers, experimenting with one another's recipes.",
+        "There was considerable overlap of materials in the recipes used by the various centers.",
+        "Most porcelain in eighteenth-century Britain was made at one of the several centers."
+      ]
+    },
+    "correct_answer": [
+      "The next cup to be recovered from the site will likely be made of porcelain.",
+      "Other cups have been recovered from the archaeological site, all of which were made of porcelain."
+    ],
+    "explanation": "الافتراض المطلوب: أن الكأس القادم سيكون من الخزف (وإلا فلن ينفع التحليل). الدعم: إذا كانت الكؤوس السابقة كلها من الخزف، فهذا يعزز احتمال أن الكأس القادم خزفي أيضاً."
+  },
+  {
+    "id": 419,
+    "type": "Two-Part Analysis",
+    "original_id": 419,
+    "difficulty": "Easy",
+    "question": "Health advocate: The government's current farm-subsidy system primarily rewards large farms for planting monocultures of corn, soybeans, wheat, and rice. Most of the crops produced in this way go to feed livestock in factory farms, which results in a glut of fatty meats in the marketplace. A large proportion of such crops that are not used to feed livestock are used to make sugary processed foods. These subsidies promote unhealthy diets by making sugary foods and fatty meats artificially cheap. Obviously, it is important for the government to avoid these effects. On the basis of the information above, select Recommendations for the option that describes the government action that the health advocate most likely recommends, and select Intended result for the option that describes what the health advocate likely hopes will be the result of that action.",
+    "options": {
+      "1": "Recommendations",
+      "2": "Intended result",
+      "choices": [
+        "Improve the overall quality of livestock feed",
+        "Improve the overall quality of people's diets",
+        "Reduce the overall financial cost of people's diets",
+        "Prevent the manufacture of sugary processed food",
+        "Change the farm-subsidy system"
+      ]
+    },
+    "correct_answer": ["Change the farm-subsidy system", "Improve the overall quality of people's diets"],
+    "explanation": "المناصر ينتقد نظام الإعانات، لذا يوصي بتغييره. والنتيجة المرجوة هي تحسين جودة النظم الغذائية للناس."
+  },
+  {
+    "id": 420,
+    "type": "Two-Part Analysis",
+    "original_id": 420,
+    "difficulty": "Easy",
+    "question": "An archaeologist studying Artifacts A-D is interested in whether Artifact C is older than Artifact A. Select an assertion involving Artifact A and an assertion involving Artifact C that together imply the assertion 'Artifact C is older than Artifact A.'",
+    "options": {
+      "1": "Assertion involving Artifact A",
+      "2": "Assertion involving Artifact C",
+      "choices": [
+        "Artifact A is older than Artifact B.",
+        "Artifact A is older than Artifact D.",
+        "Artifact B is older than Artifact A.",
+        "Artifact B is older than Artifact D.",
+        "Artifact C is older than Artifact D.",
+        "Artifact C is older than Artifact B."
+      ]
+    },
+    "correct_answer": ["Artifact B is older than Artifact A.", "Artifact C is older than Artifact B."],
+    "explanation": "إذا كان B أقدم من A، و C أقدم من B، فإن C أقدم من A (علاقة تعدية)."
+  },
+  {
+    "id": 421,
+    "type": "Two-Part Analysis",
+    "original_id": 421,
+    "difficulty": "Easy",
+    "question": "For a randomly selected day, the probability that a visitor to a certain pond will see at least one swan is 0.35. The probability that a visitor to that pond on a randomly selected day will see at least one heron is 0.2. Furthermore, seeing a swan and seeing a heron are independent of each other. Based on the information provided, select Both swan and heron for the probability that a visitor to the pond will see both at least one swan and at least one heron on any given day, and select Neither swan nor heron for the probability that a visitor to the pond will see neither a swan nor a heron on any given day.",
+    "options": {
+      "1": "Both swan and heron",
+      "2": "Neither swan nor heron",
+      "choices": ["0.02", "0.07", "0.48", "0.52", "0.70"]
+    },
+    "correct_answer": ["0.07", "0.52"],
+    "explanation": "كلاهما (مستقلان): 0.35×0.2 = 0.07. لا واحد منهما: (1-0.35)×(1-0.2) = 0.65×0.8 = 0.52."
+  },
+  {
+    "id": 422,
+    "type": "Two-Part Analysis",
+    "original_id": 422,
+    "difficulty": "Easy",
+    "question": "Two primary school teachers are debating the merits of classrooms with highly decorated walls. Teacher 1: A recent study has shown that highly decorated walls can interfere with learning in the classroom. We should therefore decrease the number of wall decorations in our classrooms. Teacher 2: The results of that study are correct, but pertain only to the retention of information from single lessons in which the students were in the classroom for only a short period of time. Our students are in the same classroom all day, five days a week. Without some added stimulation, students can become bored and therefore even more distracted than they would be by highly decorated walls. I therefore maintain that highly decorated walls serve to increase learning over the long term. Select for X and for Y the options such that the following statement, if filled in accordingly, has the most support from the information provided. Teacher 2 suggests that he agrees with Teacher 1 about the effects of wall decorations on X but disagrees about the effects of wall decorations on Y.",
+    "options": {
+      "1": "X",
+      "2": "Y",
+      "choices": [
+        "retention of certain specified types of information",
+        "the effectiveness of teaching methods that eschew rote learning",
+        "the ability of students to maintain skills if practiced in various classrooms",
+        "retention of information from multiple lessons given in the same room over a period of time",
+        "retention of information from lessons given in rooms occupied for only a short time"
+      ]
+    },
+    "correct_answer": [
+      "retention of information from lessons given in rooms occupied for only a short time",
+      "retention of information from multiple lessons given in the same room over a period of time"
+    ],
+    "explanation": "X: يتفقان على أن الزخارف تؤثر سلباً على الاحتفاظ بالمعلومات في الدروس القصيرة. Y: يختلفان في تأثيرها على الاحتفاظ بالمعلومات في الدروس المتعددة في نفس الغرفة على مدى فترة زمنية."
+  },
+  {
+    "id": 423,
+    "type": "Two-Part Analysis",
+    "original_id": 423,
+    "difficulty": "Medium",
+    "question": "Supervisor's memo: At the present rate of manufacture we will not have the 1,200 circuit boards assembled in time to ship them to the customer. We currently have 10 workers, all working 8 hours a day at the same hourly rate, assembling the boards, and to date they've assembled 400. In order to finish the customer's order in time, I'll need to have each of the workers work an additional 2 hours for each of the 10 workdays between now and the deadline. One can determine the hourly rate at which each worker assembled circuit boards up to the date of the supervisor's memo by dividing 1 circuit boards by the product of 2 worker-hours per day and the number of days since the workers began assembling the circuit boards. Select Circuit boards for the option that fills the blank labeled 1 in the given statement, and select Worker-hours for the option that fills the blank labeled 2 in the given statement to create the most accurate statement on the basis of the information provided.",
+    "options": {
+      "1": "Circuit boards",
+      "2": "Worker-hours",
+      "choices": ["80", "400", "500", "800", "1,000", "1,200"]
+    },
+    "correct_answer": ["400", "80"],
+    "explanation": "المعدل = عدد اللوحات المجمعة / (عدد العمال × ساعات العمل اليومية × عدد الأيام). البسط = 400 لوحة. المقام = 10 عمال × 8 ساعات = 80 ساعة عمل يومياً."
+  },
+  {
+    "id": 424,
+    "type": "Two-Part Analysis",
+    "original_id": 424,
+    "difficulty": "Medium",
+    "question": "In an experiment, one thousand nine-year-old children were allowed to choose whether to participate in a program in which the researchers taught them dance during the daily break from their lessons. Four hundred of the children chose to participate for at least one year. At the end of the year, researchers found that the children who had participated had significantly better balance, on average, than those who had not. The researchers hypothesized that dancing resulted in a sustained improvement in the children's sense of balance. It would be most helpful in evaluating the researchers' hypothesis to know whether the researchers 1 prior to having 2. Select Researchers for the phrase that fills the blank labeled 1 in the given statement, and select Prior to for the phrase that fills the blank labeled 2 in the given statement to create the most accurate statement on the basis of the information provided.",
+    "options": {
+      "1": "Researchers",
+      "2": "Prior to",
+      "choices": [
+        "tested the children's ability to dance",
+        "designed a second experiment",
+        "divided the children into the two experimental groups",
+        "tested the children's sense of balance",
+        "taught dance to the children through the dance program"
+      ]
+    },
+    "correct_answer": ["tested the children's sense of balance", "taught dance to the children through the dance program"],
+    "explanation": "لتقييم الفرضية، من المهم معرفة ما إذا كان الباحثون قد اختبروا حس التوازن لدى الأطفال قبل تعليمهم الرقص، لاستبعاد احتمال أن الأطفال الذين اختاروا المشاركة كانوا أصلاً أفضل توازناً."
+  },
+  {
+    "id": 425,
+    "type": "Two-Part Analysis",
+    "original_id": 425,
+    "difficulty": "Medium",
+    "question": "Klaus: Closing our neighborhood's school will mean a major hassle for neighborhood families. Students will have to travel farther to and from school, which means they'll have less time for homework. That will likely affect them academically. Additionally, a vacant school building in our neighborhood is sure to attract crime and drag down home values. Rena: Our neighborhood's school never had a great reputation anyway. Closing it means students will get to go to a larger school—with a better reputation—just a few kilometers away, where they'll have more opportunities to participate in extracurricular activities. That should make homes here more valuable to potential buyers. And the vacant school building could be converted into a much-needed community center. Select Klaus for the phrase that best describes a factor that is specifically addressed by Klaus but not by Rena, and select Rena for the phrase that best describes a factor that is specifically addressed by Rena but not by Klaus.",
+    "options": {
+      "1": "Klaus",
+      "2": "Rena",
+      "choices": [
+        "The vacant school building",
+        "The distance students must travel to school",
+        "Extracurricular activities",
+        "Real estate values",
+        "Students' academic performance"
+      ]
+    },
+    "correct_answer": ["Students' academic performance", "Extracurricular activities"],
+    "explanation": "كلاوس يتحدث عن الأداء الأكاديمي (وقت أقل للواجب)، بينما رينا تتحدث عن الأنشطة اللامنهجية. كلاهما يتحدث عن المبنى الفارغ والمسافة وقيم العقارات."
+  },
+  {
+    "id": 426,
+    "type": "Two-Part Analysis",
+    "original_id": 426,
+    "difficulty": "Medium",
+    "question": "Alfredo: The United States could make significant progress toward becoming independent of petroleum-derived gasoline as a source of energy by diverting a large proportion of corn grown in the US to the production of ethanol for fuel. Brazil is virtually independent of petroleum as a source of fuel because that country has been very successful in ethanol production. Mavis: Ethanol derived from corn will never be a viable substitute for petroleum-derived gasoline in the US. While it is true that Brazil has been very successful in replacing gasoline with ethanol, Brazil's ethanol is derived from sugarcane, which is very easy to convert to ethanol and, in Brazil, very easy to cultivate. Corn, on the other hand, is difficult to grow, requiring intensive cultivation. Also, the amount of power that can be garnered from the land is much less per square meter for corn ethanol. In the table, select the statement about which Alfredo and Mavis would most clearly agree and select the statement about which Alfredo and Mavis would most clearly disagree.",
+    "options": {
+      "1": "Agree with each other about",
+      "2": "Disagree with each other about",
+      "choices": [
+        "Corn ethanol produces much less power per square meter of cultivated land than does sugarcane ethanol.",
+        "Ethanol is easier to produce from sugarcane than from corn.",
+        "There are no crops, other than corn, for producing ethanol that could viably be grown in the US.",
+        "Brazil has been very successful at replacing petroleum with ethanol.",
+        "Producing corn ethanol is a viable strategy for a nation intent on reducing dependence on petroleum."
+      ]
+    },
+    "correct_answer": [
+      "Brazil has been very successful at replacing petroleum with ethanol.",
+      "Producing corn ethanol is a viable strategy for a nation intent on reducing dependence on petroleum."
+    ],
+    "explanation": "كلاهما يوافقان على نجاح البرازيل. يختلفان في جدوى إنتاج الإيثانول من الذرة كاستراتيجية وطنية."
+  },
+  {
+    "id": 427,
+    "type": "Two-Part Analysis",
+    "original_id": 427,
+    "difficulty": "Medium",
+    "question": "Radhika is refinancing a business loan and is considering 2 different loan offers. Under Offer 1, the loan's initial principal would be $190,000 and she would pay down $1,250 in principal with each monthly payment during the first year of the loan. Under Offer 2, $4,000 in refinancing fees would be added to bring the principal to $194,000, but she would pay down $1,775 in principal with each monthly payment during the first year of the loan. In the first column of the table, select the amount of principal that would remain after 12 monthly payments under Offer 1. In the second column of the table, select the amount of principal that would remain after 12 monthly payments under offer 2.",
+    "options": {
+      "1": "Principal remaining after 12 months under Offer 1",
+      "2": "Principal remaining after 12 months under Offer 2",
+      "choices": ["$168,700", "$171,000", "$172,700", "$175,000", "$176,700", "$179,000"]
+    },
+    "correct_answer": ["$175,000", "$172,700"],
+    "explanation": "العرض 1: 190,000 - (12×1,250) = 190,000 - 15,000 = 175,000. العرض 2: 194,000 - (12×1,775) = 194,000 - 21,300 = 172,700."
+  },
+  {
+    "id": 428,
+    "type": "Two-Part Analysis",
+    "original_id": 428,
+    "difficulty": "Medium",
+    "question": "Professor A: The field of Artificial Intelligence (AI) was originally aimed exclusively at the construction of thinking machines, that is, computer systems with human-like general intelligence. But the difficulty of this goal of general AI has led researchers to shift their focus to producing narrow AI systems: software displaying intelligence regarding specific tasks in relatively narrow domains such as chess. The problem is, narrow AI and general AI are fundamentally and entirely different pursuits. If modeling general intelligence is the objective, AI researchers must redirect themselves toward the original goals of the field and confront the more difficult issues of human-like intelligence. Professor B: Narrow AI work is producing real results today, such as chess-playing programs that can defeat any human, programs that translate speech to text, and programs that can drive automated vehicles. Achievements in this field will continue to flow, and eventually narrow AI will lead to the creation of systems with general intelligence. On the basis of the given information, select a claim that Professor A would most likely disagree with, and select a claim that Professor B would most likely disagree with.",
+    "options": {
+      "1": "Professor A disagrees",
+      "2": "Professor B disagrees",
+      "choices": [
+        "The creation of computer systems that display human-like general intelligence is an important goal.",
+        "The creation of systems that display intelligence regarding specific tasks is an especially important step toward the creation of systems with general intelligence.",
+        "Systems with general intelligence are more difficult to create than are systems with narrow intelligence.",
+        "Research in the narrow AI field is not likely to lead to significant breakthroughs in the general AI field.",
+        "The original aim of AI research was to create systems with general intelligence.",
+        "The research into narrow AI is not producing results that real people can benefit from today."
+      ]
+    },
+    "correct_answer": [
+      "The creation of systems that display intelligence regarding specific tasks is an especially important step toward the creation of systems with general intelligence.",
+      "Research in the narrow AI field is not likely to lead to significant breakthroughs in the general AI field."
+    ],
+    "explanation": "A يختلف مع أن الذكاء الضيق خطوة مهمة نحو العام (فهما مختلفان تماماً). B يختلف مع أن أبحاث الذكاء الضيق لن تؤدي إلى اختراقات في الذكاء العام (فهو يعتقد أنها ستؤدي)."
+  },
+  {
+    "id": 429,
+    "type": "Two-Part Analysis",
+    "original_id": 429,
+    "difficulty": "Medium",
+    "question": "Swamp sparrows live in a variety of wetland habitats. Unlike most swamp sparrows, which live in freshwater habitats, the coastal-plain subspecies lives in tidal wetlands, where freshwater and seawater mix and the mud is gray rather than brown. Coastal-plain swamp sparrows differ from all other populations of swamp sparrows in having plumage that is gray-brown rather than rusty brown. DNA analysis indicates several important genetic differences between swamp sparrows that inhabit tidal marshes and other subspecies of swamp sparrows. Therefore, there must have been genetic-selection pressure on swamp sparrows in tidal marshes to become darker and grayer. Select Strengthen for the statement that would, if true, most strengthen the argument, and select Weaken for the statement that would, if true, most weaken the argument.",
+    "options": {
+      "1": "Strengthen",
+      "2": "Weaken",
+      "choices": [
+        "None of the genetic differences that have been identified in the genomes of coastal-plain swamp sparrows and freshwater swamp sparrows affect plumage color.",
+        "Mud in tidal marshes tends to be grayish because of the presence of iron sulfide, whereas freshwater mud is browner because of the presence of iron oxide.",
+        "Some species of birds that live in tidal marshes do not have gray plumage.",
+        "The diets of both coastal-plain and freshwater swamp sparrows can change significantly from season to season.",
+        "Baby birds of the coastal-plain subspecies and baby birds of a freshwater swamp subspecies, all raised on an identical diet under controlled conditions, grew plumage similar in color to that of their respective parents."
+      ]
+    },
+    "correct_answer": [
+      "Baby birds of the coastal-plain subspecies and baby birds of a freshwater swamp subspecies, all raised on an identical diet under controlled conditions, grew plumage similar in color to that of their respective parents.",
+      "None of the genetic differences that have been identified in the genomes of coastal-plain swamp sparrows and freshwater swamp sparrows affect plumage color."
+    ],
+    "explanation": "التقوية: إذا نشأت فراخ تحت ظروف متطابقة ولون ريشها يشابه لون والديها، فهذا يثبت أن اللون وراثي وليس بيئياً. الإضعاف: إذا كانت الاختلافات الجينية لا تؤثر على لون الريش، فهذا يضعف claim أن الضغط الانتقائي كان على اللون."
+  },
+  {
+    "id": 430,
+    "type": "Two-Part Analysis",
+    "original_id": 430,
+    "difficulty": "Medium",
+    "question": "Boppo is a game played by 2 teams for a fixed duration (number of minutes). It is played with 8 members of each team on the floor—actually playing the game—at all times. At any time during the game, exactly one player from each team must be off the floor—not actually playing. Thus, by taking a break, by entering the game after it starts, or by leaving before it finishes, every player on each team must spend exactly 5 minutes resting or otherwise not playing. In the table, identify a number of players per team and a number of minutes per game that are consistent with the given information about Boppo.",
+    "options": {
+      "1": "Number of players",
+      "2": "Number of minutes",
+      "choices": ["9", "11", "18", "30", "45", "50"]
+    },
+    "correct_answer": ["9", "45"],
+    "explanation": "يجب أن يكون هناك 8 لاعبين في الملعب و1 خارج الملعب لكل فريق، أي 9 لاعبين لكل فريق. كل لاعب يجب أن يستريح 5 دقائق، ووقت المباراة = عدد اللاعبين × 5 = 9×5 = 45 دقيقة."
+  },
+  {
+    "id": 431,
+    "type": "Two-Part Analysis",
+    "original_id": 431,
+    "difficulty": "Medium",
+    "question": "Loan X has a principal of 5x and a yearly simple interest rate of 4%. Loan Y has a principal of 5y and a yearly simple interest rate of 8%. Loans X and Y will be consolidated to form Loan Z with a principal of 5(x+y) and a yearly simple interest rate of r%, where r = (4x+8y)/(x+y). Select a value for x and a value for y corresponding to a yearly simple interest rate of 5% for the consolidated loan.",
+    "options": {
+      "1": "x",
+      "2": "y",
+      "choices": ["21,000", "32,000", "51,000", "64,000", "81,000", "96,000"]
+    },
+    "correct_answer": ["96,000", "32,000"],
+    "explanation": "نريد r=5: (4x+8y)/(x+y) = 5 => 4x+8y = 5x+5y => 3y = x => x=3y. الخيارات: 96,000 = 3×32,000."
+  },
+  {
+    "id": 432,
+    "type": "Two-Part Analysis",
+    "original_id": 432,
+    "difficulty": "Medium",
+    "question": "Perry, Maria, and Lorna are painting rooms in a college dormitory. Working alone, Perry can paint a standard room in 3 hours, Maria can paint a standard room in 2 hours, and Lorna can paint a standard room in 2 hours 30 minutes. Perry, Maria, and Lorna have decided that, to speed up the work, 2 of them will paint a standard room together. Select the value closest to the shortest time in which a 2-person team could paint a standard room, and select the value closest to the longest time in which a 2-person team could paint a standard room, with each person working at his or her respective rate.",
+    "options": {
+      "1": "Shortest time",
+      "2": "Longest time",
+      "choices": ["49 minutes", "1 hour 7 minutes", "1 hour 12 minutes", "1 hour 14 minutes", "1 hour 22 minutes", "1 hour 45 minutes"]
+    },
+    "correct_answer": ["1 hour 7 minutes", "1 hour 22 minutes"],
+    "explanation": "أسرع فريق: ماريا (2 ساعة) + لورنا (2.5 ساعة). معدلهما = 1/2 + 2/5 = 0.5+0.4 = 0.9 غرفة/ساعة، زمن = 1/0.9 = 1.11 ساعة ≈ 1 ساعة 7 دق. أبطأ فريق: بيري (3 ساعات) + لورنا (2.5 ساعة). معدلهما = 1/3 + 2/5 = 0.333+0.4 = 0.733، زمن = 1/0.733 = 1.36 ساعة ≈ 1 ساعة 22 دق."
+  },
+  {
+    "id": 433,
+    "type": "Two-Part Analysis",
+    "original_id": 433,
+    "difficulty": "Medium",
+    "question": "A dance show will include exactly five pieces, and each piece will be presented only once: Requiem, Smooth Step, Trampoline, Unleashed, and Waltzy. Requiem will be presented immediately before Smooth Step. Unleashed will be presented earlier than Trampoline, with at least one piece in between. Waltzy will not be the final piece presented. In the table, select a piece that cannot be the second piece presented and a piece that cannot be the third piece presented.",
+    "options": {
+      "1": "Cannot be presented second",
+      "2": "Cannot be presented third",
+      "choices": ["Requiem", "Smooth Step", "Trampoline", "Unleashed", "Waltzy"]
+    },
+    "correct_answer": ["Trampoline", "Waltzy"],
+    "explanation": "Trampoline لا يمكن أن يكون ثانياً لأنه يجب أن يأتي Unleashed قبله مع فاصل بينهما، أي Trampoline في المرتبة 3 على الأقل. Waltzy لا يمكن أن يكون ثالثاً: لو كان ثالثاً، فـ Requiem و Smooth Step إما 1-2 أو 4-5، وفي كلتا الحالتين Unleashed و Trampoline سيكونان متجاورين بدون فاصل، وهو ممنوع."
+  },
+  {
+    "id": 434,
+    "type": "Two-Part Analysis",
+    "original_id": 434,
+    "difficulty": "Medium",
+    "question": "An American museum of East Asian art reviewed its acquisitions strategy in 2009. As part of that review, a marketing executive recommended purchasing more ceramics, jades, and paintings of people or landscapes because visitor surveys indicated that those types are of greatest interest to museumgoers in the region. The museum's curator recommended purchasing more twenty-first-century East Asian art—particularly abstract (nonrepresentational) paintings and sculptures—because the museum's collection is weakest in that area. Among the East Asian works of art described below, select a painting and a sculpture, each of which satisfies at least one of the recommendations made by the marketing executive and at least one of the recommendations made by the curator.",
+    "options": {
+      "1": "Painting",
+      "2": "Sculpture",
+      "choices": [
+        "Painting of girl's face, in shades of blue and red, acrylic and oil on canvas, 2006",
+        "Chinese brush painting of fish in a tank, ink on paper, 2002",
+        "Fish-shaped vase with dragon head, jade, 1849",
+        "Abstract sequence of interconnected curves, ceramic, 2008",
+        "Fossil-like, jagged sculpture suspended from cables, stainless steel, aluminum, fiberglass, and cable, 2004"
+      ]
+    },
+    "correct_answer": [
+      "Painting of girl's face, in shades of blue and red, acrylic and oil on canvas, 2006",
+      "Abstract sequence of interconnected curves, ceramic, 2008"
+    ],
+    "explanation": "اللوحة: رسم لوجه فتاة (ينطبق على 'لوحات الأشخاص') وعام 2006 (القرن 21). التمثال: سيراميك (ينطبق على 'السيراميك') وعام 2008 (القرن 21) ومجرد (ينطبق على 'المنحوتات التجريدية')."
+  },
+  {
+    "id": 435,
+    "type": "Two-Part Analysis",
+    "original_id": 435,
+    "difficulty": "Medium",
+    "question": "Professor A: The aid industry should begin to focus its efforts to spending on primary schools in the poorest areas, to providing medicines and other basic supplies for health such as mosquito nets, and to a few key agricultural initiatives. Professor B: Much education work has been ineffective. A village or town with poor schooling may be better off getting a road than a teacher. Once local farmers can transport produce to market, they will be willing to pay for schools—and to make sure the schools succeed. Suppose that the professors' statements express their genuine opinions. Select statements (1) and (2) as follows: Professor A would likely disagree with (1), and Professor B would take (2) to present logical support for (1).",
+    "options": {
+      "1": "1",
+      "2": "2",
+      "choices": [
+        "The aid industry should focus less on the areas of health and agriculture than it now does.",
+        "The aid industry should focus more on primary education than it now does.",
+        "The aid industry should focus its spending less on primary education than it now does.",
+        "Projects in health and agriculture are more likely to be successful if they are not paid for by the aid industry.",
+        "Projects in education are more likely to be successful if they are paid for by the aid industry.",
+        "Projects in education are more likely to be successful if they are paid for by local people."
+      ]
+    },
+    "correct_answer": [
+      "The aid industry should focus its spending less on primary education than it now does.",
+      "Projects in education are more likely to be successful if they are paid for by local people."
+    ],
+    "explanation": "A يريد التركيز أكثر على التعليم، فيختلف مع تقليل الإنفاق عليه. B يقول إن التعليم يكون ناجحاً عندما يدفع له السكان المحليون (كما في قصة الطريق)، وهذا يدعم تقليل الإنفاق الأجنبي على التعليم."
+  },
+  {
+    "id": 436,
+    "type": "Two-Part Analysis",
+    "original_id": 436,
+    "difficulty": "Medium",
+    "question": "A car is traveling on a straight stretch of roadway, and the speed of the car is increasing at a constant rate with respect to time. At time 0 seconds, the speed of the car is v0 meters per second; 10 seconds later, the front bumper of the car has traveled 125 meters, and the speed of the car is v10 meters per second. Select values of v0 and v10 that are together consistent with the information provided.",
+    "options": {
+      "1": "v0",
+      "2": "v10",
+      "choices": ["5", "18", "20", "36", "72"]
+    },
+    "correct_answer": ["5", "20"],
+    "explanation": "متوسط السرعة = (v0+v10)/2. المسافة = متوسط السرعة × الزمن = (v0+v10)/2 × 10 = 5(v0+v10) = 125 => v0+v10 = 25. الخياران الوحيدان اللذان مجموعهما 25 هما 5 و 20، وبما أن السرعة تتزايد، v0=5, v10=20."
+  },
+  {
+    "id": 437,
+    "type": "Two-Part Analysis",
+    "original_id": 437,
+    "difficulty": "Medium",
+    "question": "For each positive integer n, the quantity s_n is defined such that s_{n+2} = (s_n)^2 - s_{n+1}. In addition, s_2 = 1. Select values for s_1 and s_4 that are jointly compatible with these conditions.",
+    "options": {
+      "1": "S1",
+      "2": "S4",
+      "choices": ["-12", "-7", "-3", "-1", "0"]
+    },
+    "correct_answer": ["-3", "-7"],
+    "explanation": "s3 = s1^2 - s2 = s1^2 - 1. s4 = s2^2 - s3 = 1 - (s1^2 - 1) = 2 - s1^2. جرب s1=-3 => s4 = 2 - 9 = -7. كلا القيمتين موجودتان."
+  },
+  {
+    "id": 438,
+    "type": "Two-Part Analysis",
+    "original_id": 438,
+    "difficulty": "Medium",
+    "question": "The finesse of a gold bar is the weight of the gold present in the bar divided by the total weight of the bar. A jeweler has three gold bars. The three bars have identical weights, and the first two bars have identical finesse. If all three bars were melted and combined into one bar, the finesse of the resulting bar would be 0.96. Select a finesse of the First two bars and a finesse of the Third bar that are jointly consistent with the given information.",
+    "options": {
+      "1": "First two bars",
+      "2": "Third bar",
+      "choices": ["0.92", "0.93", "0.94", "0.98", "0.99"]
+    },
+    "correct_answer": ["0.98", "0.92"],
+    "explanation": "نفرض وزن كل سبيكة = w. كتلة الذهب الكلية = 2w×F1 + w×F3 = w(2F1+F3). النقاء الكلي = (2F1+F3)/(3w) = 0.96 => 2F1+F3 = 2.88. جرب F1=0.98, F3=0.92 => 1.96+0.92=2.88."
+  },
+  {
+    "id": 439,
+    "type": "Two-Part Analysis",
+    "original_id": 439,
+    "difficulty": "Medium",
+    "question": "A fair coin has 2 distinct flat sides—one of which bears the image of a face and the other of which does not—and when the coin is tossed, the probability that the coin will land face up is 1/2. For certain values of M, N, p, and q, when M fair coins are tossed simultaneously, the probability is p that all M coins land face up, and when N fair coins are tossed simultaneously, the probability is q that all N coins land face up. Furthermore, M < N and 1/p + 1/q = 72. In the table, select a value for M and a value for N that are jointly consistent with the given information.",
+    "options": {
+      "1": "M",
+      "2": "N",
+      "choices": ["2", "3", "4", "5", "6", "7"]
+    },
+    "correct_answer": ["3", "6"],
+    "explanation": "p = 1/2^M, q = 1/2^N. 1/p + 1/q = 2^M + 2^N = 72. 2^3 + 2^6 = 8+64=72. M<N، إذن M=3، N=6."
+  },
+  {
+    "id": 440,
+    "type": "Two-Part Analysis",
+    "original_id": 440,
+    "difficulty": "Medium",
+    "question": "Educational policy analyst: To improve the long-term economic benefits that our country's universities provide to their students, the government should provide subsidies enabling the universities to hire more academic staff. Hiring more academic staff would allow smaller class sizes. Statistically, university students in smaller classes tend to receive higher grades than those in larger classes. And on average, a student who earns higher grades in university classes tends to have a higher salary after graduation than a student who earns lower grades. Thus, hiring more academic staff nationwide should improve the economic well-being of graduates nationwide. Consider the incomplete statement: According to the analyst's argument, students' 1 is bolstered by their 2. Select for 1 and 2 the options that complete the statement in the manner that most accurately reflects the given information.",
+    "options": {
+      "1": "1",
+      "2": "2",
+      "choices": [
+        "tendency to earn higher grades in university classes",
+        "economic well-being after graduating from university",
+        "being in larger than average university classes",
+        "receiving better education overall",
+        "learning from a greater number of academic staff"
+      ]
+    },
+    "correct_answer": ["economic well-being after graduating from university", "tendency to earn higher grades in university classes"],
+    "explanation": "الرفاه الاقتصادي للخريجين (1) يعززه (2) ميلهم للحصول على درجات أعلى في الجامعة، حسب منطق المحلل."
+  },
+  {
+    "id": 441,
+    "type": "Two-Part Analysis",
+    "original_id": 441,
+    "difficulty": "Medium",
+    "question": "The payload rating (PR) of a truck is the truck's recommended load weight, which is specified as a number of tonnes (t), where 1 tonne = 1,000 kilograms. A certain truck's PR is a whole number of tonnes. The truck has hauled exactly 7 loads, exactly 3 of which had a greater weight than the truck's PR. The weights of these 7 loads, in tonnes, are as follows: 50, 51, 52, 52, 54, 54, 56. Select the Least and the Greatest possible values for the truck's PR, in tonnes.",
+    "options": {
+      "1": "Least",
+      "2": "Greatest",
+      "choices": ["49", "50", "51", "52", "53", "54"]
+    },
+    "correct_answer": ["52", "53"],
+    "explanation": "يجب أن يكون بالضبط 3 حمولات > PR. الحمولات الأكبر من 53 هي 54،54،56 (3 حمولات). الحمولات الأكبر من 52 هي 54،54،56 (3 حمولات) أيضاً لأن 52 ليست أكبر من 52. إذن PR يمكن أن يكون 52 أو 53. الأقل = 52، الأكبر = 53."
+  },
+  {
+    "id": 442,
+    "type": "Two-Part Analysis",
+    "original_id": 442,
+    "difficulty": "Medium",
+    "question": "Each of the species of a certain type of insect has at least one of five significant traits: A, B, C, D, and E. Furthermore, one study has determined that any species with Trait A has at least one of the Traits B and C. Another study has determined that any species with Trait C has at least one of the Traits D and E. And a third study has determined that any of the species with Trait B has Trait C. The results of each study are correct. Select different options for X and for Y such that the following statement most accurately describes the passage. In addition to the relationship between Traits B and C that is stated explicitly with respect to the third study, the passage implies that any of the insects that has Trait X also has Trait Y.",
+    "options": {
+      "1": "X",
+      "2": "Y",
+      "choices": ["A", "B", "C", "D", "E"]
+    },
+    "correct_answer": ["A", "C"],
+    "explanation": "إذا كانت الحشرة تملك A، فإما أن تملك B أو C. وإذا كانت تملك B، فإنها تملك C (حسب الدراسة الثالثة). إذن في كلتا الحالتين، أي حشرة تملك A ستملك C. إذن X=A، Y=C."
+  },
+  {
+    "id": 443,
+    "type": "Two-Part Analysis",
+    "original_id": 443,
+    "difficulty": "Medium",
+    "question": "Events A, B, and C have the following probabilities of future occurrence: A: 20%, B: 50%, C: 80%. On the basis of these probabilities, select for Both A and B a description that must be true of the probability that both A and B will occur. And select for B or C or Both a description that must be true of the probability that B or C or both will occur.",
+    "options": {
+      "1": "Both A and B",
+      "2": "B or C or Both",
+      "choices": [
+        "Must be equal to 40%",
+        "Must be equal to 50%",
+        "Must be equal to 70%",
+        "Must be less than or equal to 20%",
+        "Must be greater than or equal to 80%"
+      ]
+    },
+    "correct_answer": ["Must be less than or equal to 20%", "Must be greater than or equal to 80%"],
+    "explanation": "P(كلاهما A و B) ≤ P(A) = 20%. P(B أو C أو كليهما) ≥ P(C) = 80% لأنها تشمل C."
+  },
+  {
+    "id": 444,
+    "type": "Two-Part Analysis",
+    "original_id": 444,
+    "difficulty": "Hard",
+    "question": "In June 1990, a small academic press published an initial run of 2,500 copies of linguist Chloe Vermeulen's first book, Speech and Speaking. Because the first run was selling well, a second, larger run was produced in June 1995. Total sales for the period from June 1995-June 2000 represented an increase of 52 percent over total sales for the preceding five years; by June 2000, Vermeulen's book had sold a total of 3,843 copies. In 2000, Speech and Speaking was cited in an influential paper; subsequently, for the period June 2000-June 2005, sales of Vermeulen's book were double the sales for the previous five-year period. In the table, identify the number of books that most closely approximates the total sales of Speech and Speaking for each of the five-year periods June 1990-June 1995 and June 2000-June 2005, based on the information given.",
+    "options": {
+      "1": "June 1990-June 1995",
+      "2": "June 2000-June 2005",
+      "choices": ["1,320", "1,530", "2,530", "2,640", "3,800", "4,640"]
+    },
+    "correct_answer": ["1,530", "4,640"],
+    "explanation": "نفرض مبيعات 90-95 = N. مبيعات 95-2000 = 1.52N. المجموع = 2.52N = 3843 => N ≈ 1525 (أقرب 1530). مبيعات 95-2000 = 1.52×1530 ≈ 2326. مبيعات 2000-2005 = 2×2326 = 4652 (أقرب 4640)."
+  },
+  {
+    "id": 445,
+    "type": "Two-Part Analysis",
+    "original_id": 445,
+    "difficulty": "Hard",
+    "question": "Miguel's online banking password is nine characters long and includes at least one character of each of five types: digits, punctuation marks, uppercase (capital) letters, lowercase (noncapital) letters, and certain other characters. The password begins or ends with one of these other characters, of which it contains exactly one. No consecutive characters in the password are of the same one of these types. (For example, no capital letter is preceded or followed by another capital letter.) The password contains more lowercase letters than characters of any one of the other four types. It also contains fewer punctuation marks than digits, lowercase letters, or uppercase letters. The first three characters of the password are M, ?, and G. In the table, select a type of character that the fifth character in the password must be and a type of character that the seventh character must be.",
+    "options": {
+      "1": "Fifth character",
+      "2": "Seventh character",
+      "choices": ["Digit", "Lowercase letter", "Punctuation mark", "Uppercase letter", "Other character"]
+    },
+    "correct_answer": ["Digit", "Digit"],
+    "explanation": "الأحرف الأولى: M (كبير)، ? (علامة ترقيم)، G (كبير). لا يوجد حرف 'آخر' في البداية، إذن هو في النهاية (المرتبة 9). لدينا: كبير واحد (M) وآخر (G) = 2 كبير. علامة ترقيم واحدة (?) = 1. 'آخر' واحد = 1. المجموع = 4. يتبقى 5 خانات (4-8) يجب أن تحتوي على أرقام وحروف صغيرة. عدد الأحرف الصغيرة > أي نوع آخر، وبما أن الكبيرة 2، والترقيم 1، والآخر 1، فيجب أن تكون الأحرف الصغيرة على الأقل 3 (لتكون أكثر من 2). وبما أن لدينا 5 خانات متبقية، فهي إما 3 صغيرة و 2 رقم، أو 4 صغيرة و1 رقم، أو 5 صغيرة و0 رقم. لكن يجب أن يكون هناك رقم واحد على الأقل (لأن جميع الأنواع مطلوبة). أيضاً عدد علامات الترقيم (1) أقل من الأرقام، أي الأرقام >1، إذن الأرقام ≥2. إذن الخانات المتبقية = 3 صغيرة و 2 رقم. وبما أنه لا يوجد حرفان متتاليان من نفس النوع، والمرتبة 3 هي G (كبير)، فالمرتبة 4 يجب أن تكون صغيرة أو رقم أو ترقيم، لكن الترقيم انتهى، والكبير لا يمكن أن يليه كبير. الترتيب الوحيد الذي يحقق عدم التكرار هو: 4 صغيرة، 5 رقم، 6 صغيرة، 7 رقم، 8 صغيرة. إذن الخامس والسابع أرقام."
+  },
+  {
+    "id": 446,
+    "type": "Two-Part Analysis",
+    "original_id": 446,
+    "difficulty": "Hard",
+    "question": "Public health professional: The Happydale Department of Environmental Services (DES) has inspected area beaches for pathogenic bacteria for over 20 years. Currently, DES monitors 50 freshwater beaches and 10 coastal beaches on a weekly basis. Program participation by owners of beaches that are open to the public is voluntary. Beach owners who choose not to participate in the program are allowing the public to recreate on entirely unmonitored beaches. The DES now proposes adoption of the Adopt-a-Beach Program, designed to promote health and environmental education as well as public involvement in the protecting of public beaches. The program would require DES to collect biological data from all area beaches. It will also help reduce the number of beach advisories, whereby the public must be warned of dangerous conditions on certain beaches. On the basis of the public health professional's statement, indicate in the table which of the following is most likely to result if the DES proposal is successfully adopted, and indicate which is most likely to result if the DES proposal is not adopted.",
+    "options": {
+      "1": "Adopted",
+      "2": "Not adopted",
+      "choices": [
+        "Incidents of waterborne disease will increase.",
+        "The number of beach advisories will increase.",
+        "DES will shift its principal priorities from monitoring to education.",
+        "There will be fewer, if any, entirely unmonitored beaches.",
+        "Some beaches will remain entirely unmonitored."
+      ]
+    },
+    "correct_answer": ["There will be fewer, if any, entirely unmonitored beaches.", "Some beaches will remain entirely unmonitored."],
+    "explanation": "إذا تم تبني البرنامج، فسيتم جمع البيانات من جميع الشواطئ، لذا سيكون هناك عدد أقل من الشواطئ غير المراقبة. إذا لم يتم تبنيها، فسيظل الوضع الحالي حيث بعض الشواطئ غير مراقبة."
+  },
+  {
+    "id": 447,
+    "type": "Two-Part Analysis",
+    "original_id": 447,
+    "difficulty": "Hard",
+    "question": "Marco: Giant kangaroos—one of several extinct species of large mammals (megafauna)—went extinct in Australia around 46,000 years ago. The deposits and wear patterns on the teeth of these animals from around the time of their extinction indicate that they fed mostly on saltbrush shrubs. Saltbrush thrives in arid climates, so it is not likely that the kangaroos' food supply was adversely affected by the increasing aridity of the climate at the time. Thus, something else would have to account for their extinction, and the best candidate for that cause is predation by humans. Fatima: That argument alone is not likely to satisfy many researchers in this field. Have you found any other evidence to bolster your conclusion? Select Marco for the statement that, if true, most justifies Marco's assertions, and select Fatima for the statement that, if true, most justifies Fatima's skepticism about Marco's assertions.",
+    "options": {
+      "1": "Marco",
+      "2": "Fatima",
+      "choices": [
+        "Giant kangaroos became extinct during a period that was less arid than previous periods they endured.",
+        "Many researchers believe humans first arrived in Australia around 40,000 years ago.",
+        "Approximately 60 different species in Australia died out in the wave of extinctions around 46,000 years ago.",
+        "Fossils of giant kangaroos also show evidence that those animals' diets routinely included plants other than saltbrush.",
+        "Several types of megafauna larger than the giant kangaroo went extinct around 46,000 years ago."
+      ]
+    },
+    "correct_answer": [
+      "Giant kangaroos became extinct during a period that was less arid than previous periods they endured.",
+      "Many researchers believe humans first arrived in Australia around 40,000 years ago."
+    ],
+    "explanation": "ماركو: إذا انقرضت الكناغر في فترة أقل جفافاً من فترات سابقة، فهذا يدعم أن الجفاف ليس السبب. فاطمة: إذا اعتقد الباحثون أن البشر وصلوا قبل 40,000 سنة فقط، أي بعد الانقراض بـ 6,000 سنة، فهذا يشكك في فرضية الصيد البشري."
+  },
+  {
+    "id": 448,
+    "type": "Two-Part Analysis",
+    "original_id": 448,
+    "difficulty": "Hard",
+    "question": "A mattress company has two stores, one in City X and the other in City Z. The company has advertised equally in newspapers in both cities but has advertised twice as much on the radio in City Z as in City X. The two cities have similar populations and economies, and the sales at each store have been roughly equal. A consultant claims this shows that the radio advertising has not improved mattress sales. In the table below, select changes that the company could make in City X and City Z, respectively, that together would probably be most helpful in testing the consultant's claim.",
+    "options": {
+      "1": "City X",
+      "2": "City Z",
+      "choices": [
+        "Double newspaper advertising",
+        "Eliminate newspaper advertising",
+        "Eliminate radio advertising",
+        "Change the content of radio advertising",
+        "Add television advertising"
+      ]
+    },
+    "correct_answer": ["Eliminate radio advertising", "Eliminate radio advertising"],
+    "explanation": "لاختبار تأثير الإعلانات الإذاعية، أفضل طريقة هي إلغاؤها في كلتا المدينتين (أو إحداهما) ومقارنة التغير في المبيعات. بما أن المدينتين متشابهتين، إلغاء الإذاعة في كلتيهما سيعطي دليلاً قوياً."
+  },
+  {
+    "id": 449,
+    "type": "Two-Part Analysis",
+    "original_id": 449,
+    "difficulty": "Hard",
+    "question": "Metro Ballet Company presents high-quality productions of traditional, classical ballet. For the past several years, however, the company's overall profits have been declining, and ticket sales have been flat. Annual audience surveys indicate that a majority of those who attend Metro Ballet productions consistently enjoy the performances and prefer classical ballet to other forms of dance; almost all of them have been attending Metro Ballet for several years. General surveys of area residents indicate, however, that very few are aware of Metro Ballet productions, and most imagine that the performances are boring and the tickets too expensive. In an effort to appeal to a wider audience, over the past decade the company has spent increasing amounts of money on spectacular stage productions, while lowering ticket prices. In the first column, select the strategy that, in the absence of the other alternatives listed, would lead most directly to decreasing Metro Ballet's expenses for its classical ballet productions. In the second column, select the strategy that, in the absence of the other alternatives listed, would constitute the most direct approach to solving the problem of increasing audience size for Metro Ballet's classical ballet productions.",
+    "options": {
+      "1": "Decrease expenses",
+      "2": "Increase audience size",
+      "choices": [
+        "Obtain public funding to double the spending on stage productions without increasing ticket prices",
+        "Return spending on productions to levels of several years ago",
+        "Expand productions to include modern, folk, and tap dance traditions",
+        "Offer special discounts to reward people who have attended the greatest number of performances",
+        "Mount a local advertising campaign emphasizing the affordability and excitement of Metro Ballet's spectacular stage productions"
+      ]
+    },
+    "correct_answer": [
+      "Return spending on productions to levels of several years ago",
+      "Mount a local advertising campaign emphasizing the affordability and excitement of Metro Ballet's spectacular stage productions"
+    ],
+    "explanation": "لتقليل النفقات: العودة إلى مستويات الإنفاق السابقة. لزيادة الجمهور: حملة إعلانية تؤكد على التكلفة المعقولة والإثارة (لمواجهة الانطباع السائد بأنه مكلف وممل)."
+  },
+  {
+    "id": 450,
+    "type": "Two-Part Analysis",
+    "original_id": 450,
+    "difficulty": "Hard",
+    "question": "At XYZ Inc. any employee receives a verbal warning upon accumulating at least 3 unexcused absences within any 365-day period and a written reprimand upon accumulating at least 4 such absences. For any single 8-hour workday, missing between 10 minutes and 2 hours of work counts as one-third of an absence, missing between 2 hours and 4 hours of work counts as half an absence, and missing more than 4 hours counts as a full absence. However, an employee may stay late to make up for up to 1 hour of an unexcused absence on the same day. The following options are descriptions of the unexcused absences of 5 employees of XYZ Inc. Assume that in each case the employee had no other unexcused absences and made up no other time. Select a description of an employee who qualified for a verbal warning but not a written reprimand, and select a description of an employee who qualified for a written reprimand.",
+    "options": {
+      "1": "Verbal warning",
+      "2": "Written reprimand",
+      "choices": [
+        "Absent all day on 5 April 2010, 8 June 2010, 17 April 2011, and 14 June 2011",
+        "Absent 4.5 hours but stayed 1 hour late on 13 May 2010; absent all day on 2 June 2010, 1 May 2011, and 21 July 2011",
+        "Absent 4.5 hours on 19 March 2010; stayed one hour late on 20 March 2010; absent all day on 8 February 2011 and 9 February 2011; arrived 40 minutes late on 17 April 2011",
+        "Absent 3.5 hours on 13 September 2010; absent 1 hour on 15 September 2010; absent 6 hours on 16 September 2010; absent 2.5 hours on 18 September 2010; absent 1 hour on 19 September 2010",
+        "Absent 3 hours on 7 July 2010; absent 2.5 hours on 13 September 2010; absent all day on 31 January 2011 and 4 July 2011; absent 5 hours on 12 March 2011"
+      ]
+    },
+    "correct_answer": [
+      "Absent 4.5 hours on 19 March 2010; stayed one hour late on 20 March 2010; absent all day on 8 February 2011 and 9 February 2011; arrived 40 minutes late on 17 April 2011",
+      "Absent 3 hours on 7 July 2010; absent 2.5 hours on 13 September 2010; absent all day on 31 January 2011 and 4 July 2011; absent 5 hours on 12 March 2011"
+    ],
+    "explanation": "الخيار الثالث: 4.5 ساعات = غياب كامل (لأن >4)، البقاء ساعة لاحقاً في اليوم التالي لا يعوض لأنه ليس نفس اليوم. غياب كامل 8 فبراير و9 فبراير = غيابان كاملان. تأخر 40 دقيقة = 1/3 غياب. المجموع = 1 + 1 + 1 + 1/3 = 3.33 (≥3 و <4) => إنذار شفوي فقط. الخيار الخامس: 3 ساعات = 1/2، 2.5 ساعة = 1/2، يومين كاملين = 2، 5 ساعات = 1. المجموع = 0.5+0.5+2+1 = 4 => إنذار كتابي."
+  },
+  {
+    "id": 451,
+    "type": "Two-Part Analysis",
+    "original_id": 451,
+    "difficulty": "Hard",
+    "question": "Marketing strategist: Agency A designed an advertising campaign that our company is about to test with a focus group. We are wondering whether a new ad campaign will increase our name recognition among consumers. As a contingency, we have decided that we might ask Agency B to design an alternate campaign. However, if we find that Agency A's campaign elicits positive responses from the focus group, we will not ask Agency B for a campaign. A statement that must be true if the marketing strategist's statements are true: After the focus testing is complete, if the company 1 then it must also be the case that the company 2. Select for 1 if and 2 then the two different options that create a statement that must be true if the marketing strategist's statements are true.",
+    "options": {
+      "1": "1 if",
+      "2": "2 then",
+      "choices": [
+        "believes Agency A's campaign will increase the company's name recognition",
+        "believes Agency A's campaign will decrease the company's name recognition",
+        "asks Agency B for a campaign",
+        "asks Agency A for an alternate campaign",
+        "believes the focus group did not respond positively to Agency A's campaign"
+      ]
+    },
+    "correct_answer": ["asks Agency B for a campaign", "believes the focus group did not respond positively to Agency A's campaign"],
+    "explanation": "البيان المنطقي: إذا طلبوا حملة من B، فهذا يعني أنهم لم يحصلوا على استجابة إيجابية من حملة A (لأنهم قالوا إنهم لن يطلبوا من B إذا كانت استجابة A إيجابية)."
+  },
+  {
+    "id": 452,
+    "type": "Two-Part Analysis",
+    "original_id": 452,
+    "difficulty": "Hard",
+    "question": "Francois and Pierre each owe Claudine money. Today, Francois will make a payment equal to 50% of the amount he owes Claudine, and Pierre will make a payment equal to 10% of the amount he owes Claudine. Together, the two payments will be equal to 40% of the combined amount that Francois and Pierre owe Claudine. Select for Francois and Pierre amounts that Francois and Pierre could owe Claudine that are jointly consistent with the given information.",
+    "options": {
+      "1": "Francois",
+      "2": "Pierre",
+      "choices": ["€50", "€250", "€750", "€3,750", "€6,750"]
+    },
+    "correct_answer": ["€750", "€250"],
+    "explanation": "نفرض F و P. 0.5F + 0.1P = 0.4(F+P) => 0.5F+0.1P = 0.4F+0.4P => 0.1F = 0.3P => F = 3P. الخيارات: 750 = 3×250."
+  },
+  {
+    "id": 453,
+    "type": "Two-Part Analysis",
+    "original_id": 453,
+    "difficulty": "Hard",
+    "question": "Witness testimony: Around 8:00 on the morning of Tuesday, July 6, I saw a man exit from the back entrance of the building. I knew it was McGregor by the man's height and his long, slightly awkward steps, and from the fact that he was wearing a hat—possibly a baseball cap. McGregor always seemed to be wearing some kind of hat. On Tuesdays there are always several groundskepers scheduled to work on the grounds, and he would very likely have been scheduled that day. Select Assumes to be true for the statement that describes something the testimony implies the witness assumes to be true, and select Assumes to be false for the statement that describes something the testimony implies the witness assumes to be false.",
+    "options": {
+      "1": "Assumes to be true",
+      "2": "Assumes to be false",
+      "choices": [
+        "McGregor was the only groundskeeper scheduled to work at the building on Tuesday, July 6.",
+        "McGregor exited the rear of the building in question alone at 8:00 on the morning of Tuesday, July 6.",
+        "McGregor was scheduled to work at the building on the morning of Tuesday, July 6.",
+        "McGregor's height, way of walking, and tendency to wear hats distinguish him from the other groundskeepers.",
+        "McGregor often wore a baseball cap prior to the morning of Tuesday, July 6."
+      ]
+    },
+    "correct_answer": [
+      "McGregor's height, way of walking, and tendency to wear hats distinguish him from the other groundskeepers.",
+      "McGregor was the only groundskeeper scheduled to work at the building on Tuesday, July 6."
+    ],
+    "explanation": "يفترض صحة: أن صفات McGregor تميزه عن غيره من البستانيين (وإلا لما استطاع التعرف عليه). يفترض خطأ: أنه كان البستاني الوحيد المقرر عمله (لأنه قال إن هناك عدة بستانيين)."
+  },
+  {
+    "id": 454,
+    "type": "Two-Part Analysis",
+    "original_id": 454,
+    "difficulty": "Hard",
+    "question": "Ribonucleic acid (RNA) is a molecule built from sequences of smaller molecules called nucleobases. RNA nucleobases are of 4 different types: adenine (A), cytosine (C), guanine (G), and uracil (U). Consider the collection of all possible RNA sequences consisting of 12 nucleobases, 3 of each type. An RNA sequence will be selected at random from this collection, and the first 3 nucleobases of the sequence will be detached from the sequence. In the table, select the probability that the 3 nucleobases are all of the same type, and select the probability that they are of 3 different types.",
+    "options": {
+      "1": "All the same type",
+      "2": "3 different types",
+      "choices": ["1/55", "9/220", "9/110", "9/55", "27/55"]
+    },
+    "correct_answer": ["1/55", "27/55"],
+    "explanation": "الكل من نفس النوع: أول قاعدة تختار أي نوع (1)، الثانية من نفس النوع (2/11)، الثالثة (1/10) => (2/11)×(1/10)=1/55. ثلاثة أنواع مختلفة: الأولى (1)، الثانية من نوع مختلف (9/11)، الثالثة من نوع مختلف عن الأولين (6/10) => (9/11)×(6/10)=54/110=27/55."
+  },
+  {
+    "id": 455,
+    "type": "Two-Part Analysis",
+    "original_id": 455,
+    "difficulty": "Hard",
+    "question": "Let S be the set of all 7-digit numbers N such that the sum of the digits of N is divisible by 7. A and B are two 7-digit numbers: A = 4,893, P12 and B = 5,857,0Q5. Select a value for P so that A is an element of S. Select a value for Q so that B is an element of S.",
+    "options": {
+      "1": "P",
+      "2": "Q",
+      "choices": ["4", "5", "6", "7", "8"]
+    },
+    "correct_answer": ["8", "5"],
+    "explanation": "A: مجموع الأرقام باستثناء P = 4+8+9+3+1+2 = 27. نريد 27+P يقبل القسمة على 7. 27+8=35 (يقبل القسمة على 7). P=8. B: مجموع الأرقام باستثناء Q = 5+8+5+7+0+5 = 30. نريد 30+Q يقبل القسمة على 7. 30+5=35. Q=5."
+  },
+  {
+    "id": 456,
+    "type": "Critical Reasoning",
+    "original_id": 620,
+    "difficulty": "Easy",
+    "question": "Arts advocate: Few universities require that students who are specializing in science and technology take many art courses. However, real progress in science and technology requires an element of creativity, which the arts foster. Thus, to help science and technology students succeed in their careers, universities should increase the number of art courses required for them. Which of the following would, if true, most strengthen the argument above?",
+    "options": {
+      "A": "Universities required more art courses for science and technology students in the past.",
+      "B": "Participation in art courses increases students' creative thinking in their science and technology courses.",
+      "C": "More students who are interested in art would specialize in science and technology if the number of art courses required for those programs were increased.",
+      "D": "Some of the most prominent scientists began their careers as artists.",
+      "E": "Discussion of science and technology topics in art courses increases creative thinking among students in those courses."
+    },
+    "correct_answer": "B",
+    "explanation": "الخيار B هو الأقوى لأنه يربط مباشرة بين المشاركة في دورات الفن وزيادة التفكير الإبداعي في مجالات العلوم والتكنولوجيا، وهو الرابط الأساسي الذي تحتاجه الحجة لإثبات أن زيادة دورات الفن ستفيد طلاب العلوم."
+  },
+  {
+    "id": 457,
+    "type": "Critical Reasoning",
+    "original_id": 621,
+    "difficulty": "Easy",
+    "question": "Ramirez: The film industry claims that pirated DVDs, which are usually cheaper than legitimate DVDs and become available well before a film's official DVD release date, adversely affect its bottom line. But the industry should note what the spread of piracy indicates: consumers want lower prices and faster DVD releases. Lowering prices of DVDs and releasing them sooner would mitigate piracy's negative effect on film industry profits. The argument above relies on which of the following assumptions?",
+    "options": {
+      "A": "Releasing legitimate DVDs earlier would not cause any reduction in the revenue the film industry receives from the films' theatrical release.",
+      "B": "Some people who would otherwise purchase pirated DVDs would be willing to purchase legitimate DVDs if they were less expensive and released earlier than they are now.",
+      "C": "The film industry will in the future be able to produce DVDs more cheaply than is currently the case.",
+      "D": "Some current sellers of pirated DVDs would likely discontinue their businesses if legitimate DVDs were released faster and priced lower."
+    },
+    "correct_answer": "B",
+    "explanation": "تفترض الحجة أن هناك علاقة سببية بين تحسين شروط الأقراص القانونية وتحول مستهلكي الأقراص المقرصنة إلى الشراء القانوني. الخيار B هو الافتراض الضروري لنجاح هذه الخطة."
+  },
+  {
+    "id": 458,
+    "type": "Critical Reasoning",
+    "original_id": 622,
+    "difficulty": "Easy",
+    "question": "Harunia Province has a relatively dry climate and is attracting a fast-growing population that has put increasing demands on its water supply. The two companies that supply water to the region have struggled to keep up with demand and still remain profitable. Yet now they are asking Harunian authorities to write residential water-use regulations that could reduce their revenues and restrict their future flexibility in supplying water profitably. Which of the following, if true, most logically help explain why the water-supply companies are asking the authorities to regulate residential water use?",
+    "options": {
+      "A": "The companies are planning large water-transportation and irrigation systems that require the approval of neighboring provinces.",
+      "B": "The companies believe regulation is inevitable and that having it in place now will allow better planning and thus future profitability.",
+      "C": "Few, if any, Harunian government officials have investments in the companies or serve on their boards of directors.",
+      "D": "The companies believe that the population is not likely to continue to grow.",
+      "E": "Long-term climate projections suggest that greater rainfall will eventually increase the amount of water available."
+    },
+    "correct_answer": "B",
+    "explanation": "يقدم الخيار B سببًا منطقيًا: الشركات تدرك أن التنظيم أمر حتمي، وتفضيل وضعه الآن يساعدها في التخطيط طويل الأجل لضمان الربحية مستقبلًا، مما يبرر طلبها رغم الخسائر قصيرة المدى."
+  },
+  {
+    "id": 459,
+    "type": "Critical Reasoning",
+    "original_id": 623,
+    "difficulty": "Easy",
+    "question": "Loss of the Gocha mangrove forests has caused coastal erosion, reducing fish populations and requiring the Gocha Fishing Cooperative (GFC) to partially fund dredging and new shore facilities. However, as part of its subsidiary businesses, the GFC has now invested in a program to replant significant parts of the coast with mangrove trees. Given income from a controlled harvest of wood with continuing replanting, the mangrove regeneration effort makes it more likely that the cooperative will increase its net income. Which of the following, if true, would most strengthen the argument that mangrove replanting will increase the Gocha cooperative's net income?",
+    "options": {
+      "A": "The cost of dredging and shore facilities was shared with the local government.",
+      "B": "The GFC will be able to hire local workers to assist with the mangrove replanting.",
+      "C": "The GFC derives 10 percent of its revenue from salt-production facilities in an area previously cleared of mangroves.",
+      "D": "Mangrove forests tend to increase the commercial fish populations in coastal fishing grounds.",
+      "E": "A controlled harvesting of mangrove wood by the GFC would have little effect on coastal erosion."
+    },
+    "correct_answer": "D",
+    "explanation": "الخيار D يدعم الحجة بشكل مباشر حيث يربط إعادة زراعة المانغروف بزيادة أعداد الأسماك التجارية، مما يؤدي إلى زيادة دخل التعاونية، وهو الهدف الأساسي من الخطة."
+  },
+  {
+    "id": 460,
+    "type": "Critical Reasoning",
+    "original_id": 624,
+    "difficulty": "Easy",
+    "question": "Executives at the Fizzles Beverage Company plan to boost profits in Country X on their range of fruit-flavored drinks by introducing new flavors based on tropical fruits that are little known there. The executives reason that since the fruit drinks of other companies have none of these flavors, Fizzles will not have to compete for customers and thus will be able to sell the drinks at a higher price. Which of the following, if true, presents the most serious potential weakness of the plan?",
+    "options": {
+      "A": "The new fruit drinks would be priced significantly higher than other Fizzles fruit drinks with more conventional flavors.",
+      "B": "In a telephone survey, at least one of the consumers contacted said that they preferred many of the new flavors to all of the more familiar flavors.",
+      "C": "To build widespread demand for the new flavors, Fizzles would have to launch an advertising campaign to familiarize consumers with them.",
+      "D": "Consumers choosing among fruit-flavored drinks of different brands generally buy on the basis of name recognition and price rather than the specific fruit flavor.",
+      "E": "Few consumers who are loyal to a specific brand of fruit-flavored drinks would willingly switch to another brand that costs more."
+    },
+    "correct_answer": "D",
+    "explanation": "الخيار D يقوض الفرضية الأساسية للخطة، إذ يشير إلى أن النكهة ليست العامل الحاسم في الشراء، بل السعر والعلامة التجارية، مما يعني أن التفرد بالنكهة لن يضمن الميزة التنافسية أو الأسعار المرتفعة."
+  },
+  {
+    "id": 461,
+    "type": "Critical Reasoning",
+    "original_id": 625,
+    "difficulty": "Easy",
+    "question": "Economist: In 2015, the average per-person amount paid for goods and services purchased by consumers in Country X was the equivalent of $17,570 in United States dollars, just 30 percent of the corresponding figure of $58,566 for Country Y. Yet in 2015, there was already a substantial middle class in Country X that had discretionary income for middle-class consumer goods such as new vehicles, computers, or major household appliances, while a significant portion of the middle class in Country Y did not have sufficient income to purchase such items. Which of the following, if true, most helps explain the discrepancy in the relationships described by the economist?",
+    "options": {
+      "A": "There are many consumer goods, such as household appliances, that are produced in Country X to be sold in the Country Y market.",
+      "B": "The volume of trade between Country X and Country Y is increasing rapidly in both directions.",
+      "C": "The economy of Country Y is recovering from a downturn that affected both Country Y and Country X.",
+      "D": "Country X residents pay much less than their Country Y counterparts for housing, transportation, and child care.",
+      "E": "In Country Y as well as in Country X, there are few assembly-line jobs in factories that pay a middle-class wage."
+    },
+    "correct_answer": "D",
+    "explanation": "يفسر الخيار D التناقض: رغم انخفاض متوسط الإنفاق في البلد X، إلا أن المواطنين هناك ينفقون أقل بكثير على أساسيات الحياة (سكن، مواصلات، رعاية أطفال)، مما يترك لديهم دخلاً تقديرياً أعلى للسلع الكمالية مقارنة بالبلد Y."
+  },
+  {
+    "id": 462,
+    "type": "Critical Reasoning",
+    "original_id": 626,
+    "difficulty": "Easy",
+    "question": "Neuroscientist: Memory evolved to help animals react appropriately to situations they encounter by drawing on the past experience of similar situations. But this does not require that animals perfectly recall every detail of all their experiences. Instead, to function well, memory should generalize from past experiences that are similar to the current one. The neuroscientist's statements, if true, most strongly support which of the following conclusions?",
+    "options": {
+      "A": "At least some animals perfectly recall every detail of at least some past experiences.",
+      "B": "Perfectly recalling every detail of all their past experiences could help at least some animals react more appropriately than they otherwise would to new situations they encounter.",
+      "C": "Generalizing from past experiences requires clear memories of most if not all the details of those experiences.",
+      "D": "Recalling every detail of all past experiences would be incompatible with any ability to generalize from those experiences.",
+      "E": "Animals can often react more appropriately than they otherwise would to situations they encounter if they draw on generalizations from past experiences of similar situations."
+    },
+    "correct_answer": "E",
+    "explanation": "الخيار E يعيد صياغة النقطة الجوهرية في كلام عالم الأعصاب: التعميم من التجارب الماضية يساعد الحيوانات على التفاعل بشكل أفضل مع المواقف الجديدة، وهو الاستنتاج الأكثر دعمًا بالنص."
+  },
+  {
+    "id": 463,
+    "type": "Critical Reasoning",
+    "original_id": 627,
+    "difficulty": "Easy",
+    "question": "In Country X's last election, the Reform Party beat its main opponent, the Conservative Party, although pollsters, employing in-person interviews shortly before the vote, had projected a Conservative Party victory. Afterward, the pollsters determined that, unlike Conservative Party supporters, Reform Party supporters were less likely to express their party preference during in-person interviews than they were during telephone interviews. Therefore, using only telephone interviews instead would likely result in more accurate projections for the next election. Which of the following statements, if true, would most support the argument in the passage?",
+    "options": {
+      "A": "The number of voters in Country X's next election will be significantly larger than the number of voters in the last election.",
+      "B": "The Conservative Party will win the next election.",
+      "C": "For each person interviewed in telephone polls before the next election, pollsters will be able to reasonably determine the likelihood of that person voting.",
+      "D": "People who expressed no party preference during the in-person interviews shortly before Country X's last election did not outnumber the people who expressed a preference for the Conservative Party.",
+      "E": "In the next election, pollsters will be able to conduct more in-person interviews than telephone interviews."
+    },
+    "correct_answer": "C",
+    "explanation": "يدعم الخيار C الحجة بأن الهاتف سيكون أكثر دقة، لأنه يعالج مشكلة أن مجرد الإجابة على هاتف لا تعني أن الشخص سيصوت بالفعل. القدرة على تحديد احتمالية التصويت تجعل العينة أكثر تمثيلاً ودقة."
+  },
+  {
+    "id": 464,
+    "type": "Critical Reasoning",
+    "original_id": 628,
+    "difficulty": "Easy",
+    "question": "A company that manufactures plastic products from recyclable plastic is, surprisingly, unconcerned that economic conditions may worsen, despite analysts' belief that consumers would then consider ecofriendly plastic products an expensive luxury. But the company reasons that it will be able to lower its prices because, in a weakened economy, other ecofriendly plastic manufacturers are likely to fail. Demand among manufacturers for recyclable plastics as raw materials would then plummet, creating an oversupply of such materials, making them less expensive for the manufacturer to purchase and thus lowering the company's costs. Which of the following, if true, most weakens the company's reasoning?",
+    "options": {
+      "A": "Smaller ecofriendly plastic manufacturers are more likely to fail in a weakened economy than larger ecofriendly manufacturers are.",
+      "B": "Some retailers whose sales include various companies' ecofriendly plastic products have struggled in recent years despite the overall good economy.",
+      "C": "Consumers would likely soon learn of the oversupply of recyclable plastics and cease recycling them, significantly raising manufacturers' raw-material costs.",
+      "D": "Retailers, including retailers that cater to consumers seeking certain types of ecofriendly products, may lose some business if economic conditions worsen.",
+      "E": "The plastics used by the company in its products were, after a recent investigation by a regulatory body, declared to be safe for consumers."
+    },
+    "correct_answer": "C",
+    "explanation": "الخيار C يقوض تفكير الشركة بتقديم سيناريو معاكس: إذا علم المستهلكون بوفرة المواد القابلة لإعادة التدوير، قد يتوقفون عن إعادة التدوير، مما يقلل العرض ويرفع الأسعار، بدلاً من أن تنخفض كما تفترض الشركة."
+  },
+  {
+    "id": 465,
+    "type": "Critical Reasoning",
+    "original_id": 629,
+    "difficulty": "Easy",
+    "question": "Researchers asked volunteers to imagine they were running a five-kilometer race against 50 people and then against 500 people, races in each of which the top 10 percent would receive a $1,000 prize. Asked about the effort they would apply in the respective cases, the volunteers indicated, on average, that they would run slower in the race against the greater number of people. A likely explanation of this result is that those of the volunteers who were most comparatively inclined—those who most tended to compare themselves with others in the social environment—determined (perhaps unconsciously) that extreme effort would not be worthwhile in the 500-competitor race. Which of the following would, if known to be true, most help justify the explanation offered above?",
+    "options": {
+      "A": "The volunteers were chosen because they were unusually competitive.",
+      "B": "The volunteers who were most comparatively inclined tended to report that they would run slower in the 500-competitor race than did the other volunteers.",
+      "C": "The volunteers tended to overestimate the effort they would actually make in such races.",
+      "D": "The volunteers who were most comparatively inclined tended to report that they would run faster in the 50-competitor race than did the other volunteers.",
+      "E": "The volunteers who were most comparatively inclined were also the ones who most wanted to win the prize."
+    },
+    "correct_answer": "D",
+    "explanation": "الخيار D يدعم التفسير: إذا كان الأشخاص الأكثر ميلاً للمقارنة يبذلون جهداً أكبر في سباق الـ50 (حيث فرصة الفوز أكبر)، فهذا يثبت أنهم يقيّمون الجهد بناءً على احتمالية النجاح، وهو ما يفسر تباطؤهم في سباق الـ500."
+  },
+  {
+    "id": 466,
+    "type": "Critical Reasoning",
+    "original_id": 630,
+    "difficulty": "Easy",
+    "question": "According to a study, after a week of high-altitude living, twenty men had slimmed down. The men, middle-aged residents of low-altitude areas, had been taken to a research station at 2,650 meters (8,694 feet) above sea level. They had unrestricted access to food and were forbidden vigorous exercise, yet they lost an average of 1.5 kilograms (3.3 pounds) during their one-week stay. Clearly, the lower availability of oxygen at higher altitudes, or hypobaric hypoxia, can be said to have caused the weight loss, since Which of the following would, if true, most logically complete the argument?",
+    "options": {
+      "A": "a decrease in oxygen intake has been shown to depress appetite",
+      "B": "the men all participated in the same kinds of exercise during their stay",
+      "C": "the foods available to the men had fewer calories than the foods they usually ate",
+      "D": "exercise at higher altitudes is more difficult than exercise at lower altitudes is",
+      "E": "several weeks after returning home, the men still weighed less than they had before the study"
+    },
+    "correct_answer": "A",
+    "explanation": "يكمل الخيار A الحجة بشكل منطقي من خلال تقديم آلية سببية: نقص الأكسجين يثبط الشهية، مما يفسر فقدان الوزن رغم توفر الطعام بكثرة ومنع التمارين الشاقة."
+  },
+  {
+    "id": 467,
+    "type": "Critical Reasoning",
+    "original_id": 631,
+    "difficulty": "Easy",
+    "question": "Editorial: Our city's public transportation agency is facing a budget shortfall. The fastest-growing part of the budget has been employee retirement benefits, which are exceptionally generous. Unless the budget shortfall is resolved, transportation service will be cut, and many transportation employees will lose their jobs. Thus, it would be in the employees' best interest for their union to accept cuts in retirement benefits. Which of the following is an assumption the editorial's argument requires?",
+    "options": {
+      "A": "The transportation employees' union should not accept cuts in retirement benefits if doing so would not be in the employees' best interest.",
+      "B": "The only feasible way for the agency to resolve the budget shortfall would involve cutting transportation service and eliminating jobs.",
+      "C": "Other things being equal, it is in the transportation employees' interest to have exceptionally generous retirement benefits.",
+      "D": "Cutting the retirement benefits would help resolve the agency's budget shortfall.",
+      "E": "The transportation employees' union will not accept cuts in retirement benefits if doing so will not allow more transportation employees to keep their jobs."
+    },
+    "correct_answer": "D",
+    "explanation": "تفترض الافتتاحية أن تخفيض مزايا التقاعد سيؤدي بالفعل إلى حل العجز في الميزانية. بدون هذا الافتراض، لا يوجد سبب لاعتبار أن الموظفين سيستفيدون من قبول التخفيضات."
+  },
+  {
+    "id": 468,
+    "type": "Critical Reasoning",
+    "original_id": 632,
+    "difficulty": "Easy",
+    "question": "Researchers hope to find clues about the A'mk peoples who lived in the Kaumpta region about one thousand years ago but who left few obvious traces. The researchers plan to hire the few remaining shamans of the modern-day indigenous people in Kaumpta, who are believed to be descended from the A'mk, to lead them to ancestral sites that may be the remains of A'mk buildings or ceremonial spaces. The shamans were taught the location of such sites as part of their traditional training as youths, and their knowledge of traditional Kaumpta customs may help determine the nature of any sites the researchers find. Which of the following is an assumption on which the success of the plan depends?",
+    "options": {
+      "A": "The researchers have reliable evidence that the A'mk of one thousand years ago built important ceremonial spaces.",
+      "B": "The shamans have a reasonably accurate memory of A'mk sites they learned about as youths.",
+      "C": "Kaumpta shamans are generally held in high esteem for their traditional knowledge.",
+      "D": "Modern technologies available to the researchers are likely to be able to find some A'mk sites easily.",
+      "E": "Most or all A'mk sites are likely to be found within the Kaumpta region."
+    },
+    "correct_answer": "B",
+    "explanation": "يعتمد نجاح الخطة على أن الشامان يتذكرون بدقة معقولة مواقع أجدادهم التي تعلموها في شبابهم. إذا كانت ذاكرتهم غير دقيقة، فلن تنجح الخطة."
+  },
+  {
+    "id": 469,
+    "type": "Critical Reasoning",
+    "original_id": 633,
+    "difficulty": "Easy",
+    "question": "Astronomer: Most stars are born in groups of thousands, each star in a group forming from the same parent cloud of gas. Each cloud has a unique, homogeneous chemical composition. Therefore, whenever two stars have the same chemical composition as each other, they must have originated from the same cloud of gas. Which of the following, if true, would most strengthen the astronomer's argument?",
+    "options": {
+      "A": "In some groups of stars, not every star originated from the same parent cloud of gas.",
+      "B": "Clouds of gas of similar or identical chemical composition may be remote from each other.",
+      "C": "Whenever a star forms, it inherits the chemical composition of its parent cloud of gas.",
+      "D": "Many stars in vastly different parts of the universe are quite similar in their chemical compositions.",
+      "E": "Astronomers can at least sometimes precisely determine whether a star has the same chemical composition as its parent cloud of gas."
+    },
+    "correct_answer": "C",
+    "explanation": "الخيار C يقوي الحجة بتأكيد العلاقة السببية بين السحابة والنجم: إذا كان النجم يرث التركيب الكيميائي لسحابته الأم، فإن تطابق التركيب الكيميائي لنجمين يعني بالضرورة أنهما نشآ من نفس السحابة."
+  },
+  {
+    "id": 470,
+    "type": "Critical Reasoning",
+    "original_id": 634,
+    "difficulty": "Easy",
+    "question": "With employer-paid training, workers have the potential to become more productive not only in their present employment but also in any number of jobs with different employers. To increase the productivity of their workforce, many firms are planning to maintain or even increase their investments in worker training. But some training experts object that if a trained worker is hired away by another firm, the employer that paid for the training has merely subsidized a competitor. They note that such hiring has been on the rise in recent years. Which of the following would, if true, contribute most to defeating the training experts' objection to the firms' strategy?",
+    "options": {
+      "A": "Firms that promise opportunities for advancement to their employees get, on average, somewhat larger numbers of job applications from untrained workers than do firms that make no such promise.",
+      "B": "In many industries, employees who take continuing-education courses are more competitive in the job market.",
+      "C": "More and more educational and training institutions are offering reduced tuition fees to firms that subsidize worker training.",
+      "D": "Research shows that workers whose training is wholly or partially subsidized by their employer tend to get at least as much training as do workers who pay for all their own training.",
+      "E": "For most firms that invest in training their employees, the value added by that investment in employees who stay exceeds the value lost through other employees' leaving to work for other companies."
+    },
+    "correct_answer": "E",
+    "explanation": "الخيار E يدحض اعتراض الخبراء بشكل قوي: إذا كانت قيمة الاستثمار في الموظفين الذين يبقون تفوق الخسارة الناتجة عن انتقال الآخرين إلى منافسين، فإن التدريب يظل مربحاً للشركات رغم خطر فقدان بعض الموظفين."
+  },
+  {
+    "id": 471,
+    "type": "Critical Reasoning",
+    "original_id": 635,
+    "difficulty": "Easy",
+    "question": "In emerging economies in Africa and other regions, large foreign banks that were set up during the colonial era have long played a major economic role. These institutions have tended to confine their business to the wealthier of banks' potential customers. But development of these countries' economies requires financing of the small businesses that dominate their manufacturing, farming, and services sectors. So economic growth will be likely to occur if local banks take on this portion of the financial services markets, since Which of the following completions would produce the strongest argument?",
+    "options": {
+      "A": "local banks tend not to strive as much as large foreign banks to diversify their investments",
+      "B": "small farming and manufacturing businesses contribute to economic growth if they obtain adequate investment capital",
+      "C": "large foreign banks in emerging economies could, with local employees and appropriate local consultation, profitably expand their business to less wealthy clients",
+      "D": "some small businesses are among the wealthier customers of foreign banks in emerging economies",
+      "E": "local banks in emerging economies tend to be less risk-averse than foreign banks"
+    },
+    "correct_answer": "B",
+    "explanation": "يكمل الخيار B الحجة بشكل منطقي: إذا ساهمت الشركات الصغيرة في النمو الاقتصادي عندما تحصل على رأس مال استثماري كافٍ، فإن تولي البنوك المحلية تمويل هذه الشركات سيؤدي إلى النمو الاقتصادي."
+  },
+  {
+    "id": 472,
+    "type": "Critical Reasoning",
+    "original_id": 636,
+    "difficulty": "Easy",
+    "question": "Exporters in Country X are facing lower revenues due to a shortage of the large metal shipping containers in which they send their goods by sea to other countries. Fewer containers arrive in Country X due to reductions in imports. This has meant lost orders, costly delays, and a scramble for alternatives, such as air freight, all of which are costlier. Moreover, the revenues of exporters in Country X will probably continue to decline in the near future. This is because other countries are likely to find it increasingly unprofitable to export their goods to Country X, and because Which of the following would most logically complete the passage?",
+    "options": {
+      "A": "production of shipping containers in Country X is growing rapidly as a response to the shortage",
+      "B": "shipping companies are willing to move containers from country to country only when the containers are full",
+      "C": "the cost of shipping alternatives such as air freight is likely to stabilize in the near future",
+      "D": "consumers in Country X are purchasing more products than ever before",
+      "E": "the worldwide demand for goods made in Country X has only recently begun to rise after a long decline"
+    },
+    "correct_answer": "B",
+    "explanation": "يكمل الخيار B الحجة: إذا كانت شركات الشحن تنقل الحاويات فقط عندما تكون ممتلئة، فإن انخفاض الواردات إلى البلد X يعني وصول عدد أقل من الحاويات الفارغة إليها، مما يؤدي إلى استمرار النقص وتدهور إيرادات المصدرين."
+  },
+  {
+    "id": 473,
+    "type": "Critical Reasoning",
+    "original_id": 637,
+    "difficulty": "Easy",
+    "question": "Candle Corporation's television stations are likely to have more income from advertisers than previously. This is because advertisers prefer to reach people in the 18- to 49-year-old age group and the number of people in that group watching Candle television is increasing. Furthermore, among Candle viewers, the percentage of viewers 18 to 49 years old is increasing. Which of the following, if true, would most strengthen the argument that Candle Corporation will receive more income from advertisers?",
+    "options": {
+      "A": "Advertisers carefully monitor the demographic characteristics of television audiences and purchase advertising time to reach the audiences they prefer to reach.",
+      "B": "Among people over 49 years old, fewer viewers of Candle stations buy products advertised on television than do viewers of other stations.",
+      "C": "There will be increasingly more advertisements on television that are directed at viewers who are over 49 years old.",
+      "D": "Candle stations plan to show reruns of television shows during hours when other stations run shows for the first time.",
+      "E": "People 18 to 49 years old generally have less disposable income to spend than do people over 49 years old."
+    },
+    "correct_answer": "A",
+    "explanation": "الخيار A يقوي الحجة بتأكيد أن المعلنين يهتمون بالفعل بالخصائص الديموغرافية ويشترون وقت الإعلان بناءً على ذلك، مما يعني أن زيادة المشاهدين في الفئة العمرية المستهدفة ستؤدي حتمًا إلى زيادة إيرادات الإعلانات."
+  },
+  {
+    "id": 474,
+    "type": "Critical Reasoning",
+    "original_id": 638,
+    "difficulty": "Easy",
+    "question": "A provincial government plans to raise the gasoline tax to give people an incentive to drive less, reducing traffic congestion in the long term. However, skeptics point out that most people in the province live in areas where cars are the only viable transportation to jobs and stores and therefore cannot greatly change their driving habits in response to higher gasoline prices. In light of the skeptics' objection, which of the following, if true, would most logically support the prediction that the government's plan will achieve its goal of reducing traffic congestion?",
+    "options": {
+      "A": "The revenue from the tax will be used to make public transportation a viable means of transportation to jobs and stores for far more people.",
+      "B": "The tax will encourage many residents to switch to more fuel-efficient cars, reducing air pollution and other problems.",
+      "C": "Because gasoline has been underpriced for decades, the province has many neighborhoods where cars are the only viable means of transportation.",
+      "D": "Most residents who cannot greatly change their driving habits could compensate for high gasoline prices by reducing other expenses.",
+      "E": "Traffic congestion is an especially serious problem for people for whom cars are the only viable means of transportation."
+    },
+    "correct_answer": "A",
+    "explanation": "يعالج الخيار A اعتراض المشككين مباشرة: إذا تم استخدام إيرادات الضريبة لجعل وسائل النقل العام خيارًا عمليًا، فسيتمكن الناس من تغيير عادات قيادتهم، مما يحقق هدف تقليل الازدحام."
+  },
+  {
+    "id": 475,
+    "type": "Critical Reasoning",
+    "original_id": 639,
+    "difficulty": "Easy",
+    "question": "Editorial: The roof of Northtown's municipal equipment-storage building collapsed under the weight of last week's heavy snowfall. The building was constructed recently and met local building-safety codes in every particular, except that the nails used for attaching roof supports to the building's columns were of a smaller size than the codes specify for this purpose. Clearly, this collapse exemplifies how even a single, apparently insignificant departure from safety standards can have severe consequences. Which of the following, if true, most seriously weakens the editorial's argument?",
+    "options": {
+      "A": "The only other buildings to suffer roof collapses from the weight of the snowfall were older buildings constructed according to less exacting standards than those in the codes.",
+      "B": "The amount of snow that accumulated on the roof of the equipment-storage building was greater than the predicted maximum that was used in drawing up the safety codes.",
+      "C": "Because the equipment-storage building was not intended for human occupation, some safety-code provisions that would have applied to an office building did not apply to it.",
+      "D": "The municipality of Northtown itself has the responsibility for ensuring that buildings constructed within its boundaries meet the provisions of the building-safety codes.",
+      "E": "Because the equipment-storage building was used for storing snow-removal equipment, the building was almost completely empty when the roof collapsed."
+    },
+    "correct_answer": "B",
+    "explanation": "الخيار B يضعف الادعاء بأن الانحراف الصغير هو السبب، مشيرًا إلى أن كمية الثلج كانت أكبر من الحد الأقصى المتوقع في قوانين السلامة، مما يعني أن الانهيار كان سيحدث حتى لو تم استخدام المسامير الصحيحة."
+  },
+  {
+    "id": 476,
+    "type": "Critical Reasoning",
+    "original_id": 640,
+    "difficulty": "Easy",
+    "question": "Political theorist: Even with the best spies, area experts, and satellite surveillance, foreign policy assessments can still lack important information. In such circumstances intuitive judgment is vital. A national leader with such judgment can make good decisions about foreign policy even when current information is incomplete, since ______. Which of the following, if true, most logically completes the argument?",
+    "options": {
+      "A": "the central reason for failure in foreign policy decision making is the absence of critical information",
+      "B": "those leaders whose foreign policy decisions have been highly ranked have also been found to have good intuitive judgment",
+      "C": "both intuitive judgment and good information are required for sound decision-making",
+      "D": "good foreign policy decisions often lead to improved methods of gathering information",
+      "E": "intuitive judgment can produce good decisions based on past experience, even when there are important gaps in current information"
+    },
+    "correct_answer": "E",
+    "explanation": "يكمل الخيار E الحجة بتوضيح كيف يعمل الحكم البديهي: يمكن أن ينتج قرارات جيدة بناءً على الخبرة السابقة، حتى في ظل وجود فجوات في المعلومات الحالية، وهو ما يبرر اعتماده."
+  },
+  {
+    "id": 477,
+    "type": "Critical Reasoning",
+    "original_id": 641,
+    "difficulty": "Easy",
+    "question": "Supply shortages and signs of growing demand are driving cocoa prices upward. Unusually severe weather in cocoa-producing regions—too much rain in Brazil and too little in West Africa—has limited production. Further, Europe and North America recently reported stronger demand for cocoa. In the first quarter, grinding of cocoa beans—the first stage in processing cocoa for chocolate—rose 8.1 percent in Europe and 16 percent in North America. Analysts have concluded that cocoa's price will continue to rise at least into the near future. Which of the following would, if true, most strengthen the reasoning above?",
+    "options": {
+      "A": "Ground cocoa beans can be stored for long periods before they spoil.",
+      "B": "Several European and North American manufacturers that use cocoa have recently improved their processing capacity.",
+      "C": "It takes new cocoa trees five or six years before they start bearing fruit.",
+      "D": "Governments in Europe and North America are likely to change current restrictions on cocoa imports.",
+      "E": "Historically, cocoa production has varied widely from year to year."
+    },
+    "correct_answer": "C",
+    "explanation": "الخيار C يقوي توقع استمرار ارتفاع الأسعار: إذا كانت أشجار الكاكاو الجديدة تحتاج إلى 5-6 سنوات لإنتاج الثمار، فإن زيادة الإنتاج لتلبية الطلب لن تكون ممكنة في المدى القريب، مما يدعم استمرار ارتفاع الأسعار."
+  },
+  {
+    "id": 478,
+    "type": "Critical Reasoning",
+    "original_id": 642,
+    "difficulty": "Easy",
+    "question": "During the earliest period of industrialization in Britain, steam engines were more expensive to build and operate than either windmills or water mills, the other practicable sources of power for factories. Yet despite their significant cost disadvantage, steam-powered factories were built in large numbers well before technical improvements brought their cost down. Furthermore, they were built even in regions where geographical conditions permitted the construction of wind- and water-powered factories close to major markets. Which of the following, if true, most helps to explain the proliferation of steam-powered factories during the earliest period of industrialization in Britain?",
+    "options": {
+      "A": "In many areas of Britain, there were fewer steam-powered factories than wind- or water-powered factories in the earliest period of industrialization.",
+      "B": "Unlike wind- or water-powered factories, steam-powered factories were fueled with coal, which sometimes had to be transported significant distances from the mine to the site of the factory.",
+      "C": "It was both difficult and expensive to convert a factory from wind power or water power to steam power.",
+      "D": "Steam engines could be built in a wide range of sizes to meet different power needs.",
+      "E": "Windmills and water mills generally had to be located in rural areas, whereas steam engines could be located in urban centers close to markets and labor."
+    },
+    "correct_answer": "E",
+    "explanation": "يفسر الخيار E الانتشار الكبير للمصانع البخارية: بينما كانت طواحين الهواء والماء تحتاج إلى مواقع ريفية محددة، يمكن وضع المحركات البخارية في المراكز الحضرية القريبة من الأسواق والعمالة، مما يوفر ميزة تنافسية تعوض التكلفة الأعلى."
+  },
+  {
+    "id": 479,
+    "type": "Critical Reasoning",
+    "original_id": 643,
+    "difficulty": "Easy",
+    "question": "Snowmaking machines work by spraying a mist that freezes immediately on contact with cold air. Because the sudden freezing kills bacteria, QuickFreeze is planning to market a wastewater purification system that works on the same principle. The process works only when temperatures are cold, however, so municipalities using it will still need to maintain a conventional system. Which of the following, if true, provides the strongest grounds for a prediction that municipalities will buy QuickFreeze's purification system despite the need to maintain a conventional purification system as well?",
+    "options": {
+      "A": "Bacteria are not the only impurities that must be removed from wastewater.",
+      "B": "Many municipalities have old wastewater purification systems that need to be replaced.",
+      "C": "Conventional wastewater purification systems have not been fully successful in killing bacteria at cold temperatures.",
+      "D": "During times of warm weather, when it is not in use, QuickFreeze's purification system requires relatively little maintenance.",
+      "E": "Places where the winters are cold rarely have a problem of water shortage."
+    },
+    "correct_answer": "C",
+    "explanation": "الخيار C يوفر سببًا مقنعًا للشراء: إذا كانت الأنظمة التقليدية غير ناجحة في قتل البكتيريا في درجات الحرارة الباردة، فإن نظام QuickFreeze سيكون مفيدًا بشكل خاص في الشتاء، مما يبرر شراءه كإضافة للنظام التقليدي."
+  },
+  {
+    "id": 480,
+    "type": "Critical Reasoning",
+    "original_id": 644,
+    "difficulty": "Easy",
+    "question": "Plant scientists have used genetic engineering on seeds to produce crop plants that are highly resistant to insect damage. Unfortunately, the seeds themselves are quite expensive, and the plants require more fertilizer and water to grow well than normal ones. Accordingly, for most farmers the savings on pesticides would not compensate for the higher seed costs and the cost of additional fertilizer. However, since consumer demand for grains, fruits, and vegetables grown without the use of pesticides continues to rise, the use of genetically engineered seeds of this kind is likely to become widespread. In the argument given, the two portions in boldface play which of the following roles?",
+    "options": {
+      "A": "The first supplies a context for the argument; the second is the argument's main conclusion.",
+      "B": "The first introduces a development that the argument predicts will have a certain outcome; the second is a state of affairs that, according to the argument, contributes to bringing about that outcome.",
+      "C": "The first presents a development that the argument predicts will have a certain outcome; the second acknowledges a consideration that tends to weigh against that prediction.",
+      "D": "The first provides evidence to support a prediction that the argument seeks to defend; the second is that prediction.",
+      "E": "The first and the second each provide evidence to support the argument's main conclusion."
+    },
+    "correct_answer": "C",
+    "explanation": "الجزء الأول (الطلب المتزايد على المنتجات الخالية من المبيدات) يمثل تطورًا يتوقع أن يؤدي إلى انتشار البذور المعدلة وراثيًا. الجزء الثاني (ارتفاع تكاليف البذور والأسمدة) يعتبر اعتبارًا يضعف هذا التوقع، لكنه لا يمنعه بسبب الطلب الاستهلاكي."
+  },
+  {
+    "id": 481,
+    "type": "Critical Reasoning",
+    "original_id": 645,
+    "difficulty": "Easy",
+    "question": "Which of the following most logically completes the passage? Leptin, a protein occurring naturally in the blood, appears to regulate how much fat the body carries by speeding up the metabolism and decreasing the appetite when the body has too much fat. Mice that do not naturally produce leptin have more fat than other mice, but they lose fat rapidly when they are given leptin injections. Unfortunately, however, leptin cannot be used as a dietary supplement to control fat, since",
+    "options": {
+      "A": "the digestive system breaks down proteins before they can enter the bloodstream",
+      "B": "there are pharmaceuticals already available that can contribute to weight loss by speeding up the metabolism",
+      "C": "people with unusually low levels of leptin in their blood tend to have a high percentage of body fat",
+      "D": "the mice that do not naturally produce leptin were from a specially bred strain of mice",
+      "E": "mice whose bodies did produce leptin also lost some of their body fat when given leptin injections"
+    },
+    "correct_answer": "A",
+    "explanation": "يكمل الخيار A الجملة منطقيًا: الليبتين هو بروتين، والجهاز الهضمي يكسر البروتينات قبل دخولها إلى مجرى الدم، لذا لا يمكن تناوله كمكمل غذائي عن طريق الفم."
+  },
+  {
+    "id": 482,
+    "type": "Critical Reasoning",
+    "original_id": 646,
+    "difficulty": "Easy",
+    "question": "Suncorp, a new corporation with limited funds, has been clearing large sections of the tropical Amazon forest for cattle ranching. This practice continues even though greater profits can be made from rubber tapping, which does not destroy the forest, than from cattle ranching, which does destroy the forest. Which of the following, if true, most helps to explain why Suncorp has been pursuing the less profitable of the two economic activities mentioned above?",
+    "options": {
+      "A": "The soil of the Amazon forest is very rich in nutrients that are important in the development of grazing lands.",
+      "B": "Cattle-ranching operations that are located in tropical climates are more profitable than cattle-ranching operations that are located in cold-weather climates.",
+      "C": "In certain districts, profits made from cattle ranching are more heavily taxed than profits made from any other industry.",
+      "D": "Some of the cattle that are raised on land cleared in the Amazon are killed by wildcats.",
+      "E": "The amount of money required to begin a rubber-tapping operation is twice as high as the amount needed to begin a cattle ranch."
+    },
+    "correct_answer": "E",
+    "explanation": "يفسر الخيار E سلوك Suncorp: رغم أن استخراج المطاط أكثر ربحية، إلا أنه يتطلب رأس مال ابتدائيًا أعلى بكثير. وبما أن Suncorp شركة جديدة ذات أموال محدودة، فإن تربية الماشية هي الخيار العملي الوحيد المتاح."
+  },
+  {
+    "id": 483,
+    "type": "Critical Reasoning",
+    "original_id": 647,
+    "difficulty": "Easy",
+    "question": "Archaeologists use technology to analyze ancient sites. It is likely that this technology will advance considerably in the near future, allowing archaeologists to gather more information than is currently possible. If they study certain sites now, they risk contaminating or compromising them for future studies. Therefore, in order to maximize the potential for gathering knowledge in the long run, a team of archaeologists plans to delay the examination of a newly excavated site. Which of the following would be most useful to investigate for the purpose of evaluating the plan's prospects for achieving its goal?",
+    "options": {
+      "A": "Whether any of the contents of the site will significantly deteriorate before the anticipated technology is available",
+      "B": "Whether there will continue to be improvements on the relevant technology",
+      "C": "Whether the team can study a site other than the newly excavated site for the time being",
+      "D": "Whether the site was inhabited by a very ancient culture",
+      "E": "Whether the anticipated technology will damage objects under study"
+    },
+    "correct_answer": "A",
+    "explanation": "لتقييم الخطة، من الأهمية معرفة ما إذا كانت محتويات الموقع ستتدهور قبل توفر التكنولوجيا الجديدة. إذا كان التدهور وشيكًا، فإن التأخير سيؤدي إلى فقدان المعلومات بدلاً من تعظيمها."
+  },
+  {
+    "id": 484,
+    "type": "Critical Reasoning",
+    "original_id": 648,
+    "difficulty": "Easy",
+    "question": "More and more law firms specializing in corporate taxes are paid on a contingency-fee basis. Under this arrangement, if a case is won, the firm usually receives more than it would have received if it had been paid on the alternate hourly rate basis. If the case is lost, the firm receives nothing. Most firms are likely to make more under the contingency-fee arrangement. Which of the following, if true, would most strengthen the prediction above?",
+    "options": {
+      "A": "Firms that work exclusively under the hourly rate arrangement spend, on average, fewer hours on cases that are won than on cases that are lost.",
+      "B": "Some litigation can last for years before any decision is reached, and, even then, the decision may be appealed.",
+      "C": "Firms under the contingency-fee arrangement still pay their employees on an hourly basis.",
+      "D": "Since the majority of firms specialize in certain kinds of cases, they are able to assess accurately their chances of winning each potential case.",
+      "E": "Firms working under the contingency-fee arrangement take in fewer cases per year than do firms working under the hourly rate arrangement."
+    },
+    "correct_answer": "D",
+    "explanation": "الخيار D يقوي التوقع بأن معظم الشركات ستربح أكثر: إذا كانت الشركات تستطيع تقييم فرص الفوز بدقة، فستختار القضايا التي من المرجح أن تربحها، مما يزيد من احتمالية تحقيق أرباح أعلى من نظام الرسوم المشروطة."
+  },
+  {
+    "id": 485,
+    "type": "Critical Reasoning",
+    "original_id": 649,
+    "difficulty": "Easy",
+    "question": "Pretzel vendor: The new license fee for operating a pretzel stand outside the art museum is prohibitively expensive. Charging typical prices, I would need to sell an average of 25 pretzels per hour to break even. At my stand outside City Hall, with about as many passers-by as at the art museum, I average only 15 per hour. So I could not break even running a stand outside the art museum, much less turn a profit. Which of the following, if true, most seriously weakens the pretzel vendor's argument?",
+    "options": {
+      "A": "The pretzel vendor does not sell anything other than pretzels.",
+      "B": "People who visit the art museum are more likely to buy pretzels than are people who go to City Hall.",
+      "C": "The license fee for operating a pretzel stand outside City Hall will not increase.",
+      "D": "People who buy pretzels at pretzel stands are more likely to do so during the lunch hour than at other times.",
+      "E": "The city will grant more licenses for pretzel stands outside the art museum than the number it grants for stands outside City Hall."
+    },
+    "correct_answer": "B",
+    "explanation": "الخيار B يضعف الحجة: إذا كان زوار المتحف أكثر ميلاً لشراء الكعك من زوار مبنى البلدية، فقد يبيع البائع أكثر من 15 كعكة في الساعة رغم تساوي عدد المارة، مما قد يسمح له بتحقيق التعادل."
+  },
+  {
+    "id": 486,
+    "type": "Critical Reasoning",
+    "original_id": 650,
+    "difficulty": "Easy",
+    "question": "Beginning in 1966, all new cars sold in Morodia were required to have safety belts and power steering. Previously, most cars in Morodia were without these features. Safety belts help to prevent injuries in collisions, and power steering helps to avoid collisions in the first place. But even though in 1966 one-seventh of the cars in Morodia were replaced with new cars, the number of car collisions and collision-related injuries did not decline. Which of the following, if true about Morodia, most helps to explain why the number of collisions and collision-related injuries in Morodia failed to decline in 1966?",
+    "options": {
+      "A": "Because of a driver-education campaign, most drivers and passengers in cars that did have safety belts used them in 1966.",
+      "B": "Most of the new cars bought in 1966 were bought in the months of January and February.",
+      "C": "In 1965, substantially more than one-seventh of the cars in Morodia were replaced with new cars.",
+      "D": "An excessive reliance on the new safety features led many owners of new cars to drive less cautiously in 1966 than before.",
+      "E": "The seat belts and power steering put into new cars sold in 1966 had to undergo strict quality-control inspections by manufacturers, whether the cars were manufactured in Morodia or not."
+    },
+    "correct_answer": "D",
+    "explanation": "يفسر الخيار D المفارقة: الاعتماد المفرط على ميزات الأمان الجديدة جعل سائقي السيارات الجديدة يقودون بحذر أقل، مما عوض أي فوائد محتملة من تقليل الحوادث والإصابات."
+  },
+  {
+    "id": 487,
+    "type": "Critical Reasoning",
+    "original_id": 651,
+    "difficulty": "Easy",
+    "question": "Manufacturers of mechanical pencils make most of their profit on pencil leads rather than on the pencils themselves. The Write Company, which cannot sell its leads as cheaply as other manufacturers can, plans to alter the design of its mechanical pencil so that it will accept only a newly designed Write Company lead, which will be sold at the same price as the Write Company's current lead. Which of the following, if true, most strongly supports the Write Company's projection that its plan will lead to an increase in its sales of pencil leads?",
+    "options": {
+      "A": "The new Write Company pencil will be introduced at a price higher than the price the Write Company charges for its current model.",
+      "B": "In the foreseeable future, manufacturers of mechanical pencils will probably have to raise the prices they charge for mechanical pencils.",
+      "C": "The newly designed Write Company lead will cost somewhat more to manufacture than the Write Company's current lead does.",
+      "D": "A rival manufacturer recently announced similar plans to introduce a mechanical pencil that would accept only the leads produced by that manufacturer.",
+      "E": "In extensive test marketing, mechanical-pencil users found the new Write Company pencil markedly superior to other mechanical pencils they had used."
+    },
+    "correct_answer": "E",
+    "explanation": "الخيار E يدعم الخطة: إذا وجد المستخدمون القلم الجديد متفوقًا بشكل ملحوظ على الأقلام الأخرى، فسيرغبون في شرائه، وبما أنه يقبل فقط رصاص Write Company الجديد، فإن مبيعات الرصاص ستزداد."
+  },
+  {
+    "id": 488,
+    "type": "Critical Reasoning",
+    "original_id": 652,
+    "difficulty": "Easy",
+    "question": "Enterprise Bank currently requires customers with checking accounts to maintain a minimum balance or pay a monthly fee. Enterprise plans to offer accounts with no monthly fee and no minimum-balance requirement; to cover their projected administrative costs of $3 per account per month, they plan to charge $30 for overdrawing an account. Since each month on average slightly more than 10 percent of Enterprise's customers overdraw their accounts, bank officials predict the new accounts will generate a profit. Which of the following, if true, most strongly supports the bank officials' prediction?",
+    "options": {
+      "A": "Some of Enterprise Bank's current checking account customers are expected to switch to the new accounts once they are offered.",
+      "B": "One-third of Enterprise Bank's revenues are currently derived from monthly fees tied to checking accounts.",
+      "C": "Many checking account customers who occasionally pay a fee for not maintaining a minimum balance in their account generally maintain a balance well above the minimum.",
+      "D": "Customers whose checking accounts do not have a minimum-balance requirement are more likely than others to overdraw their checking accounts.",
+      "E": "Customers whose checking accounts do not have a minimum-balance requirement are more likely than others to write checks for small amounts."
+    },
+    "correct_answer": "D",
+    "explanation": "الخيار D يدعم توقع البنك: إذا كان العملاء الذين ليس لديهم حد أدنى للرصيد أكثر عرضة للسحب على المكشوف، فإن نسبة الـ 10% المذكورة ستكون أعلى في الواقع، مما يزيد إيرادات رسوم السحب على المكشوف ويضمن الربحية."
+  },
+  {
+    "id": 489,
+    "type": "Critical Reasoning",
+    "original_id": 653,
+    "difficulty": "Easy",
+    "question": "Highway official: When resurfacing our concrete bridges, we should use electrically conductive concrete (ECC) rather than standard concrete. In the winter, ECC can be heated by passing an electric current through it, thereby preventing ice buildup. The cost of the electricity needed is substantially lower than the cost of the deicing salt we currently use. Taxpayer: But ECC is vastly more expensive than standard concrete, so your proposal is probably not justifiable on economic grounds. Which of the following, if true, could best be used by the highway official to support the official's proposal in the face of the taxpayer's objection?",
+    "options": {
+      "A": "The use of deicing salt causes corrosion of reinforcing steel in concrete bridge decks and damage to the concrete itself, thereby considerably shortening the useful life of concrete bridges.",
+      "B": "Severe icing conditions can cause power outages and slow down the work of emergency crews trying to get power restored.",
+      "C": "In weather conditions conducive to icing, ice generally forms on the concrete surfaces of bridges well before it forms on parts of the roadway that go over solid ground.",
+      "D": "Aside from its potential use for deicing bridges, ECC might also be an effective means of keeping other concrete structures such as parking garages and airport runways ice free.",
+      "E": "If ECC were to be used for a bridge surface, the electric current would be turned on only at times at which ice was likely to form."
+    },
+    "correct_answer": "A",
+    "explanation": "يدعم الخيار A الاقتراح في مواجهة اعتراض دافع الضرائب: إضافة إلى توفير تكلفة الملح، فإن استخدام ECC يمنع تآكل الفولاذ والخرسانة الناتج عن الملح، مما يطيل عمر الجسور ويوفر تكاليف صيانة واستبدال كبيرة، مما يجعل الاقتراح مبررًا اقتصاديًا على المدى الطويل."
+  },
+  {
+    "id": 490,
+    "type": "Critical Reasoning",
+    "original_id": 654,
+    "difficulty": "Easy",
+    "question": "In virtually any industry, technological improvements increase labor productivity, which is the output of goods and services per person-hour worked. In Parland's industries, labor productivity is significantly higher than it is in Vergia's industries. Clearly, therefore, Parland's industries must, on the whole, be further advanced technologically than Vergia's are. The argument is most vulnerable to which of the following criticisms?",
+    "options": {
+      "A": "It offers a conclusion that is no more than a paraphrase of one of the pieces of information provided in its support.",
+      "B": "It presents as evidence in support of a claim information that is inconsistent with other evidence presented in support of the same claim.",
+      "C": "It takes one possible cause of a condition to be the actual cause of that condition without considering any other possible causes.",
+      "D": "It takes a condition to be the effect of something that happened only after the condition already existed.",
+      "E": "It makes a distinction that presupposes the truth of the conclusion that is to be established."
+    },
+    "correct_answer": "C",
+    "explanation": "الحجة تفترض أن التقدم التكنولوجي هو السبب الوحيد لارتفاع إنتاجية العمل، بينما قد تكون هناك أسباب أخرى (مثل تعليم أفضل، أو موارد طبيعية، أو تنظيم عمل مختلف). هذا هو النقد الأكثر دقة."
+  },
+  {
+    "id": 491,
+    "type": "Critical Reasoning",
+    "original_id": 655,
+    "difficulty": "Easy",
+    "question": "Chaco Canyon, a settlement of the ancient Anasazi culture in North America, had massive buildings. It must have been a major Anasazi center. Analysis of wood samples shows that some of the timber for the buildings came from the Chuska and San Mateo mountains, 50 miles from Chaco Canyon. Only a major cultural center would have the organizational power to import timber from 50 miles away. In the argument given, the two portions in boldface play which of the following roles?",
+    "options": {
+      "A": "The first is a premise used to support the argument's main conclusion; the second is the argument's main conclusion.",
+      "B": "The first is the argument's main conclusion; the second is a premise used to support that conclusion.",
+      "C": "The first is one of two premises used to support the argument's main conclusion; the second is the other of those two premises.",
+      "D": "The first is a premise used to support the argument's main conclusion; the second is a premise used to support another conclusion drawn in the argument.",
+      "E": "The first is inferred from another statement in the argument; the second is inferred from the first."
+    },
+    "correct_answer": "B",
+    "explanation": "الجزء الأول ('لا بد أنه كان مركزًا رئيسيًا لثقافة الأناسازي') هو الاستنتاج الرئيسي للحجة. الجزء الثاني ('فقط مركز ثقافي رئيسي يمكنه امتلاك القوة التنظيمية لاستيراد الأخشاب') هو مقدمة تستخدم لدعم هذا الاستنتاج."
+  },
+  {
+    "id": 492,
+    "type": "Critical Reasoning",
+    "original_id": 656,
+    "difficulty": "Easy",
+    "question": "The Maxilux car company's design for its new luxury model, the Max 100, included a special design for the tires that was intended to complement the model's image. The winning bid for supplying these tires was submitted by Rubco. Analysts concluded that the bid would only just cover Rubco's costs on the tires, but Rubco executives claim that winning the bid will actually make a profit for the company. Which of the following, if true, most strongly justifies the claim made by Rubco's executives?",
+    "options": {
+      "A": "In any Maxilux model, the spare tire is exactly the same make and model as the tires that are mounted on the wheels.",
+      "B": "Rubco holds exclusive contracts to supply Maxilux with the tires for a number of other models made by Maxilux.",
+      "C": "The production facilities for the Max 100 and those for the tires to be supplied by Rubco are located very near each other.",
+      "D": "When people who have purchased a carefully designed luxury automobile need to replace a worn part of it, they almost invariably replace it with a part of exactly the same make and type.",
+      "E": "When Maxilux awarded the tire contract to Rubco, the only criterion on which Rubco's bid was clearly ahead of its competitors' bids was price."
+    },
+    "correct_answer": "D",
+    "explanation": "يبرر الخيار D ادعاء Rubco: إذا كان مالكو السيارات الفاخرة يستبدلون الأجزاء البالية دائمًا بنفس النوع، فإن Rubco سيحقق أرباحًا كبيرة من بيع إطارات الاستبدال لعملاء Max 100، مما يعوض التكلفة المنخفضة للعرض الأولي."
+  },
+  {
+    "id": 493,
+    "type": "Critical Reasoning",
+    "original_id": 657,
+    "difficulty": "Easy",
+    "question": "Which of the following most logically completes the passage? Most bicycle helmets provide good protection for the top and back of the head but little or no protection for the temple regions on the sides of the head. A study of head injuries resulting from bicycle accidents showed that a large proportion were caused by blows to the temple area. Therefore, if bicycle helmets protected this area, the risk of serious head injury in bicycle accidents would be greatly reduced, especially since",
+    "options": {
+      "A": "among the bicyclists included in the study's sample of head injuries, only a very small proportion had been wearing a helmet at the time of their accident",
+      "B": "even those bicyclists who regularly wear helmets have a poor understanding of the degree and kind of protection that helmets afford",
+      "C": "a helmet that included protection for the temples would have to be somewhat larger and heavier than current helmets",
+      "D": "the bone in the temple area is relatively thin and impacts in that area are thus very likely to cause brain injury",
+      "E": "bicyclists generally land on their arm or shoulder when they fall to the side, which reduces the likelihood of severe impacts on the side of the head"
+    },
+    "correct_answer": "D",
+    "explanation": "يكمل الخيار D الحجة: نظرًا لأن عظم الصدغ رقيق نسبيًا والضربات فيه تسبب إصابات دماغية بسهولة، فإن حماية هذه المنطقة ستقلل بشكل كبير من خطر الإصابات الخطيرة، وهو ما يدعم ضرورة التصميم الجديد."
+  },
+  {
+    "id": 494,
+    "type": "Critical Reasoning",
+    "original_id": 658,
+    "difficulty": "Easy",
+    "question": "Which of the following most logically completes the argument? In a typical year, Innovair's airplanes are involved in 35 collisions while parked or being towed in airports, with a resulting yearly cost of $1,000,000 for repairs. To reduce the frequency of ground collisions, Innovair will begin giving its ground crews additional training, at an annual cost of $500,000. Although this will cut the number of ground collisions by about half at best, the drop in repair costs can be expected to be much greater, since",
+    "options": {
+      "A": "most ground collisions happen when ground crews are rushing to minimize the time a delayed airplane spends on the ground",
+      "B": "a ground collision typically occurs when there are no passengers on the airplane",
+      "C": "the additional training will focus on helping ground crews avoid those kinds of ground collisions that cause the most costly damage",
+      "D": "the cost of training ground crews has decreased in recent years",
+      "E": "Innovair's ground crews currently have less training than do the ground crews of most other airlines"
+    },
+    "correct_answer": "C",
+    "explanation": "يكمل الخيار C الحجة: إذا ركز التدريب الإضافي على تجنب الحوادث التي تسبب أكبر ضرر، فحتى لو انخفض عدد الحوادث بنسبة 50% فقط، فإن تكلفة الإصلاحات قد تنخفض بشكل أكبر بكثير لأن الحوادث المتبقية ستكون أقل تكلفة."
+  },
+  {
+    "id": 495,
+    "type": "Critical Reasoning",
+    "original_id": 659,
+    "difficulty": "Easy",
+    "question": "Many agriculturally intensive areas of the world are beginning to encounter water scarcity problems. As a result, many farmers in these areas are likely to reduce their output as the water supply they need in order to maintain production shrinks. However, one group of farmers in such a region plans to increase their production by implementing techniques for water conservation. Which of the following, if true, would most strongly support the prediction that the group's plan will succeed?",
+    "options": {
+      "A": "Farmers that can gain a larger share of the food market in their regions will be better positioned to control more water resources.",
+      "B": "Most agricultural practices in areas with water shortages are water-intensive.",
+      "C": "Other regions of the world not facing water shortages are likely to make up for the reduction in agricultural output.",
+      "D": "Demand for agricultural products in the group's region is not expected to decline.",
+      "E": "More than half the water used for agriculture in the farmers' region is lost to evaporation or leakage from irrigation channels."
+    },
+    "correct_answer": "E",
+    "explanation": "يدعم الخيار E خطة المزارعين: إذا كان أكثر من نصف المياه المستخدمة في الزراعة تُفقد بسبب التبخر أو التسرب، فإن تطبيق تقنيات الحفاظ على المياه سيوفر كمية كبيرة من المياه، مما يسمح بزيادة الإنتاج رغم ندرة المياه."
+  },
+  {
+    "id": 496,
+    "type": "Critical Reasoning",
+    "original_id": 660,
+    "difficulty": "Easy",
+    "question": "Hollywood restaurant is replacing some of its standard tables with tall tables and stools. The restaurant already fills every available seat during its operating hours, and the change in seating arrangements will not result in an increase in the restaurant's seating capacity. Nonetheless, the restaurant's management expects revenue to increase as a result of the seating change without any concurrent change in menu, prices, or operating hours. Which of the following, if true, provides the best reason for the expectation?",
+    "options": {
+      "A": "One of the taller tables takes up less floor space than one of the standard tables.",
+      "B": "Diners seated on stools typically do not linger over dinner as long as diners seated at standard tables.",
+      "C": "Since the restaurant will replace only some of its standard tables, it can continue to accommodate customers who do not care for the taller tables.",
+      "D": "Few diners are likely to avoid the restaurant because of the new seating arrangement.",
+      "E": "The standard tables being replaced by tall tables would otherwise have to be replaced with new standard tables at a greater expense."
+    },
+    "correct_answer": "B",
+    "explanation": "يفسر الخيار B توقع زيادة الإيرادات: إذا كان رواد المطعم على الكراسي المرتفعة لا يطيلون الجلوس بقدر رواد الطاولات العادية، فإن معدل دوران الطاولات سيزداد، مما يسمح باستقبال المزيد من العملاء في نفس ساعات العمل وزيادة الإيرادات."
+  },
+  {
+    "id": 497,
+    "type": "Critical Reasoning",
+    "original_id": 661,
+    "difficulty": "Easy",
+    "question": "A major network news organization experienced a drop in viewership in the week following the airing of a controversial report on the economy. The network also received a very large number of complaints regarding the report. The network, however, maintains that negative reactions to the report had nothing to do with its loss of viewers. Which of the following, if true, most strongly supports the network's position?",
+    "options": {
+      "A": "The other major network news organizations reported similar reductions in viewership during the same week.",
+      "B": "The viewers who registered complaints with the network were regular viewers of the news organization's programs.",
+      "C": "Major network news organizations publicly attribute drops in viewership to their own reports only when they receive complaints about those reports.",
+      "D": "The controversial report was about the economy, and the economy is an issue of widespread concern.",
+      "E": "Following the airing of the report, the network received a large number of phone calls from people who agreed with the report."
+    },
+    "correct_answer": "A",
+    "explanation": "يدعم الخيار A موقف الشبكة: إذا عانت شبكات أخرى من انخفاض مماثل في المشاهدة خلال نفس الأسبوع، فهذا يشير إلى أن الانخفاض كان بسبب عوامل خارجية (مثل حدث إخباري آخر) وليس بسبب التقرير المثير للجدل."
+  },
+  {
+    "id": 498,
+    "type": "Critical Reasoning",
+    "original_id": 662,
+    "difficulty": "Easy",
+    "question": "Only a reduction of 10 percent in the number of scheduled flights using Greentown's airport will allow the delays that are so common there to be avoided. Hevelia airstrip, 40 miles away, would, if upgraded and expanded, be an attractive alternative for fully 20 percent of the passengers using Greentown airport. Nevertheless, experts reject the claim that turning Hevelia into a full-service airport would end the chronic delays at Greentown. Which of the following, if true, most helps to justify the experts' position?",
+    "options": {
+      "A": "Turning Hevelia into a full-service airport would require not only substantial construction at the airport itself but also the construction of new access highways.",
+      "B": "A second largely undeveloped airstrip close to Greentown airport would be a more attractive alternative than Hevelia for many passengers who now use Greentown.",
+      "C": "Hevelia airstrip lies in a relatively undeveloped area but would, if it became a full-service airport, be a magnet for commercial and residential development.",
+      "D": "If an airplane has to wait to land, the extra jet fuel required adds significantly to the airline's costs.",
+      "E": "Several airlines use Greentown as a regional hub, so that most flights landing at Greentown have many passengers who then take different flights to reach their final destinations."
+    },
+    "correct_answer": "E",
+    "explanation": "يبرر الخيار E موقف الخبراء: إذا كان معظم الركاب في Greentown هم ركاب ترانزيت (واصلون إلى وجهات أخرى)، فإن تحويل 20% من الركاب إلى Hevelia لا يقلل عدد الرحلات الجوية بنسبة 10% المطلوبة، لأن الرحلات الجوية نفسها ستستمر في الهبوط في Greentown لنقل بقية الركاب."
+  },
+  {
+    "id": 499,
+    "type": "Critical Reasoning",
+    "original_id": 663,
+    "difficulty": "Easy",
+    "question": "Farmer: Worldwide, just three grain crops—rice, wheat, and corn—account for most human caloric intake. To maintain this level of caloric intake and also keep pace with global population growth, yields per acre from each of these crops will have to increase at least 1.5 percent every year, given that the supply of cultivated land is diminishing. Therefore, the government should increase funding for research into new ways to improve yields. Which of the following is an assumption on which the farmer's argument depends?",
+    "options": {
+      "A": "It is solely the government's responsibility to ensure that the amount of rice, wheat, and corn produced worldwide keeps pace with global population growth.",
+      "B": "Increasing government funding for research into new ways to improve the yields per acre of rice, wheat, and corn crops would help to increase total worldwide annual production of food from these crops.",
+      "C": "Increasing the yields per acre of rice, wheat, and corn is more important than increasing the yields per acre of other crops.",
+      "D": "Current levels of funding for research into ways of improving grain crop yields per acre have enabled grain crop yields per acre to increase by more than 1.5 percent per year worldwide.",
+      "E": "In coming decades, rice, wheat, and corn will become a minor part of human caloric intake, unless there is government-funded research to increase their yields per acre."
+    },
+    "correct_answer": "B",
+    "explanation": "تفترض الحجة أن زيادة تمويل الأبحاث ستؤدي بالفعل إلى تحسين الغلة. بدون هذا الافتراض، لا يوجد سبب لربط زيادة التمويل بتحقيق الهدف المنشود."
+  },
+  {
+    "id": 500,
+    "type": "Critical Reasoning",
+    "original_id": 664,
+    "difficulty": "Easy",
+    "question": "The air quality board recently informed Coffee Roast, a small coffee roasting firm, of a complaint regarding the smoke from its roaster. Recently enacted air quality regulations require machines roasting more than 10 pounds of coffee to be equipped with expensive smoke-dissipating afterburners. The firm, however, roasts only 8 pounds of coffee at a time. Nevertheless, the company has decided to purchase and install an afterburner. Which of the following, if true, most strongly supports the firm's decision?",
+    "options": {
+      "A": "Until settling on the new air quality regulations, the board had debated whether to require afterburners for machines roasting more than 5 pounds of coffee at a time.",
+      "B": "Coffee roasted in a machine equipped with an afterburner has its flavor subtly altered.",
+      "C": "The cost to the firm of an afterburner is less than the cost of replacing its roaster with a smaller one.",
+      "D": "Fewer complaints are reported in areas that maintain strict rules regarding afterburners.",
+      "E": "The firm has reason to fear that negative publicity regarding the complaints could result in lost sales."
+    },
+    "correct_answer": "E",
+    "explanation": "يدعم الخيار E قرار الشركة: إذا كانت الدعاية السلبية بسبب الشكاوى قد تؤدي إلى خسارة المبيعات، فإن تركيب المحرق سيمنع هذه الدعاية السلبية ويحمي الإيرادات، مما يبرر الاستثمار."
+  }
+]
