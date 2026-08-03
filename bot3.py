@@ -131,26 +131,35 @@ def load_questions_from_json():
     import glob
     files = glob.glob(pattern)
     files = [f for f in files if not f.endswith('_export.csv') and 'user_data' not in f]
-    
+
     def extract_num(f):
         nums = re.findall(r'\d+', f)
         return int(nums[0]) if nums else float('inf')
     files.sort(key=extract_num)
-    
+
     count = 0
     for file in files:
         try:
             with open(file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             raw = []
-            if 'exam' in data and 'questions' in data['exam']:
-                raw = data['exam']['questions']
-            elif 'questions' in data:
-                raw = data['questions']
+            # إذا كانت القائمة مباشرة
+            if isinstance(data, list):
+                raw = data
+            # إذا كان قاموساً
+            elif isinstance(data, dict):
+                if 'exam' in data and 'questions' in data['exam']:
+                    raw = data['exam']['questions']
+                elif 'questions' in data:
+                    raw = data['questions']
+                else:
+                    # قد تكون قيم القاموس هي قوائم الأسئلة (كما في الكود القديم)
+                    for val in data.values():
+                        if isinstance(val, list) and val and isinstance(val[0], dict) and 'question' in val[0]:
+                            raw.extend(val)
             else:
-                for val in data.values():
-                    if isinstance(val, list) and val and isinstance(val[0], dict) and 'question' in val[0]:
-                        raw.extend(val)
+                continue
+
             for q in raw:
                 if q.get('question') and q.get('options'):
                     options_raw = q['options']
@@ -168,7 +177,6 @@ def load_questions_from_json():
                     count += 1
         except Exception as e:
             logger.error(f"خطأ في تحميل {file}: {e}")
-            traceback.print_exc()
     conn.commit()
     conn.close()
     logger.info(f"تم تحميل {count} سؤال من JSON إلى قاعدة البيانات")
