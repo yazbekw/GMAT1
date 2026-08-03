@@ -63,26 +63,41 @@ def normalize_options(options):
     - وإلا ترجع قائمة فارغة.
     """
     if isinstance(options, dict):
-        keys = sorted(options.keys(), key=lambda x: int(x) if x.isdigit() else x)
-        return [options[k] for k in keys]
+        keys = list(options.keys())
+        # تحويل جميع المفاتيح إلى سلاسل لتوحيد المعالجة
+        str_keys = [str(k) for k in keys]
+        # التحقق مما إذا كانت جميع المفاتيح أرقاماً (بعد تحويلها إلى سلاسل)
+        all_digits = all(k.isdigit() for k in str_keys)
+        if all_digits:
+            # ترتيب عددي
+            keys_sorted = sorted(keys, key=lambda x: int(str(x)))
+        else:
+            # ترتيب أبجدي (كسلسلة)
+            keys_sorted = sorted(keys, key=lambda x: str(x))
+        return [options[k] for k in keys_sorted]
     elif isinstance(options, list):
         return options
     else:
         return []
-
+        
 def get_answer_index(options, correct_answer):
     """
     تحويل الإجابة الصحيحة (التي قد تكون حرفاً أو رقماً) إلى مؤشر صحيح (0-index).
     """
     if isinstance(options, dict):
-        keys = sorted(options.keys(), key=lambda x: int(x) if x.isdigit() else x)
+        keys = list(options.keys())
+        # البحث عن correct_answer في المفاتيح (ككائن)
         if correct_answer in keys:
             return keys.index(correct_answer)
+        # البحث بعد تحويل correct_answer إلى سلسلة ومقارنتها مع المفاتيح كسلاسل
+        str_correct = str(correct_answer)
         for idx, key in enumerate(keys):
-            if str(correct_answer) == key:
+            if str_correct == str(key):
                 return idx
+        # إذا لم يتم العثور، نرجع 0
         return 0
     else:
+        # إذا كانت الخيارات قائمة، نحاول تحويل correct_answer إلى رقم
         try:
             return int(correct_answer) - 1
         except:
