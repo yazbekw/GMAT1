@@ -14,6 +14,7 @@ import sqlite3
 import random
 import logging
 import asyncio
+import traceback
 from datetime import datetime
 from typing import List, Dict, Any, Optional, Tuple
 
